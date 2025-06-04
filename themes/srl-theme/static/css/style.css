@@ -18,8 +18,10 @@ body {
 }
 
 .navbar .logo {
+  display: flex;
+  align-items: center;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #222;
   text-decoration: none;
 }
@@ -31,17 +33,15 @@ body {
 
 .logo-img {
   height: 100px;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
+  object-fit: contain;
+  display: block;
+  border-radius: 4px;
 }
 
 .nav-links {
   display: flex;
   gap: 2rem; /* more spacing between links */
-}
-
-.nav-links {
-  display: flex;
-  gap: 1.5rem;
 }
 
 .nav-links a {
@@ -54,25 +54,36 @@ body {
   text-decoration: underline;
 }
 
-/* Hero Banner */
+/* Swiper Hero Carousel */
 .hero {
+  padding: 0;
   height: 60vh;
-  background: url("/~shahdy/srl-hugo-test/images/banner.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  position: absolute;
+  left: 0;
+  width: 100%;
   text-align: center;
-  padding: 2rem;
-}
-
-.hero-text h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero-text p {
-  font-size: 1.3rem;
+  z-index: 10;
 }
 
 /* Full-width sections */
@@ -111,4 +122,54 @@ body {
 
 .section-dark {
   background: #111;
+  color: white;
+}
+
+/* Fancy Swiper with Descriptions */
+.slide-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slide-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-text {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.slide-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.slide-text p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .slide-content {
+    grid-template-columns: 1fr;
+  }
+  .slide-text {
+    padding: 1rem;
+    text-align: center;
+  }
 }

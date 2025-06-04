@@ -1,12 +1,56 @@
 {{ define "main" }}
 
-<!-- Hero Banner -->
 <section class="hero">
-  <div class="hero-text">
-    <h1>Welcome to the Shared Reality Lab</h1>
-    <p>Exploring sonification, accessibility, and human-computer interaction.</p>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 – IMAGE Project -->
+      <a href="/projects/#image" class="swiper-slide slide-link">
+        <div class="slide-content">
+          <img src="/~shahdy/srl-hugo-test/images/banner1.jpg" alt="Interpret Graphic with IMAGE" class="slide-img" />
+          <div class="slide-text">
+            <h2>Interpret Graphic with IMAGE</h2>
+            <p>Making internet graphics accessible to blind users using AI, audio, and touch.</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Slide 2 – Haptic Wearables -->
+      <a href="/projects/#wearables" class="swiper-slide slide-link">
+        <div class="slide-content">
+          <img src="/~shahdy/srl-hugo-test/images/banner2.jpg" alt="Wearable Haptics" class="slide-img" />
+          <div class="slide-text">
+            <h2>Wearable Haptics</h2>
+            <p>Sensor-embedded footwear and clothing for VR, training, and rehabilitation.</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Slide 3 – AR Art Therapy -->
+      <a href="/projects/#ar-therapy" class="swiper-slide slide-link">
+        <div class="slide-content">
+          <img src="/~shahdy/srl-hugo-test/images/banner3.png" alt="AR Art Therapy" class="slide-img" />
+          <div class="slide-text">
+            <h2>AR Art Therapy</h2>
+            <p>Generative augmented reality tool to help chronic pain patients express themselves visually.</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Slide 4 – ADiNA AI Nurse -->
+      <a href="/projects/#adina" class="swiper-slide slide-link">
+        <div class="slide-content">
+          <img src="/~shahdy/srl-hugo-test/images/banner4.png" alt="ADiNA Nurse Avatar" class="slide-img" />
+          <div class="slide-text">
+            <h2>AI Digital Nurse Avatar (ADiNA)</h2>
+            <p>GPT-driven psychosocial support avatar for elderly care and nurse workload reduction.</p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="swiper-pagination"></div>
   </div>
-  <!-- Optional: insert carousel here in the future -->
 </section>
 
 <!-- Blog -->
