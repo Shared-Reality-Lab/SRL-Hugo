@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: white;
+  color: #111;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  z-index: 999;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #222;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 100px;
+  margin-right: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem; /* more spacing between links */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Banner */
+.hero {
+  height: 60vh;
+  background: url("/~shahdy/srl-hugo-test/images/banner.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+}
+
+/* Full-width sections */
+.section {
+  padding: 10rem 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.3rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section a {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+.section-white {
+  background: white;
+  color: #111;
+}
+
+.section-dark {
+  background: #111;
+}

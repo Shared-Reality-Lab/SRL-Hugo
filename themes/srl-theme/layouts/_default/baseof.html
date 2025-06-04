@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <a href="#top">
+      <img src="/~shahdy/images/srlLogo.png" alt="SRL Logo" class="logo-img">
+    </a>
+  </div>
+  <div class="nav-links">
+    <a href="#blog">Blog</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#personnel">Personnel</a>
+    <a href="#faq">FAQ</a>
+  </div>
+</nav>
+
+<main id="top">
+  {{ block "main" . }}{{ end }}
+</main>
+
+</body>
+</html>
