@@ -1,0 +1,67 @@
+- question: "I'm interested in your research area and would like to become one of your graduate students or post-docs. What should I do?"
+  answer: >
+    We welcome inquiries regarding opportunities in the lab for both graduate students and postdoctoral fellows at any time. Before doing so, you should browse the web page descriptions of some of our group's current <a href="/~shahdy/srl-hugo-test/#projects">projects</a>, and apply to the graduate program in <a href="https://www.mcgill.ca/ece/graduate/programs" target="_blank">Electrical and Computer Engineering at McGill University</a>, specifying your interest in working with me in Human-Computer Interaction or Computer Vision as part of the Intelligent Systems research group.<br><br>
+    To let me know about your interest, please <a href="https://cim.mcgill.ca/~jer/email.html">email me</a> with the following:
+    <ul>
+      <li>Cover letter outlining why you're interested, why you're a good fit, and how you'll contribute</li>
+      <li>Your CV</li>
+      <li>References</li>
+      <li>Any relevant publications (PDF)</li>
+    </ul>
+    Due to high application volume, we can usually only reply to strong candidates. If you're a scholarship student (e.g., NSERC) and are near Montreal, contact me directly to visit the lab.
+
+- question: "What qualifications do I need to become a graduate student in your group?"
+  answer: >
+    You should have excellent grades. While the department's minimum threshold is a CGPA of 3.0/4.0 or GPA of 3.2/4.0 for the last two years, most admitted students have stronger records. There are TOEFL requirements for international students. See the <a href="https://www.mcgill.ca/ece/graduate/programs/admissions-requirements" target="_blank">admissions requirements</a> for details. A solid background in ECE or CS, strong programming skills in C, Java, or Python, and excellent communication skills are also essential.
+
+- question: "What sort of funding is available to support my studies?"
+  answer: >
+    Funding is available through research grants for some graduate students, primarily Ph.D. candidates. M.Sc. students are typically not funded unless they have scholarships. Canadian applicants are encouraged to apply for <a href="https://www.nserc-crsng.gc.ca/" target="_blank">NSERC</a> or <a href="https://frq.gouv.qc.ca/" target="_blank">FRQNT</a>. Additional scholarships and fellowships can be found via the <a href="https://www.mcgill.ca/gps/funding" target="_blank">McGill Graduate Fellowships and Awards</a> page.
+
+- question: "How do I choose a thesis project?"
+  answer: >
+    There are several well-defined projects in the lab suitable for graduate theses. Students often explore smaller projects in their first semester to determine the best fit based on their interests.
+
+- question: "What courses should I take as a graduate student in your group?"
+  answer: >
+    M.Sc. students typically take 6 graduate courses. Discuss selections with your supervisor. Most students take courses such as ECSE 512, ECSE 529, COMP 558, COMP 646, and ECSE 542 (required). You may also consider specialized courses depending on your research focus. See McGill's graduate course listings for up-to-date offerings.
+
+- question: "I hear you take a hard stance on issues of academic integrity."
+  answer: >
+    Yes. Plagiarism is not tolerated. Students are expected to uphold the highest standards. McGill has published <a href="https://www.mcgill.ca/research/research/compliance/honesty" target="_blank">guidelines on academic integrity and AI use</a> which all students should review.
+
+- question: "Is there funding for me to attend conferences?"
+  answer: >
+    Yes, if you're presenting a first-authored archival paper in a top-tier venue. Reasonable expenses (travel, registration) are covered if you keep costs modest. Apply for <a href="https://www.mcgill.ca/engineering/students/graduate/funding/graduate-research-enhancement-and-travel-award-great" target="_blank">GREAT awards</a> or CIRMMT travel grants where applicable.
+
+- question: "How much vacation time do I have as a graduate student or post-doc?"
+  answer: >
+    McGill’s policy allows for holidays plus 15 working days per year. Notify your supervisor and mark any leave on the lab calendar after discussion.
+
+- question: "Can I carry out an undergraduate capstone project or honour's thesis under your supervision?"
+  answer: >
+    Yes, if you have strong marks and relevant interests. Please read the <a href="/~shahdy/srl-hugo-test/faq/">FAQ</a>, check the <a href="/~shahdy/srl-hugo-test/#projects">project list</a>, and email your CV and motivation with "UNDERGRAD" in the subject.
+
+- question: "Can I apply for an undergraduate research internship in your lab?"
+  answer: >
+    Yes. Funding is typically limited to NSERC USRA, SURE, or MITACS recipients. External students can apply as trainees via McGill’s procedures. Email your interests and CV in advance.
+
+- question: "Can I conduct part of my thesis research in your lab as a visiting graduate student from another university?"
+  answer: >
+    Yes, if your background and research align with current SRL activities. Contact me to discuss your application.
+
+- question: "I'm applying for grad school or a job opportunity. Can you provide a reference letter for me?"
+  answer: >
+    Possibly, if I've worked closely with you and can write a strong letter. Poor or generic letters are discouraged. Please give ample notice and background information when asking.
+
+- question: "What other professors are doing research in the Intelligent Systems area at McGill?"
+  answer: >
+    See the <a href="https://www.mcgill.ca/ece/research/intelligent-systems" target="_blank">Intelligent Systems group</a>.
+
+- question: What other professors are doing research in Human-Computer Interaction at McGill?
+  answer: >
+    <ul>
+      <li><a href="https://www.mcgill.ca/music/marcelo-m-wanderley" target="_blank"><u>Marcelo Wanderley</u></a></li>
+      <li><a href="https://www.mcgill.ca/sis/people/faculty/frissen" target="_blank"><u>Ilja Frissen</u></a></li>
+      <li><a href="https://www.mcgill.ca/sis/people/faculty/guastavino" target="_blank"><u>Catherine Guastavino</u></a></li>
+      <li><a href="https://www.mcgill.ca/sis/karyn-moffatt" target="_blank"><u>Karyn Moffatt</u></a></li>

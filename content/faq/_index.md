@@ -1,5 +1,7 @@
-+++
-date = '2025-06-03T17:43:23-04:00'
-draft = true
-title = 'Faq'
-+++
+---
+title: "FAQ"
+---
+
+## Frequently Asked Questions {#projects}
+
+Coming soon. In the meantime, you can view the [FAQ section on the homepage]({{ "/" | relURL }}#faq).
