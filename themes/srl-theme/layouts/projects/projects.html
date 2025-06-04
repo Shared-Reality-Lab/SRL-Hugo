@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div class="projects-container">
+  <!-- Sidebar navigation -->
+  <nav class="projects-sidebar">
+    <ul>
+      <li><a href="#image">IMAGE</a></li>
+      <li><a href="#cybersight">CyberSight</a></li>
+      <li><a href="#vibrations">Speech-to-Vibration</a></li>
+      <li><a href="#ar-therapy">AR Art Therapy</a></li>
+      <li><a href="#navigation">Navigation Assistance</a></li>
+    </ul>
+  </nav>
+
+  <!-- Project content -->
+  <article class="projects-main">
+
+    <section id="image" class="project-section section-white">
+      <h2>Interpret Graphic with IMAGE</h2>
+      <p>Making graphics accessible to blind users with audio and haptics. Already deployed as a browser extension and being expanded to mobile.</p>
+    </section>
+
+    <section id="cybersight" class="project-section section-dark">
+      <h2>CyberSight</h2>
+      <p>Helping visually impaired shoppers identify and verify products using AI, computer vision, and smartphones.</p>
+    </section>
+
+    <section id="vibrations" class="project-section section-white">
+      <h2>Speech-to-Vibration</h2>
+      <p>Turning spoken audio into tactile signals to support communication for deaf and hard-of-hearing individuals.</p>
+    </section>
+
+    <section id="ar-therapy" class="project-section section-dark">
+      <h2>AR Art Therapy</h2>
+      <p>Helping chronic pain patients express their experience with generative AR tools during therapy sessions.</p>
+    </section>
+
+    <section id="navigation" class="project-section section-white">
+      <h2>Navigation Assistance</h2>
+      <p>Smartphone-based vision system to help blind users reach doors, intersections, stairways, and more.</p>
+    </section>
+
+  </article>
+</div>
+
+<script>
+  const sections = document.querySelectorAll(".project-section");
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        history.replaceState(null, "", "#" + entry.target.id);
+      }
+    });
+  }, { threshold: 0.5 });
+  sections.forEach((section) => observer.observe(section));
+</script>
+
+{{ end }}
