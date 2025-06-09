@@ -1,3 +1,9 @@
+/* Enable smooth scroll*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -240,7 +246,7 @@ body {
   margin: 0 auto;
   font-size: 1.1rem;
   line-height: 1.9;
-  padding: 2.5rem 3rem;
+  padding: 2rem 2.5rem;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
