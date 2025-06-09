@@ -13,6 +13,7 @@
 </head>
 <body>
 
+<!-- Navbar -->
 <nav class="navbar">
   <div class="logo">
     <a class="logo logo-video-wrapper" href="{{ .Site.BaseURL }}">
@@ -22,7 +23,13 @@
       </video>
     </a>
   </div>
-  <div class="nav-links">
+
+  <!-- Hamburger icon for mobile -->
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+    &#9776;
+  </button>
+
+  <div class="nav-links" id="navLinks">
     <a href="#aboutus">About Us</a>
     <a href="#blog">Blog</a>
     <a href="#projects">Projects</a>
@@ -51,5 +58,12 @@
     },
   });
 </script>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', function () {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+</script>
+
 </body>
 </html>

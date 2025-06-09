@@ -54,7 +54,55 @@ body {
   text-decoration: underline;
 }
 
-/* Swiper Hero Carousel */
+/* ------------------------------
+   Responsive Navbar Styles
+------------------------------- */
+
+/* Toggle button for hamburger icon */
+.nav-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  z-index: 999; /* stays above nav menu */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* hidden by default */
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 100%;     /* appear right under navbar */
+    left: 0;       /* align to left edge */
+    right: 0;      /* stretch full width */
+    width: 100%;
+    padding: 1.5rem 2rem;  /* spacing around links */
+    box-sizing: border-box;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 998;
+  }
+
+  .nav-links.open {
+    display: flex; /* shown when toggled */
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links a {
+    padding: 0.75rem 0;
+    font-size: 1.1rem;
+  }
+}
+
+/* ------------------------------
+    Swiper Hero Carousel 
+------------------------------- */
 .hero {
   padding: 0;
   height: 60vh;
@@ -86,7 +134,9 @@ body {
   z-index: 10;
 }
 
-/* Full-width sections */
+/* ------------------------------
+    Full-width sections
+------------------------------- */
 .section {
   padding: 10rem 2rem;
   text-align: center;
@@ -208,7 +258,9 @@ body {
 }
 
 
-/* projects */
+/* ------------------------------
+    Projects
+------------------------------- */
 .projects-intro {
   padding: 3rem 2rem 1rem 2rem;
   max-width: 900px;
@@ -284,7 +336,9 @@ body {
   line-height: 1.6;
 }
 
-/* FAQ */
+/* ------------------------------
+    FAQ
+------------------------------- */
 .faq-section {
   padding: 4rem 2rem;
   background: #f9f9f9;
@@ -364,8 +418,9 @@ body {
   margin-top: 2rem;
 }
 
-/* blog */
-
+/* ------------------------------
+    Blog
+------------------------------- */
 #blog.section-white {
   padding-top: 2rem; /* or 1rem for tighter spacing */
 }
