@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="section section-white" id="blog">
+  <div class="container">
+    <h2>Blog</h2>
+    <div class="blog-grid">
+      {{ range site.Data.blog }}
+      <div class="blog-entry">
+        {{ $title := .title }}
+        {{ with .image }}
+          <img src="{{ . | relURL }}" alt="{{ $title }}" class="blog-image" />
+        {{ end }}
+        <div class="blog-content">
+          <p class="blog-meta">{{ .date }}</p>
+          <h3 class="blog-title">{{ .title }}</h3>
+          <p class="blog-body">{{ .body }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+

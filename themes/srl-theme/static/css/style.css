@@ -174,6 +174,40 @@ body {
   }
 }
 
+.section-highlight {
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.85), rgba(180, 210, 255, 0.3), rgba(160, 190, 255, 0.1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 6rem 2rem;
+  color: #111;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.9;
+  padding: 2.5rem 3rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.about-container h2 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  text-align: center; /* Title centered like other sections */
+  background: linear-gradient(to right, #111, #444);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 /* projects */
 .projects-intro {
   padding: 3rem 2rem 1rem 2rem;
@@ -328,4 +362,64 @@ body {
   font-size: 0.85rem;
   color: rgb(65, 55, 55);
   margin-top: 2rem;
+}
+
+/* blog */
+
+#blog.section-white {
+  padding-top: 2rem; /* or 1rem for tighter spacing */
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.blog-entry {
+  background: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-entry:hover {
+  transform: translateY(-4px);
+}
+
+.blog-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background-color: #f4f4f4; /* gives padding color for smaller images */
+}
+
+.blog-content {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.blog-meta {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+  margin: 0;
+}
+
+.blog-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.blog-body {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
 }
