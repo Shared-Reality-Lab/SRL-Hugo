@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="section section-white" id="publications">
+  <h2>Publications</h2>
+
+  {{ $years := slice }}
+  {{ range $k, $v := site.Data.publications }}
+    {{ $years = $years | append (dict "year" $k "items" $v) }}
+  {{ end }}
+  {{ $years = sort $years "year" "desc" }}
+
+  {{ range $years }}
+    <h3>{{ .year }}</h3>
+    <ul class="pub-list">
+      {{ range .items }}
+      <li class="pub-entry">
+        {{ with .image }}
+          <img class="pub-thumb" src="{{ . }}" alt="thumbnail" />
+        {{ end }}
+        <div class="pub-details">
+          <div class="pub-title">{{ .title }}</div>
+          <div class="pub-meta">{{ .authors }}, {{ .venue }}</div>
+          <div class="pub-links">
+            {{ with .pdf }}<a href="{{ . }}" target="_blank">[pdf]</a>{{ end }}
+            {{ with .link }}<a href="{{ . }}" target="_blank">[link]</a>{{ end }}
+            {{ with .bibtex }}<a href="{{ . }}" target="_blank">[bibtex]</a>{{ end }}
+          </div>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</section>
+{{ end }}

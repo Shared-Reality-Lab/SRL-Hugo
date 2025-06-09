@@ -30,12 +30,12 @@
   </button>
 
   <div class="nav-links" id="navLinks">
-    <a href="#aboutus">About Us</a>
-    <a href="#blog">Blog</a>
-    <a href="#projects">Projects</a>
-    <a href="#publications">Publications</a>
-    <a href="#personnel">Personnel</a>
-    <a href="#faq">FAQ</a>
+    <a data-target="aboutus">About Us</a>
+    <a data-target="blog">Blog</a>
+    <a data-target="projects">Projects</a>
+    <a data-target="publications">Publications</a>
+    <a data-target="personnel">Personnel</a>
+    <a data-target="faq">FAQ</a>    
   </div>
 </nav>
 
@@ -80,6 +80,26 @@
     });
   });
 </script>
+
+<script>
+  // Get the base URL from Hugo's config and remove the trailing slash if it exists
+  const base = "{{ .Site.BaseURL }}".replace(/\/$/, "");
+  const currentURL = window.location.href;
+  const homeURL = window.location.origin + base;
+
+  // Check if the user is currently on the homepage (with or without trailing slash)
+  const isHome = currentURL === homeURL || currentURL === homeURL + "/";
+
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    const target = link.getAttribute('data-target');
+    if (isHome) {
+      link.setAttribute('href', `#${target}`);
+    } else {
+      link.setAttribute('href', `${base}/${target}/`);
+    }
+  });
+</script>
+
 
 </body>
 </html>

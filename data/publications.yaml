@@ -1,0 +1,19 @@
+2025:
+  - title: "Novel Interfaces for Audio Manipulation"
+    authors: "Henry, M."
+    venue: "Master's thesis, McGill University, Department of Electrical and Computer Engineering, Montreal, Canada"
+    pdf: "/pdfs/henry2025.pdf"
+    image: "/images/pubs/henry.png"
+    link: "https://example.com"
+    bibtex: "/bibtex/henry2025.bib"
+
+  - title: "The Implications of Technology-Augmented Handbalancing in Training and Performance"
+    authors: "Kirby, L."
+    venue: "Master's thesis, McGill University, Department of Electrical and Computer Engineering, Montreal, Canada"
+    pdf: "/pdfs/kirby2025.pdf"
+
+2024:
+  - title: "Leveraging Large Language Models for Automated Chart Summarization"
+    authors: "Bazin, R."
+    venue: "Master's thesis, McGill University, Department of Electrical and Computer Engineering, Montreal, Canada"
+    pdf: "/pdfs/bazin2024.pdf"
