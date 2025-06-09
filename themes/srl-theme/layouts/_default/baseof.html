@@ -60,8 +60,24 @@
 </script>
 
 <script>
-  document.getElementById('navToggle').addEventListener('click', function () {
-    document.getElementById('navLinks').classList.toggle('open');
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  navToggle.addEventListener('click', function () {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open');
+
+    // Swap icon between hamburger and X
+    navToggle.innerHTML = navToggle.classList.contains('open') ? '&#10005;' : '&#9776;';
+  });
+
+  // Close menu when any link is clicked
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+      navToggle.innerHTML = '&#9776;'; // Reset icon to hamburger
+    });
   });
 </script>
 
