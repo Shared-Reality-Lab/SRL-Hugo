@@ -525,7 +525,7 @@ body {
   justify-content: flex-start;
   gap: 0.3rem;
   flex: 1;
-  text-align: left; /* Ensure text stays aligned left */
+  text-align: left;
 }
 
 .pub-title {
@@ -551,4 +551,92 @@ body {
   font-size: 0.9rem;
   color: #0077cc;
   text-decoration: none;
+}
+
+/* ------------------------------
+    Personnel
+------------------------------- */
+
+.page-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.group-title {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+  color: #444;
+}
+
+.personnel {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.person {
+  text-align: center;
+  width: 150px;
+  font-size: 0.9rem;
+}
+
+.person img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.person-info {
+  margin-top: 0.5rem;
+}
+
+.visitors-title {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.visitors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.visitor-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.visitor-row.header {
+  font-weight: bold;
+  border-bottom: 2px solid #999;
+}
+
+.visitor-name {
+  width: 20%;
+  min-width: 150px;
+}
+
+.visitor-year {
+  width: 15%;
+  min-width: 80px;
+}
+
+.visitor-role {
+  flex: 1;
 }

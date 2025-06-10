@@ -1,0 +1,482 @@
+groups:
+  - group: Faculty & Staff
+    people:
+      - name: Jeremy Cooperstock
+        title: Lab Director
+        image: jer.jpg
+      - name: Jinmo K
+        title: Visiting Professor, Hansung University, Korea
+        image: jinmo.jpg
+      - name: Ahmed F
+        title: Visiting Professor, Tampere University, Finland
+        image: ahmed.webp
+      - name: Jeff B
+        title: Project Manager, IMAGE Project
+        image: jeffbl.jpg
+      - name: Hélène U
+        title: Post-doctoral fellow, ADAIR Project
+        image: helene.jpg
+      - name: Jaydeep S
+        title: Web Developer, IMAGE project
+        image: jaydeep.png
+      - name: Shahd Y
+        title: Core Server-Side Dev, IMAGE project
+        image: shahd.jpg
+      - name: Mike G
+        title: ML Architect, IMAGE project
+        image: gvozdev.png
+      - name: Juliette R
+        title: Doctoral Student, NSERC & MEDA Scholar
+        image: juliette.jpg
+      - name: Cyan K
+        title: Doctoral Student, Usability Research Lead
+        image: cyan.jpg
+      - name: Segun John S
+        title: Doctoral Student, MEDA Scholar
+        image: segun.jpg
+      - name: Corentin C
+        title: Doctoral Student, MEDA Scholar
+        image: corentin.png
+      - name: Sabrina K
+        title: Doctoral Student, MEDA Scholar
+        image: sknappe.jpg
+      - name: Henrique O
+        title: Cotutelle Doctoral Student, with UFRGS, Brazil
+        image: henrique.jpg
+      - name: Mastoureh M
+        title: Visiting Doctoral Student, Azad University of Tehran
+        image: mastoureh.jpg
+      - name: Şeyma N K
+        title: Visiting Doctoral Student, Istanbul University-Cerrahpasa
+        image: seyma.jpg
+      - name: Venissa Carol Q
+        title: M.Sc. student
+        image: venissa.jpg
+      - name: Jano F
+        title: M.Sc. student
+        image: janofu.jpg
+      - name: Heyang L
+        title: M.Sc. student
+        image: liheyang.jpg
+      - name: Yichen Z
+        title: M.Sc. student
+        image: yichen.jpg
+      - name: Abby B
+        title: M.Sc. student, McCall MacBain scholar
+        image: abby.jpg
+      - name: Anay K
+        title: M.Sc. student
+        image: anay.jpg
+      - name: Khushi N
+        title: M.Sc. student
+        image: khushi.png
+      - name: Yuancao L
+        title: M.Sc. student
+        image: yuancao.jpg
+      - name: Edina P
+        title: M.Sc. student
+        image: edina.png
+      - name: Mansi D
+        title: M.Sc. student
+        image: mansi.jpg
+      - name: Kasra J
+        title: M.Sc. student
+        image: kasra.jpg
+      - name: Melody W
+        title: M.Sc. student
+        image: melody.jpg
+      - name: Jinghan W
+        title: B.Sc. intern
+        image: jinghan.jpg
+      - name: Adam C
+        title: B.Eng. SURE student
+        image: adam.jpg
+      - name: Matthew S
+        title: B.Sc. SURE student
+        image: matthew.jpg
+      - name: Zhibo W
+        title: B.Eng. intern
+        image: zhibo.jpg
+      - name: Ezra B
+        title: B.Eng. Mitacs Globalink intern
+        image: ezra.jpg
+      - name: Maksym B
+        title: B.Eng. Mitacs Globalink intern
+        image: maksym.jpg
+
+  - group: Research Collaborators
+    people:
+      - name: Pascal Fortin
+        title: Department of Computer Science and Mathematics, UQAC
+        image: pascal.jpg
+      - name: Joseph Schlesinger
+        title: Department of Anesthesiology, Vanderbilt University Medical Center	
+        image: schlesinger.jpg
+      - name: Ehud Sharlin
+        title: Department of Computer Science, University of Calgary
+        image: ehud_sharlin.jpg
+
+  - group: Alumni (with role in lab and present coordinates)
+    people:
+      - name: Max H
+        title: M.Sc. student
+        image: maxhenry.jpg
+      - name: Antoine A
+        title: M.Sc. student
+        image: antoine.jpg
+      - name: Bass
+        title: Shared Reality "Lab"
+        image: bass_srl.jpg
+      - name: Linnea K
+        title: M.Sc. student	
+        image: linnea.jpg
+      - name: Romain B
+        title: M.Sc. student
+        image: romain.jpg
+      - name: Yeong-Hyeon B
+        title: Post-doctoral fellow, Bionic Ears
+        image: yeonghyeon.jpg
+      - name: Yujing L
+        title: M.Sc. student
+        image: yujing.jpg
+      - name: Xiaoxi D
+        title: Visiting Doctoral Student, Southeast University, Nanjing
+        image: xiaoxi.jpg
+      - name: Clement M
+        title: visiting M.Sc. student INSA, Toulouse
+        image: clement.jpg
+      - name: Émmanuel W
+        title: M.Sc. student, Technical Product Coordinator Haply Robotics
+        image: emmanuel.jpg
+      - name: Élodie B
+        title: Post-doctoral fellow, Assistant Professor, Université de Bretagne Occidentale, France
+        image: elodie.jpg
+      - name: Nicolas A.
+        title: visiting M.Sc. student EPFL, Lausanne	
+        image: nicolasalbert.png
+      - name: Sri G.
+        title: M.Sc. student
+        image: sri.jpg
+      - name: Rayan Isran
+        title: M.Sc. student, Embedded Systems Engineer, AAVAA
+        image: rayan.png
+      - name: Mauricio Fontana De Vargas
+        title: AI+VR Research Scientist, Meta, Toronto
+        image: mauricio.png
+      - name: Rohan Akut
+        title: M.Sc. student, Machine Learning Engineer, iCAD Dental
+        image: rohan.jpg
+      - name: Jonathan Lane-Smith
+        title: M.Sc. student, Haptics Engineer, Apple
+        image: jonathan.jpg
+      - name: Nathan Duarte
+        title: M.Sc. student, Management Consultant, Boston Consulting Group	
+        image: nathanduarte.jpg
+      - name: Florian Grond
+        title: Audio Research Lead, IMAGE project, Assistant Professor, Concordia
+        image: florian.jpg
+      - name: Aishwari Talhan
+        title: Post-Doctoral Fellow, Research Scientist, SUNY Research Foundation, Albany
+        image: aishwari.jpg
+      - name: Hyejin Lee
+        title: M.Sc. student, Full-stack developer, Société Générale
+        image: hyejin.jpg
+      - name: David Marino
+        title: M.Sc. student, R&D Scientist, Hitachi Energy, Montreal
+        image: dmarino.jpg
+      - name: Yaxuan Li
+        title: M.Sc. student, PhD student, U. Michigan
+        image: yaxuan.jpg
+      - name: Yongjae Yoo
+        title: Post-Doctoral Fellow, Assistant Professor, Hanyang University ERICA, Korea
+        image: yyoo.jpg
+      - name: Kaylee Novack, MD
+        title: Collaborating researcher, Medical resident, Université de Montréal
+        image: kaylee.jpg
+      - name: John Sullivan
+        title: Post-doctoral fellow, Université Paris-Saclay
+        image: jdsulliv.jpg
+      - name: Vishav Jyoti
+        title: Post-Doctoral Fellow
+        image: vishav.png
+      - name: Pascal Fortin
+        title: Ph.D. student, Assistant Professor, UQAC, Chicoutimi
+        image: pascal.jpg
+      - name: Clara Ducher
+        title: M.Eng. student, Research Software Engineer, ECMWF, London
+        image: clara.jpg
+      - name: Marc Demers	
+        title: M.Sc. student, Data Scientist, Maxen Technologies
+        image: marc.png
+      - name: Antoine Weill--Duflos
+        title: Post-Doctoral Fellow, Director of Research and Product Integration, Haply Robotics
+        image: antoine.jpg
+      - name: Yassine Bouanane
+        title: M.Eng. student, Entrepreneur, sktch.io
+        image: yassine.jpg
+      - name: Preeti Vyas
+        title: M.Eng., Ph.D. student, UBC
+        image: preeti.jpg
+      - name: Gandharv Patil
+        title: M.Eng. student, PhD student, McGill
+        image: gandharv.jpg
+      - name: Parisa Alirezaee
+        title: M.Eng. student, Product Designer, Unity Technologies	
+        image: parisa.jpg
+      - name: Taeyong Kim
+        title: M.Eng., HRI Researcher, Hyundai Robotics	
+        image: taeyong.jpg
+      - name: Roger Girgis
+        title: M.Eng., Ph.D. student, MILA
+        image: roger.jpg
+      - name: Lis Sulmont
+        title: M.Sc., Curriculum Manager, DataCamp
+        image: lis.jpg
+      - name: Guofan Yin
+        title: M.Eng., Software Engineer, Kooltra
+        image: guofan.jpg
+      - name: Francesco Tordini
+        title: Ph.D., Technology Transfer Manager, McGill
+        image: tord.jpg
+      - name: Manfred Diaz
+        title: M.Sc. student, Ph.D. student, MILA
+        image: manfred.png
+      - name: Daniel Horodniczy
+        title: M.Eng. student. Software Developer, Philips Innovative Imaging Technologies
+        image: danny.jpg
+      - name: Naoto Hieda
+        title: M.Eng. student. PhD student, Tailinn University, Estonia	
+        image: naoto.jpg
+      - name: Nicola Gallo
+        title: Visiting M.Sc. student, Politecnico di Torino, Italy
+        image: nicola.jpg
+      - name: Xian Liu
+        title: Visiting Ph.D. student UESTC, China
+        image: liuxian.jpg
+      - name: Vanessa Vuibert
+        title: M.Eng. student, Software Developer, Guavus
+        image: vvuibert.jpg
+      - name: Mike Sterle-Contala
+        title: rtER project coordinator, deceased
+        image: mikesterle.jpg
+      - name: Minoo Erfani-Joorabchi
+        title: industrial Ph.D. student, iOS Software Engineer, Google
+        image: minoo.jpg
+      - name: Dalia El-Shimy
+        title: Ph.D. student, Director of UX Research, WISE
+        image: dalia.jpg
+      - name: Meng Xie
+        title: visiting Ph.D. student, Beijing U. Aeronautics & Astronautics
+        image: xiemeng.jpg
+      - name: Alexander Eichhorn
+        title: Research Associate, GRAND CEO, Kidtsunami
+        image: echa.jpg
+      - name: Tessa Liem
+        title: Administrative Assistant, Music Student, Concordia
+        image: tessa.jpg
+      - name: Severin Smith
+        title: B.Eng. Research Assistant, Director of Hardware Engineering, HeadSpin
+        image: severin.jpg
+      - name: Rajkumar Viswanathan
+        title: M.Eng. student, Senior Software Developer, Faurecia Irystec Inc.
+        image: rajkumar.jpg
+      - name: David Glesser
+        title: Master's student, Ensimag, France
+        image: glesserd.jpg
+      - name: Adriana Olmos, RA (2008-2012)
+        title: Interaction Designer, Google
+        image: aolmos.jpg
+      - name: Guillaume Millet (PDF, 2009-2011)
+        title: Patent Examiner, EPO, The Hague
+        image: guillaume.jpg
+      - name: Nicolas Bouillot (PDF, 2007-2011)
+        title: Co-Founder - Lab148
+        image: nicolas.jpg
+      - name: Sabrina Panëels (PDF, 2010-2011)
+        title: Research Engineer, CEA, Paris
+        image: sabrina.jpg
+      - name: Long To (RA, 2008-2011)
+        title: Software engineering, Abcam
+        image: longto.jpg
+      - name: Stéphane Pelletier (M.Eng, Ph.D., PDF, 2001-11)
+        title: Game Programmer, Behav. Interactive
+        image: stephane.jpg
+      - name: Trevor Knight (M.Eng., 2010-2011)
+        title: Noteloop Systems
+        image: trevor.jpg
+      - name: Negar Ghourchian (Ph.D., 2010-2011)
+        title: VP R&D, Aerial Technologies, Ph.D. student, McGil
+        image: negar.jpg
+      - name: Jessica Ip (M.Eng., 2008-2011)
+        title: iOS developer, Shopify, Toronto
+        image: jessicaip.jpg
+      - name: Yon Visell (Ph.D., 2005-2011)
+        title: Associate Professor, UC Santa Barbara
+        image: yon.jpg
+      - name: Coralie Vincent (RA, 2010-2011)
+        title: Research Engineer, IRCAM, Paris
+        image: cvincent.jpg
+      - name: Guangyu Wang (PDF, 2007-2011)
+        title: Facebook
+        image: gywang.jpg
+      - name: Mitchel Benovoy (M.Eng, Ph.D., 2006-2010)
+        title: Director, Circle Cardiovascular Imaging
+        image: benovoym.jpg
+      - name: Martin Otis (PDF, 2010)
+        title: Associate Professor, UQAC, Chicoutimi
+        image: martin.jpg
+      - name: Haijian Sun (RA, 2008-2010)
+        title: Programmer, Desjardins
+        image: hsun.jpg
+      - name: Guangyi Chen (RA, 2010)
+        title: Research Fellow, Concordia
+        image: chen.jpg
+      - name: Donald Dansereau (RA, 2009-2010)
+        title: Senior Lecturer, University of Sydney
+        image: dansereau.jpg
+      - name: Alvin Law (M.Eng., 2007-2010)
+        title: Data Systems Engineer, AECOM, Vancouver
+        image: alvinlaw.jpg
+      - name: Cristina Darolti (PDF, 2009)
+        title: Patent Examiner, EPO, The Hague
+        image: cristina.jpg
+      - name: Zhi Qi (Ph.D., 2004-2008)
+        title: Associate Professor, Southeast Univ., China
+        image: qizhi.jpg
+      - name: Jianfeng Yin (Ph.D., 2000-2008)
+        title: Design Engineer, Intel
+        image: jfyin.jpg
+      - name: Samuel Audet (M.Eng., 2005-2007)
+        title: Ph.D., Tokyo IT, Engineer, Fixstars
+        image: saudet.jpg
+      - name: Mike Wozniewski (M.Eng., RA, 2003-2008)
+        title: Researcher, SAT; Ph.D., Concordia
+        image: mikewoz.jpg
+      - name: Frank Rudzicz (M.Eng., 2004-2006)
+        title: Associate Professor, U Toronto (status) and Dalhousie University
+        image: rudzicz.jpg
+      - name: Shawn Arseneau (M.Eng, Ph.D., 2000-2006)
+        title: CTO, MVP, Austin Texas
+        image: arseneau.jpg
+      - name: Howard Kiewe (RA, 2005-2006)
+        title: Usability Consultant, Kiewe Consulting
+        image: hkiewe.jpg
+      - name: Ilia Soukhodolski (RA, 2005-2006)
+        title: W4 Technology, Montreal
+        image: silhouette.jpg
+      - name: Wei Sun (Ph.D., 2002-2006)
+        title: Imaging Algorithm Engineer, Apple, Cupertino, CA
+        image: wsun.jpg
+      - name: Francois Cayouette (Ph.D., 2003-2006)
+        title: Generalist Programmer, Reflector Entertainment	
+        image: cayouette.jpg
+      - name: Stephen Spackman (RA, 2002-2006)
+        title: Google
+        image: stephen.jpg
+      - name: Francois Rioux (M.Eng., 2003-2005)
+        title: Ph.D., U Laval; Software Arch, Thales Canada
+        image: frioux.jpg
+      - name: Siu Chi Chan (M.Eng., 2002-2005)
+        title: Technical Staff Member, AMD Toronto
+        image: schan.jpg
+      - name: Nadia Hilario (M.Eng., 2002-2005)
+        title: Software Developer, Spiria
+        image: nadia.jpg
+      - name: Michael Perez (M.Eng., 2002-2005)
+        title: Website designer
+        image: mperez.jpg
+      - name: Daniel Sud (M.Eng., 2002-2005)
+        title: Senior Producer, Lucky Hammers
+        image: dsud.jpg
+      - name: Yves Boussemart (M.Eng., 2002-2005)
+        title: Chief Technology Officer, Xerxes Global
+        image: yves.jpg
+      - name: Jinhua Gu (M.Eng., 2002-2005)
+        title: VP, Radian Asset, New York
+        image: jinhua.jpg
+      - name: Deniz Sarikaya (RA, 2003)
+        title: Unexpectedly deceased
+        image: deniz.jpg
+      - name: Yan Wang (PDF, 2003)
+        title: VP Marketing, AMH Canada
+        image: ywang.jpg
+      - name: Yao Jie (M.Eng., 2000-2002)
+        title: Ph.D., Concordia; whereabouts unknown
+        image: yaojie.jpg
+      - name: Yuan Zhang (M.Eng., 2000-2002)
+        title: Ph.D., U Delaware; Software Engineer, Qualcomm
+        image: silhouette.jpg
+      - name: Gilbert Soucy (RA, 1999)
+        title: Imaging Specialist, 36pix Inc.
+        image: silhouette.jpg
+      - name: Stéphane Doutriaux (M.Eng., 1998-1999 - withdrew)
+        title: Founder & CEO at Poken, Geneva
+        image: sdoutriaux.jpg
+      - name: Aoxiang Xu (M.Eng., 1998-2000)
+        title: Huawei, Ottawa
+        image: axu.jpg
+
+visitors:
+    - name: Ani Dever
+      year: 2017-18
+      role: Graduate research trainee from Polytechnic University of Turin (Italy)
+    - name: Agathe Danieu
+      year: 2017
+      role: Graduate research trainee from ENSIMAG, Grenoble (France)
+    - name: Lauriane Moy
+      year: 2017
+      role: Graduate research trainee from ENSIMAG, Grenoble (France)
+    - name: Louise Roy
+      year: 2016
+      role: Graduate research trainee from ENSIMAG, Grenoble (France)
+    - name: Olivier Penin
+      year: 2011
+      role: Graduate research trainee from Paris-Sud 11 (France)
+    - name: Dylan Varenne
+      year: 2011
+      role: Stagiare de recherche from Polytech Nice-Sophia (France)
+    - name: Marcio Tomiyoshi
+      year: 2011
+      role: M.Eng. visiting ELAP Scholar, U. São Paulo (Brazil)
+    - name: Florian Grond
+      year: 2010
+      role: Ph.D. student from U. Bielefeld (Bielefeld, Germany)
+    - name: Stefano Zambon
+      year: 2010
+      role: Ph.D. student from U. Verona (Verona, Italy)
+    - name: Nordhal Mabire
+      year: 2010
+      role: Specialization student from Supélec (France)
+    - name: Gabriel Cirio
+      year: 2010
+      role: Ph.D. student from INRIA-IRISA (France)
+    - name: Ignacio Garcia Dorado
+      year: 2010
+      role: Fulbright Scholar (Spain)
+    - name: Jan Anlauff
+      year: 2009
+      role: Diplom-Urkunde student from U. Bielefeld (Bielefeld, Germany)
+    - name: François Bérard
+      year: 2008
+      role: Professor from Grenoble Institute of Technology (France)
+    - name: Costantino Rizzuti
+      year: 2008
+      role: Ph.D. student from Università della Calabria (Italy)
+    - name: Eugenia Bossio
+      year: 2008
+      role: Ph.D. student from Università della Calabria (Italy)
+    - name: Romain Pellerin
+      year: 2008
+      role: Ph.D. student from Conservatoire National des Arts et Métiers (France)
+    - name: Tatiana Pietkiewicz
+      year: 2008
+      role: 3D graphics artist (Paris, France)
+    - name: Gabriel Delattre
+      year: 2007
+      role: M.Eng. student from Université Pierre et Marie Curie (France)
+    - name: Enrico Cupellini
+      year: 2007
+      role: Ph.D. student from Università della Calabria (Italy)
+    - name: Yosuke Kinoe
+      year: 2006-07
+      role: Professor from Hosei University (Tokyo, Japan)

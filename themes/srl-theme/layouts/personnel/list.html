@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="personnel">
+  <h1 class="page-title">Personnel</h1>
+
+  {{ range site.Data.personnel.groups }}
+    <h2 class="group-title">{{ .group }}</h2>
+    <div class="person-grid">
+      {{ range .people }}
+        <div class="person">
+          <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .name }}">
+          <div class="person-info">
+            <strong>{{ .name }}</strong><br>
+            <span>{{ .title }}</span>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</section>
+
+<h2 class="visitors-title">Visitors</h2>
+<div class="visitors-list">
+  <div class="visitor-row header">
+    <div class="visitor-name">Name</div>
+    <div class="visitor-year">Year</div>
+    <div class="visitor-role">Position</div>
+  </div>
+
+  {{ range site.Data.personnel.visitors }}
+  <div class="visitor-row">
+    <div class="visitor-name">{{ .name }}</div>
+    <div class="visitor-year">{{ .year }}</div>
+    <div class="visitor-role">{{ .role }}</div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
