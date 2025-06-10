@@ -480,3 +480,246 @@ visitors:
     - name: Yosuke Kinoe
       year: 2006-07
       role: Professor from Hosei University (Tokyo, Japan)
+
+undergraduates:
+  - name: Beaudry, Anthony
+  - name: Wang, Angela
+  - name: Archambault, Roxanne
+  - name: Dejanov, Aleksej
+  - name: Nguyen, Anh Tu
+  - name: Turianskyj, Alex
+  - name: Lu, Yu-An
+  - name: Chowdhury, Nazia
+  - name: Hall, Allison
+  - name: Gouchee, Annie
+  - name: Raza, Abbas
+  - name: Castrillon Acosta, Isabel
+  - name: Adnaan, Mohammad
+  - name: Mandampully, Samyuktha
+  - name: Ajji, Maya
+  - name: Rahman, Nafis
+  - name: Wang, Jingyi
+  - name: Zhang, Rong Wei
+  - name: Srivastava, Atreyi
+  - name: Ktaily, Nour
+  - name: Bansal, Pratham
+  - name: Cattani, Alex
+  - name: Wang, Bohan
+  - name: Feng, Shuzhao
+  - name: Tian, Steven
+  - name: Wang, Yiqiao
+  - name: Bebee, Lukas
+  - name: Sarellano, Andrés
+  - name: Moreno Piedra, Balthazar
+  - name: Alexander Tsahageas
+  - name: Emma Kawczynski
+  - name: Massimo Rosati
+  - name: Gurhan, Eren
+  - name: Yan, Ke
+  - name: Calitoiu, Mihail
+  - name: Park, John
+  - name: Hu, David
+  - name: Gasmi Ilyes
+  - name: Habelrih Edward
+  - name: Arabian Ari
+  - name: Fathi, Saab
+  - name: Ham, Sia
+  - name: Choi, Myunghoon
+  - name: Kruchinski Almeida, Martin
+  - name: Kabir, Anika
+  - name: Huynh, Vy-Kha
+  - name: Solaberrieta, Emilia
+  - name: Cui, Bowen
+  - name: El Haddad, Georges
+  - name: Fazal, Gohar Saqib
+  - name: Mahajan, Madhav
+  - name: Pan, Edwin
+  - name: Gosman, Mircea
+  - name: Justin, Legrand
+  - name: Lakhwani, Sanjeev
+  - name: Kandlikar-Bloch, Mira
+  - name: Gostovic, Lilith
+  - name: Newman, James
+  - name: Song, Juyeon Olivia
+  - name: Chowdhury, Shadman
+  - name: Lu, Calla
+  - name: Liang, Tina
+  - name: Peña Cortes, Dafne
+  - name: Macias Gutiérrez, Diego
+  - name: Nejad, Namdar
+  - name: Li, Dailun
+  - name: Legrand, Justin
+  - name: Wang, Sen
+  - name: Chamberland, Noah
+  - name: Natchev, Keanu
+  - name: Arabian, Matthias
+  - name: Destiné, Maxens
+  - name: Jarvis, Thomas
+  - name: Kong, Norman
+  - name: Cano, Victor
+  - name: Zhang, Youyuan
+  - name: Behal, Rahul
+  - name: Rao Appala, Siddharth
+  - name: Contreras, Luis F.~H.
+  - name: Bhayana, Rachit
+  - name: Grace Reszetnik
+  - name: Kenji Marshall
+  - name: Ruixi (Cecilia) Jiang
+  - name: Siddharth Appala
+  - name: Kenji Marshall
+  - name: Neroli Ko
+  - name: Noah Zwack
+  - name: Weijing Zhang
+  - name: Nicolas Bieber
+  - name: Benjamin Weiss
+  - name: Benjamin Szwimmer
+  - name: Matthew Zoltak
+  - name: Ethan Itovitch
+  - name: Nathan Pollet
+  - name: Tal Abravanel
+  - name: Emanuel Uzan
+  - name: Patricia Batista Ruivo
+  - name: Abdel-Rahman Sadaqa
+  - name: Emilie Waite
+  - name: Rock Shi
+  - name: Thomas Fitz-Gerald
+  - name: Bruce Bu
+  - name: Mert Gurkan
+  - name: Anthony Johansen
+  - name: Marwan Khan
+  - name: Osman Warsi
+  - name: Nathan Pollet
+  - name: Sabrina Knappe
+  - name: Babette Smith
+  - name: Lilith Smith
+  - name: Ethan Lague
+  - name: Alex Masciotra
+  - name: Thomas Philippon
+  - name: Tristan Bouchard
+  - name: Jennie Chen
+  - name: Lucas Bluethner
+  - name: Ryan Servera
+  - name: Nusaiba Radi
+  - name: Lilu Tang
+  - name: Feras Al Taha
+  - name: Matteo Nunez
+  - name: Yuxiang (Daniel) Huang
+  - name: Hadir Kaoubi
+  - name: Zihan Li
+  - name: Daniil Lisus
+  - name: Gabriel Gibeault-Girard
+  - name: Nicolas Velastegui
+  - name: Carmen Aimee Ascencio Cama
+  - name: Negareh (Nicky) Mirfallah Liarestani
+  - name: Yong Beom (Thomas) Kim
+  - name: Alexander Makrigiorgos
+  - name: Daniel Dermont
+  - name: Sharhad Bashar
+  - name: Pei Yuan (Richard) Wu
+  - name: Bobak Hamed-Baghi
+  - name: Rohlicek, Greg
+  - name: Carter, Stephen
+  - name: Zhang, Zhaowei
+  - name: Huynh, Alex
+  - name: Guzman, Juan
+  - name: Ali, Hassan
+  - name: Macario, Daniel
+  - name: Arané Yarden
+  - name: Leighton, Brett
+  - name: Aird, Nicholas
+  - name: Chen, Yuechuan
+  - name: Lei, Simon
+  - name: Mendonca, Justin
+  - name: Asfour, Justin
+  - name: Ward, Thomas
+  - name: Laramée, Alexandre
+  - name: Robert, Gabrielle
+  - name: Sahib, Shivan
+  - name: Nath, Saptaparna
+  - name: Jana Pavlasek
+  - name: Mike Jiang
+  - name: Guofan Yin
+  - name: Prateek Murgai
+  - name: Yetesh Chaudhary
+  - name: Alok Sharma
+  - name: Shawn Bramson
+  - name: Alize Dirik
+  - name: Andrew Larose
+  - name: Rita Mansour
+  - name: Ghalia Elkerdi
+  - name: Michael King
+  - name: Oriane Gourdy
+  - name: Nehil Jain
+  - name: Sakshi Gupta
+  - name: Robert Brais
+  - name: Daniel Greencorn
+  - name: Adam Gordon
+  - name: Shahjahan Warraich
+  - name: Stephane Beniak
+  - name: Stepan Salenikovich
+  - name: Gary Chaw
+  - name: Eugene Savchenko
+  - name: Farid Rener
+  - name: Rishi Rajalingham
+  - name: Sung "Sonny" Bae
+  - name: Theo Ephraim
+  - name: Tristan Himmelman
+  - name: Nan Lin
+  - name: Benjamin Peck
+  - name: Letao Wang
+  - name: Kunal Jathal
+  - name: Daniel Mankarios
+  - name: Alexander Konstantinidis
+  - name: Nan Lin
+  - name: David Pufahl
+  - name: Ming-Zhang Zhu
+  - name: Keng Chi Chan
+  - name: Pierre-Olivier Charlebois
+  - name: Philippe Reiter
+  - name: Andrew Phan
+  - name: Ali-Akber Saifee
+  - name: Robert Shield
+  - name: Francois Aube
+  - name: Ariane Chan-You
+  - name: Denis Tran
+  - name: Frank Rudzicz
+  - name: Sam Myer
+  - name: Deniz Sarikaya
+  - name: Kyriakos Vallianatos
+  - name: Sofiane Hassaine
+  - name: Daniel Sud
+  - name: Timofei Gapakov
+  - name: Marisa Wyse
+  - name: David Bancroft
+  - name: Amy Yee
+  - name: David Pereira
+  - name: Gary Ciambella
+  - name: Nadim Kassouf
+  - name: Garvin Lee
+  - name: Chris (Shao-Gi) Li
+  - name: Jiexin Luo
+  - name: Zamir Klinger
+  - name: Sara Hooshangi
+  - name: Jason K.L. Aw Yeong
+  - name: Khurram Zubair Agha
+  - name: Weoi Peng Lim
+  - name: Osama El-Sharif
+  - name: Hazem Nasereddin
+  - name: Gurpratap Virdi
+  - name: Ali Shah
+  - name: Haroon Ali Agha
+  - name: Sorin Lerner
+  - name: Lorin Hochstein
+  - name: Gabriel Gagnon
+  - name: Tam Hien Le
+  - name: Sylvie Djihanian
+  - name: Joe Dib
+  - name: Khaled Moussaoui
+  - name: Poi Chung Tjhin
+  - name: Mai Luong
+  - name: Sau Lau
+  - name: Wanti Tsai
+  - name: Sameh ElRefaei
+  - name: Azeem Lakdawalla
+  - name: Jonathan Pollack
+  - name: Bao Chau Nguyen

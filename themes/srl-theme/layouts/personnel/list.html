@@ -20,18 +20,22 @@
 
 <h2 class="visitors-title">Visitors</h2>
 <div class="visitors-list">
-  <div class="visitor-row header">
-    <div class="visitor-name">Name</div>
-    <div class="visitor-year">Year</div>
-    <div class="visitor-role">Position</div>
-  </div>
-
   {{ range site.Data.personnel.visitors }}
-  <div class="visitor-row">
-    <div class="visitor-name">{{ .name }}</div>
-    <div class="visitor-year">{{ .year }}</div>
-    <div class="visitor-role">{{ .role }}</div>
-  </div>
+    <div class="visitor-card">
+      <div class="visitor-name">{{ .name }}</div>
+      <div class="visitor-year">{{ .year }}</div>
+      <div class="visitor-role">{{ .role }}</div>
+    </div>
   {{ end }}
 </div>
+
+<h2 class="visitors-title">Undergraduates</h2>
+<div class="undergrads-list">
+  {{ range site.Data.personnel.undergraduates }}
+    <div class="undergrad-card">
+      <div class="undergrad-name">{{ .name }}</div>
+    </div>
+  {{ end }}
+</div>
+
 {{ end }}
