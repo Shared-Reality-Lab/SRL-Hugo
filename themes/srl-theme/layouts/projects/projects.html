@@ -1,58 +1,46 @@
 {{ define "main" }}
 
 <section class="projects-intro section-white">
-  <h1>Available Projects</h1>
+  <h1>{{ .Site.Data.projects.intro.title }}</h1>
   <p>
-    The following projects are suitable primarily for strong undergraduate graduates, either as Honours Thesis projects or in groups for their design projects, often working in conjunction with graduate students in our lab.
-    Team descriptions are based on the assumption of these being undertaken by undergraduate students. Please read the 
-    <a href="{{ "faq/" | relURL }}">FAQ</a> 
-    and then 
-    <a href="https://cim.mcgill.ca/~jer/email.html" target="_blank" rel="noopener">contact me</a> 
-    if you are interested in getting involved in any of these projects.
+    {{ .Site.Data.projects.intro.text | markdownify }}
   </p>
 </section>
 
 <div class="projects-container">
+
   <!-- Sidebar navigation -->
   <nav class="projects-sidebar">
     <ul>
-      <li><a href="#image">IMAGE</a></li>
-      <li><a href="#cybersight">CyberSight</a></li>
-      <li><a href="#vibrations">Speech-to-Vibration</a></li>
-      <li><a href="#ar-therapy">AR Art Therapy</a></li>
-      <li><a href="#navigation">Navigation Assistance</a></li>
+      {{ range .Site.Data.projects.projects }}
+        <li><a href="#{{ .id }}">{{ .name }}</a></li>
+      {{ end }}
     </ul>
   </nav>
 
   <!-- Project content -->
   <article class="projects-main">
-
-    <section id="image" class="project-section section-white">
-      <h2>IMAGE</h2>
-      <p>Making graphics accessible to blind users with audio and haptics. Already deployed as a browser extension and being expanded to mobile.</p>
-    </section>
-
-    <section id="cybersight" class="project-section section-dark">
-      <h2>CyberSight</h2>
-      <p>Helping visually impaired shoppers identify and verify products using AI, computer vision, and smartphones.</p>
-    </section>
-
-    <section id="vibrations" class="project-section section-white">
-      <h2>Speech-to-Vibration</h2>
-      <p>Turning spoken audio into tactile signals to support communication for deaf and hard-of-hearing individuals.</p>
-    </section>
-
-    <section id="ar-therapy" class="project-section section-dark">
-      <h2>AR Art Therapy</h2>
-      <p>Helping chronic pain patients express their experience with generative AR tools during therapy sessions.</p>
-    </section>
-
-    <section id="navigation" class="project-section section-white">
-      <h2>Navigation Assistance</h2>
-      <p>Smartphone-based vision system to help blind users reach doors, intersections, stairways, and more.</p>
-    </section>
-
+    {{ range .Site.Data.projects.projects }}
+      <section id="{{ .id }}" class="project-section">
+        {{ if .image }}
+          <div class="project-with-image">
+            <div class="project-float-wrapper">
+              <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .name }}" class="project-float-icon" />
+            </div>
+            <div class="project-text">
+              <h2>{{ .name }}</h2>
+              <p>{{ .description | markdownify }}</p>
+            </div>
+          </div>
+        {{ else }}
+          <h2>{{ .name }}</h2>
+          <p>{{ .description | markdownify }}</p>
+        {{ end }}
+      </section>
+    {{ end }}
   </article>
+  
+
 </div>
 
 <script>

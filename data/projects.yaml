@@ -1,0 +1,52 @@
+intro:
+  title: "Available Projects"
+  text: >
+    The following projects are suitable primarily for strong undergraduate graduates, either as Honours Thesis projects or in groups for their design projects, often working in conjunction with graduate students in our lab.
+    Team descriptions are based on the assumption of these being undertaken by undergraduate students. Please read the 
+    [FAQ](/faq) and then [contact me](https://cim.mcgill.ca/~jer/email.html) if you are interested in getting involved in any of these projects.
+
+projects:
+  - id: image
+    name: IMAGE
+    image: "imagea11y.png"
+    description: |
+      Internet Multimodal Access to Graphical Exploration (IMAGE) is a project aimed at making internet graphics accessible for people who are blind or partially sighted through rich audio and touch. 
+      On the internet, graphic material such as maps, photographs, and charts are clear and straightforward to those who can see it, but not for blind or low-vision users. For them, graphical information is often limited to manually generated alt-text HTML labels, often abridged, and lacking in richness. 
+      This represents a better-than-nothing solution, but remains woefully inadequate. Artificial Intelligence technology can improve the situation, but existing solutions are non-interactive, and provide a minimal summary at best; the essential information described by the graphic frequently remains inaccessible. Our approach is to use rich audio (sonification) together with the sense of touch (haptics) to provide a faster and more nuanced experience of graphics on the web. 
+      For example, by using spatial audio, where the user experiences the sound moving around them through their headphones, information about the spatial relationships between various objects in the space of the graphic can be quickly conveyed without reading long descriptions. In addition, rather than only passive experiences of listening to audio, we allow the user to actively explore a graphic either by pointing to different portions and hearing about its content or nuance, or use a custom haptic device to literally feel aspects like texture or regions. 
+      This will permit interpretation of maps, charts, and photographs, in which the visual experience is replaced with multimodal sensory feedback, rendered in a manner that helps overcome access barriers for users who are blind or low-vision. Our technology is designed to be as freely available as possible, as well as extensible so that artists, technologists, or even companies can produce new experiences for specific graphical content that they know how to render. 
+      If someone has a special way of rendering stock market charts, they do not have to reinvent the wheel, but can create a module that focuses on their specific audio and haptic rendering, and plug it into our overall system. Our deployed, open-source web browser extension is already in use, and we are presently working toward the addition of support for mobile (smartphones). 
+      The next steps of this project will involve augmention of the architecture to support interactive human-in-the-loop content authoring of audio-haptic experiences and leveraging of new preprocessor capabilities based on AI advances in the realm of image-ingest capabilities of GPT-4 and beyond. 
+      Additional potential areas for students with specific interests/skills:
+      1. Working to enable/create experiences on haptic devices, including the Humanware Monarch and the Haply 2diy.
+      2. Using GPT/LLM techniques to create audio/haptic experiences for new data types or user scenarios (e.g., sonifying product photos from retail websites, expanding the maps and charts for which IMAGE can successfully create renderings, etc.)
+      3. Working in the IMAGE browser extension to refine methods for selecting desired graphics
+      4. Integrating IMAGE into Drupal
+      5. Creating a library of sonification effects in SuperCollider, easily usable by developers creating audio effects for end-user renderings
+      6. Integrating IMAGE directly into the NVDA open-source screen reader
+      7. Working with external groups and creating documentation to help integrate their code into the IMAGE code base
+      8. Integrate the services of our Autour server with the queries currently being made to OpenStreetMap
+      9. Dockerize the Autour server
+      10. extending our preprocessors for new types of maps
+      11. Exploring haptic renderings for diagrams and similar textbook materials
+      12. Exploring other commercial ML tools that could be used to extend/improve our existing preprocessors, e.g., scene recognizer
+
+  - id: cybersight
+    name: CyberSight
+    description: >
+      Helping visually impaired shoppers identify and verify products using AI, computer vision, and smartphones.
+
+  - id: vibrations
+    name: Speech-to-Vibration
+    description: >
+      Turning spoken audio into tactile signals to support communication for deaf and hard-of-hearing individuals.
+
+  - id: ar-therapy
+    name: AR Art Therapy
+    description: >
+      Helping chronic pain patients express their experience with generative AR tools during therapy sessions.
+
+  - id: navigation
+    name: Navigation Assistance
+    description: >
+      Smartphone-based vision system to help blind users reach doors, intersections, stairways, and more.

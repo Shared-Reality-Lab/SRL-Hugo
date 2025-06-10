@@ -263,7 +263,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-
 /* ------------------------------
     Projects
 ------------------------------- */
@@ -290,21 +289,37 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 2rem;
   padding: 2rem;
+  background: #fdfdfd; /* notebook paper tone */
+  position: relative;
 }
 
+/* Notebook-style vertical spine */
+.projects-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 22%;
+  width: 1px;
+  background-color: rgba(0, 0, 255, 0.2);
+  z-index: 0;
+}
+
+/* Sidebar - notebook margin */
 .projects-sidebar {
   width: 20%;
   position: sticky;
   top: 120px;
   align-self: flex-start;
-  height: fit-content; 
+  padding-right: 1rem;
+  border-right: 1px solid rgba(0, 0, 255, 0.1);
 }
 
 .projects-sidebar ul {
   list-style: none;
-  padding: 0;
+  padding-left: 0.5rem;
+  border-left: 3px solid rgba(0, 0, 255, 0.3);
 }
 
 .projects-sidebar li {
@@ -326,20 +341,61 @@ body {
   width: 75%;
 }
 
+/* Project content section */
 .project-section {
-  padding: 3rem 0;
+  position: relative;
+  background: #fff;
+  padding: 2rem;
   margin-bottom: 2rem;
-  scroll-margin-top: 120px;
 }
 
 .project-section h2 {
   font-size: 1.8rem;
+  margin-top: 0;
   margin-bottom: 1rem;
+  font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+  color: #111;
 }
 
 .project-section p {
   font-size: 1rem;
   line-height: 1.6;
+  font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+  color: #111;
+}
+
+/* Image styling with 📌 cork pin */
+.project-with-image {
+  overflow: visible; /* important: allow the pin to overflow the wrapper */
+  position: relative;
+}
+
+.project-float-wrapper {
+  float: left;
+  width: 300px;
+  margin: 2rem 1.5rem 1rem 0;
+  position: relative;
+  shape-outside: margin-box;
+  z-index: 1;
+}
+
+.project-float-icon {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.project-float-wrapper::after {
+  content: "📌";
+  position: absolute;
+  top: -28px;         /* moved further up */
+  left: -12px;
+  font-size: 2rem;
+  transform: rotate(-20deg);
+  z-index: 5;
+  pointer-events: none;
 }
 
 /* ------------------------------
