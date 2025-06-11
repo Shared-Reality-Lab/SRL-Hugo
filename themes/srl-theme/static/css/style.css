@@ -573,6 +573,76 @@ html, body {
   content: "📍"; /* pushpin */
 }
 
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+    min-height: auto;
+  }
+
+  .projects-sidebar {
+    width: 100%;
+    position: relative;
+    top: auto;
+    max-height: none;
+    overflow-y: visible;
+    padding: 1rem 0;
+    border-right: none;
+    border-bottom: 2px solid rgba(200, 0, 0, 0.2);
+  }
+
+  .projects-sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .projects-sidebar li {
+    flex: 1 1 45%;
+    margin-bottom: 0.5rem;
+  }
+
+  .projects-sidebar a {
+    font-size: 1rem;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.4;
+  }
+
+  .projects-main {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .project-section {
+    padding: 1rem;
+  }
+
+  .project-float-wrapper {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .project-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .project-section p,
+  .projects-intro p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .projects-intro h1 {
+    font-size: 1.6rem;
+  }
+}
+
 /* ------------------------------
     FAQ
 ------------------------------- */
