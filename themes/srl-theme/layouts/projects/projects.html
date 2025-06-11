@@ -50,15 +50,33 @@
 </div>
 
 <script>
-  const sections = document.querySelectorAll(".project-section");
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        history.replaceState(null, "", "#" + entry.target.id);
+  const sidebarLinks = document.querySelectorAll(".projects-sidebar a");
+  const intro = document.querySelector(".projects-intro");
+
+  // Hide intro on click
+  sidebarLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute("href").substring(1);
+      const target = document.getElementById(targetId);
+
+      if (intro) intro.style.display = "none";
+
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.replaceState(null, "", "#" + targetId);
       }
     });
-  }, { threshold: 0.5 });
-  sections.forEach((section) => observer.observe(section));
+  });
+
+  // Show intro again when scrolling to top
+  window.addEventListener("scroll", () => {
+    // Show intro if scrolled to (or near) the top
+    if (window.scrollY < 10) {
+      if (intro) intro.style.display = "block";
+    }
+  });
 </script>
+
 
 {{ end }}

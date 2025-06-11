@@ -344,6 +344,11 @@ html, body {
   max-width: 900px;
   margin: 0 auto;
   font-family: 'Georgia', serif;
+  transition: opacity 0.4s ease;
+}
+
+.projects-intro[style*="display: none"] {
+  opacity: 0;
 }
 
 .projects-intro h1 {
@@ -424,12 +429,15 @@ html, body {
 .projects-sidebar {
   width: 20%;
   position: sticky;
-  top: 50px;
+  top: 0; /* Fully lifted to the top of viewport */
   align-self: flex-start;
-  padding-right: 1.5rem;
+  padding: 1rem 1.5rem 0 0; /* top right bottom left */
   border-right: 2px solid rgba(200, 0, 0, 0.2);
-  max-height: calc(100vh - 50px);
+  max-height: 100vh; /* full viewport height */
   overflow-y: auto;
+  background-color: #fdfaf5; /* matches container background */
+  box-sizing: border-box;
+  z-index: 10; /* stay above other elements if needed */
 }
 
 .projects-sidebar::-webkit-scrollbar {
@@ -469,7 +477,9 @@ html, body {
   font-weight: 600;
   transition: color 0.3s;
   display: block;
+  font-size: 0.95rem; 
 }
+
 
 .projects-sidebar a:hover {
   color: #000;
