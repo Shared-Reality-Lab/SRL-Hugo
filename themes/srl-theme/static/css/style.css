@@ -11,6 +11,10 @@ body {
   color: #111;
 }
 
+/* ------------------------------
+   Navbar Basics
+------------------------------- */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -32,11 +36,6 @@ body {
   text-decoration: none;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 .logo-img {
   height: 100px;
   margin-right: 1rem;
@@ -45,64 +44,134 @@ body {
   border-radius: 4px;
 }
 
+/* ------------------------------
+   Nav Links
+------------------------------- */
+
 .nav-links {
   display: flex;
-  gap: 2rem; /* more spacing between links */
+  gap: 2rem;
 }
 
 .nav-links a {
-  text-decoration: none;
+  position: relative;
   font-weight: bold;
   color: #333;
+  text-decoration: none;
+  padding: 0.3rem 0;
+  font-family: 'Georgia', serif;
+  transition: color 0.3s ease;
+}
+
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  left: -0.3rem;
+  right: -0.3rem;
+  bottom: 0.1rem;
+  height: 0.6em;
+  background: #fff89a;
+  z-index: -1;
+  transform: rotate(-1.5deg);
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.nav-links a:hover::before {
+  opacity: 0.9;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: #000;
+}
+
+/* alternate highlighter colors for some spice */
+.nav-links a:nth-of-type(2n)::before {
+  background: #ffd6f3;
+  transform: rotate(1deg);
+}
+.nav-links a:nth-of-type(3n)::before {
+  background: #d4f8e8;
+  transform: rotate(-2deg);
 }
 
 /* ------------------------------
-   Responsive Navbar Styles
+   Hamburger Menu: Themed
 ------------------------------- */
 
-/* Toggle button for hamburger icon */
-.nav-toggle {
-  display: none;
-  font-size: 2rem;
+.nav-toggle.themed-burger {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
   background: none;
   border: none;
-  color: #333;
   cursor: pointer;
-  z-index: 999; /* stays above nav menu */
+  padding: 0;
+  z-index: 999;
+  display: none; /* <—-- keep this for desktop */
 }
 
-/* Mobile styles */
+.themed-burger span {
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #63c138; /* green to match logo */
+  border-radius: 2px;
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+
+.themed-burger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+  background-color: #d44415;
+}
+
+.themed-burger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.themed-burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+  background-color: #d44415;
+}
+
+/* ------------------------------
+   Mobile Styles
+------------------------------- */
+
+/* now show hamburger in mobile screens */
 @media (max-width: 768px) {
+  .nav-toggle.themed-burger {
+    display: flex;
+  }
+
   .nav-links {
-    display: none; /* hidden by default */
+    display: none;
     flex-direction: column;
     background: white;
     position: absolute;
-    top: 100%;     /* appear right under navbar */
-    left: 0;       /* align to left edge */
-    right: 0;      /* stretch full width */
+    top: 100%;
+    left: 0;
+    right: 0;
     width: 100%;
-    padding: 1.5rem 2rem;  /* spacing around links */
-    box-sizing: border-box;
+    padding: 1.5rem 2rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     z-index: 998;
   }
 
   .nav-links.open {
-    display: flex; /* shown when toggled */
-  }
-
-  .nav-toggle {
-    display: block;
+    display: flex;
   }
 
   .nav-links a {
     padding: 0.75rem 0;
     font-size: 1.1rem;
+
+    width: fit-content;
+    display: inline-block;
   }
 }
 

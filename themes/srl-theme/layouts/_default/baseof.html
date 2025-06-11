@@ -24,9 +24,11 @@
     </a>
   </div>
 
-  <!-- Hamburger icon for mobile -->
-  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-    &#9776;
+  <!-- Highlighter-themed Hamburger -->
+  <button class="nav-toggle themed-burger" id="navToggle" aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
   </button>
 
   <div class="nav-links" id="navLinks">
@@ -42,6 +44,8 @@
 <main id="top">
   {{ block "main" . }}{{ end }}
 </main>
+
+<!-- ** Scripts ** -->
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -59,28 +63,28 @@
   });
 </script>
 
+
+<!-- support the themed hamburger animation -->
 <script>
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
 
   navToggle.addEventListener('click', function () {
     navLinks.classList.toggle('open');
-    navToggle.classList.toggle('open');
-
-    // Swap icon between hamburger and X
-    navToggle.innerHTML = navToggle.classList.contains('open') ? '&#10005;' : '&#9776;';
+    navToggle.classList.toggle('open'); // Only this is needed to animate the spans
   });
 
-  // Close menu when any link is clicked
+  // Close the nav when any link is clicked
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navLinks.classList.remove('open');
       navToggle.classList.remove('open');
-      navToggle.innerHTML = '&#9776;'; // Reset icon to hamburger
     });
   });
 </script>
 
+
+<!-- base url logic-->
 <script>
   // Get the base URL from Hugo's config and remove the trailing slash if it exists
   const base = "{{ .Site.BaseURL }}".replace(/\/$/, "");
