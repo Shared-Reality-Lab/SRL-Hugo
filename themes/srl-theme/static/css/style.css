@@ -548,7 +548,11 @@ body {
     Blog
 ------------------------------- */
 #blog.section-white {
-  padding-top: 2rem; 
+  padding-top: 2rem;
+  background-color: #fdfaf5;
+  background-image: linear-gradient(to bottom, rgba(150, 150, 150, 0.05) 1px, transparent 1px);
+  background-size: 100% 28px;
+  font-family: 'Georgia', serif;
 }
 
 .blog-grid {
@@ -558,34 +562,77 @@ body {
   padding-top: 2rem;
 }
 
+/* Sticky note feel with alternating colors + dotted texture */
 .blog-entry {
-  background: #fefefe;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  overflow: hidden;
+  position: relative; 
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08); /*  matches the vibe */
   transition: transform 0.2s ease;
   display: flex;
   flex-direction: column;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 8px 8px;
+}
+
+/* Rotate sticky note colors */
+.blog-entry:nth-of-type(3n+1) {
+  background-color: #fffbd1; /* Pale Yellow */
+}
+.blog-entry:nth-of-type(3n+2) {
+  background-color: #dff9fb; /* Pale Blue */
+}
+.blog-entry:nth-of-type(3n+3) {
+  background-color: #ffe5ec; /* Soft Pink */
 }
 
 .blog-entry:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.1);
 }
 
+.blog-entry::after {
+  content: "📎"; /* default paperclip */
+  font-size: 1.7rem;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%) rotate(7deg);
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Rotate pin style by card */
+.blog-entry:nth-of-type(3n+1)::after {
+  content: "🔖"; /* bookmark */
+}
+.blog-entry:nth-of-type(3n+2)::after {
+  content: "📎"; /* paperclip */
+}
+.blog-entry:nth-of-type(3n+3)::after {
+  content: "📍"; /* pushpin */
+}
+
+/* Blog image styling */
 .blog-image {
   width: 100%;
   height: 180px;
   object-fit: contain;
-  background-color: #f4f4f4; /* gives padding color for smaller images */
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+/* Blog content box */
 .blog-content {
-  padding: 1rem 1.2rem;
+  padding: 1rem 0.2rem 0.5rem 0;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
+/* Blog metadata */
 .blog-meta {
   font-size: 0.9rem;
   color: #888;
@@ -593,85 +640,52 @@ body {
   margin: 0;
 }
 
+/* Highlighted blog title — matching project sticky effect */
 .blog-title {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: bold;
   margin: 0;
+  position: relative;
+  display: inline-block;
+  color: #222;
+  font-family: 'Georgia', serif;
+  z-index: 1;
 }
 
+/* Default highlight: soft green */
+.blog-title::before {
+  content: "";
+  position: absolute;
+  left: -0.3rem;
+  right: -0.3rem;
+  top: 0.6em;
+  height: 0.6em;
+  background: #8bd279;
+  z-index: -1;
+  transform: rotate(-1.5deg);
+  border-radius: 3px;
+  opacity: 0.9;
+}
+
+/* Alternate highlight colors */
+.blog-entry:nth-of-type(3n+2) .blog-title::before {
+  background: #ffd6f3;
+  transform: rotate(1.5deg);
+}
+
+.blog-entry:nth-of-type(3n+3) .blog-title::before {
+  background: #d4f8e8;
+  transform: rotate(-2deg);
+}
+
+/* Blog body text */
 .blog-body {
   font-size: 0.95rem;
   color: #333;
   line-height: 1.5;
+  font-family: 'Georgia', serif;
 }
-
-/* ------------------------------
-    Publications
-------------------------------- */
-
-#publications.section-white {
-  padding-top: 2rem;
-}
-
-.pub-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.pub-entry {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.5rem;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid #eee;
-  flex-direction: row-reverse; /* Image on the right */
-}
-
-.pub-thumb {
-  flex-shrink: 0;
-  width: 110px;
-  height: auto;
-  max-height: 150px;
-  object-fit: cover;
-  border-radius: 6px;
-  margin-top: 0.3rem;
-}
-
-.pub-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 0.3rem;
-  flex: 1;
-  text-align: left;
-}
-
-.pub-title {
-  font-weight: 600;
-  font-size: 1.2rem;
-  line-height: 1.4;
-  margin: 0;
-}
-
-.pub-meta {
-  font-size: 0.95rem;
-  color: #555;
-  font-style: italic;
-  margin: 0;
-}
-
-.pub-links {
-  margin-top: 0.3rem;
-}
-
-.pub-links a {
-  margin-right: 0.7rem;
-  font-size: 0.9rem;
-  color: #0077cc;
-  text-decoration: none;
-}
+ 
 
 /* ------------------------------
     Personnel
