@@ -344,7 +344,7 @@ body {
   position: relative;
 }
 
-/* Sidebar: notebook margin line */
+/* Sidebar: scrollable while mouse hovers over it + notebook margin line */
 .projects-sidebar {
   width: 20%;
   position: sticky;
@@ -352,6 +352,28 @@ body {
   align-self: flex-start;
   padding-right: 1.5rem;
   border-right: 2px solid rgba(200, 0, 0, 0.2);
+  overflow-y: auto; 
+  max-height: calc(100vh - 120px); 
+}
+
+.projects-sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.projects-sidebar::-webkit-scrollbar-track {
+  background: #fdfaf5; /* notebook-paper beige */
+  border-left: 1px dashed rgba(150, 80, 80, 0.3); /* like a margin line */
+}
+
+.projects-sidebar::-webkit-scrollbar-thumb {
+  background-color: #ffe599; /* light yellow sticky note */
+  border-radius: 4px;
+  border: 1px solid #e6c200; /* mimic a pencil outline */
+  transition: background-color 0.3s ease;
+}
+
+.projects-sidebar:hover::-webkit-scrollbar-thumb {
+  background-color: #fcd75b; /* slightly brighter when hovered */
 }
 
 .projects-sidebar ul {

@@ -33,20 +33,224 @@ projects:
 
   - id: cybersight
     name: CyberSight
-    description: >
-      Helping visually impaired shoppers identify and verify products using AI, computer vision, and smartphones.
+    image: "projects/cybersight.jpg"
+    description: |
+      Blind and visually impaired (BVI) individuals often find the shopping experience to be inaccessible. A variety of applications and tools have been created to address aspects of these problems, and AI technology continues to improve for identifying objects and text. However, gaps remain, in particular, necessary functionality such as locating specific articles, reaching for them on the shelf, verifying that they have acquired the desired item, and obtaining pricing information. At present, for those in the BVI community, these tasks generally involve reliance on the assistance of others.
+
+      This project will develop technology that supports acquisition and verification of a desired object once the user is situated in a limited radius of the target item, so that it can be seen by a smartphone camera from that position. This will involve dynamically directing the user to reach the object, verifying that the intended item has been acquired, and providing desired product information such as ingredient listings or price. The technology is intended to run on commodity smartphones, potentially in conjunction with bone conduction headphones for auditory display.
+
+      The tasks that this project aims to support include:
+      1. Scan the scene in a predefined zone in front of the user with the mobile device camera to find a desired object
+      2. Locate using computer vision and AI/ML techniques, the position of the object, e.g., on the shelf
+      3. Interact with the environment, while tracking the user's hand, to provide autonomous guidance to help the user to grab or approach the desired object using real-time audio and/or haptic feedback
+      4. Validate that the desired object has been acquired through text-to-speech information obtained from the specific item, e.g., the product label
+
+      In this manner, assuming deployment of a suitable pre-existing localization technology to guide the user to within a small radius of the desired object, our objective is for the system to guide the user to reach desired objects, and then verify specific information, for example, using computer vision, optical character recognition, and generative pretrained transformers.
 
   - id: vibrations
     name: Speech-to-Vibration
-    description: >
-      Turning spoken audio into tactile signals to support communication for deaf and hard-of-hearing individuals.
+    image: "projects/vibrations.png"
+    description: |
+      We are developing a vibrotactile apparatus that converts speech audio into vibrations delivered on the user's skin. Previous research conducted by our lab and other researchers has proposed various designs and language encoding strategies. These studies have demonstrated the effectiveness of these approaches in enabling individuals without hearing loss to comprehend complex vocabulary solely through vibrotactile stimulation. However, there has been little research exploring the benefits of multimodal fusion to interpretation of speech for deaf or hard-of-hearing individuals, and the research that has been conducted for unimodal (haptic) sensory substitution with this community has been limited to pilot studies employing a simplistic vocabulary (50 single-syllable words), with testing trials presenting four options from which the user could choose.
+
+      Our goal is to design such devices specifically for people with hearing loss, actively involving them in the design process, and evaluating their communication performance in real-world scenarios. The research project focuses on several specific topics, including:
+
+      1. Designing novel discrete haptic encodings for vibrotactile communication systems tailored to individuals with hearing loss. This will be achieved through a participatory design approach that actively engages the users in the design process.
+      2. Investigating the different types of support that haptic language systems should provide in various communication contexts. These contexts may include face-to-face interactions, asynchronous communication through messenger apps, and human-computer conversations (e.g., receiving communication from voice assistants).
+      3. Exploring the effects of combining haptic delivery of speech with lip reading on the speech comprehension of individuals with hearing impairments. This research aims to understand how the integration of haptic feedback and visual cues can enhance the overall comprehension and communication experience for people with hearing loss.
+      By addressing these research topics, our project seeks to advance the field of speech-to-haptic devices by focusing on the specific needs and challenges faced by individuals with hearing loss.
+      We are seeking motivated students who have a background in computer science or computer engineering, along with familiarity in signal processing and strong programming skills. Eagerness to learn and a problem-solving mindset are essential. Experience with any of the following: digital audio workstations (DAW) such as Ableton, natural language processing (NLP) techniques, and the Flutter toolkit, would be considered assets.
+
+      During the project, students will work closely with graduate students and a postdoctoral fellow, designing a set of vibrotactile stimuli that maps different letters or phonemes to a distinct vibration pattern. This includes applying signal processing techniques on a digital audio workstation (DAW) or through Python libraries. The student will also work on implementing the software needed to run the user training and testing. This may include modifying the existing code (Dart/Flutter) or creating new applications. The student will have the opportunity to contribute with their insights and opinions during the system development and testing, and participate in co-authorship of an intended research publication.
 
   - id: ar-therapy
     name: AR Art Therapy
-    description: >
-      Helping chronic pain patients express their experience with generative AR tools during therapy sessions.
+    image: "projects/ararttherapy.jpg"
+    description: |
+      For many patients suffering from chronic pain, it is difficult to express how their pain feels in words. This project will develop a tool to allow patients to collaboratively illustrate their pain experience in communication with their doctor. In this regard, art therapy has long been a tool that allows such individuals to work through their pain in a physical way and better communicate with their healthcare team. However, for many, expressing themselves effectively through the creation of art is a daunting process. By creating an augmented reality tool, leveraging generative networks that helps in this process, patients will gain a way to benefit from the art therapy paradigm without requiring artistic skills. At a high level, the fundamental tasks the student(s) will undertake include:
+
+      - Potentially assisting in the creation of one or more data sets suitable for training the generative models
+      - Choosing an appropriate toolset for developing a virtual environment
+      - Developing a basic virtual environment through which a patient and doctor can interact
+      - Adding virtual "art tools" that patients can use to draw on their own virtual avatar
+      - This project is suitable for a group of motivated students with experience or strong interest in augmented and/or virtual reality, and the applications of machine learning techniques.
 
   - id: navigation
     name: Navigation Assistance
-    description: >
-      Smartphone-based vision system to help blind users reach doors, intersections, stairways, and more.
+    image: "projects/navigation.jpg"
+    description: |
+      This project aims to leverage the benefits of smartphones, possibly carried on a neck-worn lanyard, or connected to external devices such as head-worn panoramic camera systems, to provide navigation assistance for the visually impaired community,
+
+        1. Safely guiding users during intersection crossing to avoid veering, which can be dangerous and stressful
+        2. Helping them navigate the last few meters to doorways they wish to enter
+        3. Directing them to important points in the environment such as stairways and bus shelters
+        4. Switching between different app services, including navigation functions such as those listed above, and other services including OCR, product identification, and environment description, based on contextual information and personalization.
+      
+      Our proposed approach combines a machine learning strategy leveraging existing image datasets, possibly augmented by crowdsourcing, and iterative design of the feedback mechanisms. This is informed by our lab's experience with sensor-based intersection-crossing assistance systems, and in developing the Autour app, which provides a real-time description of street intersections, public transport data, and points of interest in the user's vicinity.
+
+      Students should have experience in machine learning, mobile software development, and interest in assistive technologies.
+  
+  - id: musical-telepresence
+    name: Musical Telepresence
+    image: "projects/music-presence.jpg"
+    description: |
+      Videoconferencing technology allows for effective interaction, as long as everyone remains in front of their computer screen (and camera), and is willing to accept a stationary 2D view of their counterparts. However, as we have all experienced from the years of the pandemic, this is not the same as being together "in the real world", and is limiting in terms of the degree of engagement with one another. Musical practice and performance by videoconferencing is an activity where the sense of distance is very much emphasized by the technology, not just by questions of latency (delay), but also, the limits on natural expression that can be reproduced from a fixed perspective.
+
+      The project involves integrating video rendering of one or more remote performers, with the video acquired from a camera array, into a musician's AR headset display, such that the remote performers appear in the environment as would a physically co-present performer. In other words, distributed musicians should be able to move about, see each other from the correct vantage point, and gesture to one other (e.g., for cueuing in jazz performance), appearing life-like in the display. To do so, we will employ novel pseudo-lightfield rendering approaches of camera array inputs, implemented as a computationally efficient architecture to minimize delay, and "carve out" the remote performer from their background, blending them into our own space within an augmented reality headset. Video rendering will be accompanied by low-latency audio transport so as to permit effective musical telepresence interaction between the performers.
+
+      Your tasks will include:
+      - calibrating visible light cameras with time-of-flight cameras for use with third party view synthesis software
+      - comparison of performance to existing view synthesis technique using only visible light cameras
+      - verify multi-camera frame synchronization timing for simultaneous acquisition
+      - refinement of live stream rendering architecture in conjunction with HoloLens2 and Varjo XR3 HMDs
+      - implement visual hull segmentation of musician from background for blending into AR display
+      - dynamic view perspective update based on user motion
+      - output user pose information from HMD to audio subsystem to drive spatial audio display effects
+      - compare response latency between devices
+      - integrate foreground occlusion handling
+
+  - id: enhanced-social-intelligence
+    name: Enhanced Social Intelligence in Teleconferencing Systems
+    image: "projects/socialtelepresence.png"
+    description: |
+      The project involves prototyping of a systems architecture to enhance social engagement between distributed (remote) friends or family members participating in a shared media experience, such as watching a sports event or a movie (think Netflix Teleparty) that enhances their sense of connection without distracting from the main activity.
+
+      The design challenge relates to picking up on emotionally important cues, such as one person becoming excited, scared, or agitated, and representing this information in a manner such that it can be understood without conscious effort, leveraging sensing through wearables, cameras, and other sensors embedded in the environment, and outputs involving graphical, auditory, and haptic feedback.
+
+      Experiments will be conducted to determine whether the designed mapping strategies promote participants' sense of presence and connection with each other. Although initially intended for social interactions, the technologies being developed are anticipated to have potential applications to more utilitarian videoconferencing scenarios as well.
+
+  - id: haptic-wearables
+    name: Haptic Wearables
+    image: "projects/danceshoes.jpg"
+    description: |
+      Our lab works on the design of wearable haptic devices that can be attached to the body or inserted into regular clothing, capable of sensing human input and delivering richly expressive output to the wearer. We are particularly interested in applications to rehabilitation therapy, sports training, information communication, virtual reality, and mobile gaming.
+
+      For such purposes, we have built several generations of haptic-augmented footwear, some intended for basic dance training, and others to complement or replace the graphical, auditory, and haptic rendering capabilities of our immersive CAVE environment, providing perceptually engaging experiences of foot-ground interaction during walking on various (simulated) ground surfaces, such as ice, snow, gravel, and sand.
+
+      While the footwear microelectronics could benefit from more elegant and robust assembly, the primary research challenges we are tackling now are more on the software side:
+
+      Do you often confuse your left foot with right while learning a new dance step? Or lose count of the beats? Or wonder how exactly the trainer is putting their weight onto their feet? Learning a new motor skill typically requires repeated physical practice, cognitive training, and retention. However, it is often difficult for novice dance learners to follow the specifics of rhythm, spatial movement and body posture, while in sync with the instructor, at a defined pace.
+
+      We are therefore interested in studying the recognition of correct and incorrect dancer movements based on data from the shoes' sensors and the beat of the music, the design of vibrational feedback cues that can be provided to the learner's feet during dance training, and the triggering of these haptic patterns in response to the dancer's foot movement, timing, and pressure, in a manner that best facilitates acquisition of the relevant "basic" dance skills.
+
+      For our ground surface simulations, the haptic effects were initially produced by a CUDA-based physics engine and delivered to the wearer while walking on the tiles of our CAVE floor. We wish to modify these effects as suited to the smaller actuators embedded in the footwear, and demonstrate the potential evocative power of such an architecture by simulating the experience of stepping into a water puddle, combined with a graphical VR display, largely developed, which renders the water ripples in response to foot-water contact.
+
+  - id: adina
+    name: AI-Digital Nurse Avatar (ADiNA)
+    image: "projects/adina.png"
+    description: |
+      Our AI Digital Nurse Avatar (ADiNA) is a GPT-driven graphical avatar that interacts with users through speech for medical scenario information gathering and conversation with older adults for long-term psychosocial assessment purposes.
+
+      The primary objective of the initial use case, focused on interaction with older adults, is to build such AI-based tools to provide assistance to nurses and other care staff, helping reduce workload by serving as a possible initial point of communication with clients, and triaging communications during periods of overload. The avatars, potentially presenting different on-screen human appearances and voices, as best-suited to the preferences of each client, collect information through natural conversation and video-based interaction. The relevant information would then be conveyed to appropriate staff in an appropriate format, without necessitating travel to every client for every interaction.
+
+      The prototype system architecture has recently been pilot-tested with nursing staff and older adults, from which we identified various areas of improvement we now wish to implement, in addition to other pre-existing needs.
+
+      Research tasks include:
+      - experimentation with GPT-4 and locally run LLMs:
+        - investigate possibility of improved response times from different LLM options
+        - investigate performance of locally run LLMs as may be needed in situations where data must remain local for privacy reasons
+      - acquiring metrics of the user's well-being (psychosocial state), and comparison against baseline models, involving:
+        - analysis of answers to questions posed by the simulated nurse
+        - analysis of para-linguistic content such as tone of voice, indicative of affect or mood
+        - analysis of video of physical movements and facial expression
+      - conversation flow management:
+        - with nurses: structured model-building of older adult user via formal triage-style interaction, including solicitation of information regarding "any other topics of relevance"
+        - with older adults: prompting user with possible initial topics of conversation
+        - customized GPT prompts based on input from nurses as to cognitive/conversational skills of older adult
+        - visually indicating when ADiNA is "thinking" vs. waiting for user input
+      - speech handling augmentations:
+        - multi-lingual text-to-speech (beyond English and French, which are currently supported)
+        - support for interruption (barge-in) while ADiNA is speaking for improved natural interaction
+        - detection and discrimination of multiple human speakers, e.g., for group conversations and suppression of background noise
+      - feature additions:
+        - expanded access to real-time data sources to support greater range of discussion topics
+        - integration of image/video input interpretation capabilities for understanding of the user's environment and the user's own activity
+        - integration of on-demand video synthesis capabilities, leveraging AI video creation tools
+
+      We are seeking talented and motivated students to join this project to contribute to one or more of these tasks. Experience with the relevant ML frameworks, speech recognition and synthesis APIs would be a strong asset, although not essential.
+
+  - id: collab-architectures
+    name: Comparing Collaborative Interaction Architectures
+    image: "projects/ikea.jpeg"
+    description: |
+      Imagine designing an IKEA kitchen layout with your partner. Would it be easier and more efficient to do so by working with the 20-20 3D viewer IKEA Home Planner on a conventional computer display, or doing so in 3D with AR glasses, directly in your own kitchen environment, or perhaps, working collaboratively in an immersive 3D design environment?
+
+      That's the question that this project seeks to answer, by comparing performance and user experience through a study that evaluates the benefits of working collaboratively on the design task under different environments.
+
+      Whereas the IKEA and Hyve3D design software already exists, to carry out the same task under the HoloLens condition, the student(s) will need to work in Unity, developing the code to share the scene model being developed and manipulated within the environment, so that the evolving kitchen layout can be experienced together by the kitchen layout "co-designers". Comparison and analysis of the effectiveness of task collaboration supported by the different tools will follow a framework inspired in part by a recent study of collaboration in handheld AR environments.
+  
+  - id: touching-faces-vr
+    name: Touching Faces in VR
+    image: "projects/VRtouch.jpg"
+    description: |
+      Most haptic wearables focus on delivery of tactile stimuli to the human body, but rarely consider the face, which is an important area of social touch, especially for couples and parent-children relationships. This project will explore the possibilities for delivering remote touch to the face, and eventually, of feeling a sensation of doing so, in the virtual environment. The architecture will be based on a soft wearable prototype, which operates in conjunction with audio-graphical stimuli in the VR space. We anticipate simulating such interactions as a mother caressing the face of her child, or planting a kiss on the cheek. Applications extend not only to social interaction but further to treatment of medical conditions (e.g., phobia therapy).
+
+      The project involves the following deliverables:
+      - Investigation of design requirements for a haptic wearable to deliver stimuli to the face
+      - Design and implementation of a prototype employing our soft actuation technology
+      - Integration of the prototype within a VR environment
+      - Design and execution of a user study and analysis of results
+
+      Suitable for students in Electrical and Computer or Mechanical Engineering, especially those interested in haptics, soft robotics, Unity, microcontroller programming, or user study design.
+
+  - id: temperature-illusions
+    name: Inducing Temperature Illusions Through Withdrawal Reflex
+    image: "projects/temperature-illusions.jpg"
+    description: |
+      We previously demonstrated that a simulated heat withdrawal response through a suitably timed electrical muscle stimulation (EMS) could elicit perception of a warmer temperature. However, potential experimental confounds need to be investigated to determine whether the observed effect is due specifically to muscle activation or could equally be induced through delivery of other stimuli, such as vibration.
+
+      This project will modify the hardware apparatus to deliver different stimuli and then carry out a follow-up research study.
+
+  - id: 4dx-authoring
+    name: Content Authoring for 4DX Cinema
+    image: "projects/armrest.png"
+    description: |
+      Building on our first-generation prototype, this project aims to develop an open-source interactive authoring tool to control a multimodal haptic armrest to enhance the user experience of viewing audio-visual media. The haptic armrest delivers sensations of vibrotactile, poking, airflow, and thermal (cooling/warming) stimuli.
+
+      Contributions include an open-hardware armrest design and a context-aware authoring tool for immersive effects aligned with audiovisual media (e.g., movies, games).
+
+      Features:
+      - XML-based extensible architecture for novel actuator integration
+      - Graphical interface like video editing tools with haptic effects on a timeline
+      - Assisted haptic authoring via audiovisual analysis
+
+      Ideal for Honour's or capstone students with interest in HCI, multimedia, and strong development skills. Prototype hardware, actuator code, and effect generation algorithms provided.
+
+  - id: skin-coupling
+    name: Measuring Skin-Coupling of Wearable Devices
+    image: "projects/skin-couping.jpg"
+    description: |
+      How firmly a wearable device is coupled to the body can change how its haptic effects are perceived and its ability to measure physiological signals. Achieving consistent strap tightness is non-trivial across users and body sites, and current practices often rely on vague heuristics like "tight yet comfortable."
+
+      We've developed a system to help users attach wearables consistently. This project includes:
+      - Validating the sensing principles
+      - Implementing and evaluating a functional prototype
+      - Co-authoring an academic paper (review, writing, editing)
+
+      Ideal for autonomous Honour's students interested in physiological signal processing, basic ML, user study design, and academic publishing.
+
+  - id: rter
+    name: Real-Time Emergency Response (rtER)
+    image: "projects/rter.jpg"
+    description: |
+      rtER, winner of the Mozilla Ignite challenge, helps emergency responders collaboratively filter and organize real-time data—like live video, Twitter feeds, and other media—for improved situational awareness.
+
+      Current work includes:
+      - iOS updates to the mobile client
+      - Integration of audio comms and recording from streams
+      - Migrating HLS to DASH streaming
+      - User authentication and HTTPS layer
+      - Improved visualization integration for emergency info
+      - Dynamic video mosaicing from multiple/moving streams
+      - Crowdsourced video analytics support
+      - Event timeline feature for review
+
+      Team size: 1-4. Strong software development skills required; additional skills vary by sub-project.
+
+  - id: 360scene
+    name: 360° Camera Scene Understanding for the Visually Impaired
+    image: "projects/360scene.jpg"
+    description: |
+      Despite progress in deep learning, machine-generated captions for real-world scenes remain poor—especially for visually impaired users using smartphones or camera glasses with narrow field of view.
+
+      This project uses a head-mounted 360° camera, crowdsourced human labeling, and deep learning to train more effective indoor navigation scene descriptions. Results will be benchmarked against previous systems developed by our lab, especially for tasks like intersection crossing.
