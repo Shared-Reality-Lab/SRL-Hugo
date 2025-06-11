@@ -270,6 +270,7 @@ body {
   padding: 3rem 2rem 1rem 2rem;
   max-width: 900px;
   margin: 0 auto;
+  font-family: 'Georgia', serif;
 }
 
 .projects-intro h1 {
@@ -285,97 +286,148 @@ body {
   color: #333;
 }
 
+.projects-section-title {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+
+/* Project titles with hand-drawn highlighter effect */
+.project-section h2 {
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  color: #222;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+/* Default: soft green highlight */
+.project-section h2::before {
+  content: "";
+  position: absolute;
+  left: -0.3rem;
+  right: -0.3rem;
+  top: 0.6em;
+  height: 0.6em;
+  background: #8bd279;
+  z-index: -1;
+  transform: rotate(-1.5deg);
+  border-radius: 3px;
+  opacity: 0.9;
+}
+
+/* Pale pink highlight */
+.project-section:nth-of-type(3n+2) h2::before {
+  background: #ffd6f3;
+  transform: rotate(1deg);
+}
+
+/* Mint green highlight */
+.project-section:nth-of-type(3n+3) h2::before {
+  background: #d4f8e8;
+  transform: rotate(-2deg);
+}
+
+/* Projects container background with notebook ruling lines */
 .projects-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 2rem;
-  background: #fdfdfd; /* notebook paper tone */
+  background-color: #fdfaf5;
+  background-image: linear-gradient(to bottom, rgba(150, 150, 150, 0.05) 1px, transparent 1px);
+  background-size: 100% 28px;
+  font-family: 'Georgia', serif;
   position: relative;
 }
 
-/* Notebook-style vertical spine */
-.projects-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 22%;
-  width: 1px;
-  background-color: rgba(0, 0, 255, 0.2);
-  z-index: 0;
-}
-
-/* Sidebar - notebook margin */
+/* Sidebar: notebook margin line */
 .projects-sidebar {
   width: 20%;
   position: sticky;
   top: 120px;
   align-self: flex-start;
-  padding-right: 1rem;
-  border-right: 1px solid rgba(0, 0, 255, 0.1);
+  padding-right: 1.5rem;
+  border-right: 2px solid rgba(200, 0, 0, 0.2);
 }
 
 .projects-sidebar ul {
   list-style: none;
-  padding-left: 0.5rem;
-  border-left: 3px solid rgba(0, 0, 255, 0.3);
+  padding-left: 0;
 }
 
 .projects-sidebar li {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .projects-sidebar a {
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
+  color: #4a3b2f;
+  font-weight: 600;
   transition: color 0.3s;
 }
 
 .projects-sidebar a:hover {
-  color: #0066cc;
+  color: #000;
 }
 
 .projects-main {
   width: 75%;
+  padding-left: 2rem;
 }
 
-/* Project content section */
+/* Project card base */
 .project-section {
-  position: relative;
-  background: #fff;
   padding: 2rem;
   margin-bottom: 2rem;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.9);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transform-origin: center;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 8px 8px;
 }
 
-.project-section h2 {
-  font-size: 1.8rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
-  color: #111;
+/* Sticky note background color rotation */
+.project-section:nth-of-type(3n+1) {
+  background-color: #fffbd1; /* Yellow sticky */
+}
+.project-section:nth-of-type(3n+2) {
+  background-color: #dff9fb; /* Blue sticky */
+}
+.project-section:nth-of-type(3n+3) {
+  background-color: #ffe5ec; /* Pink sticky */
 }
 
+.project-section:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styling */
 .project-section p {
-  font-size: 1rem;
-  line-height: 1.6;
-  font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
-  color: #111;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #222;
+  font-family: 'Georgia', serif;
 }
 
-/* Image styling with 📌 cork pin */
+/* Floating image with emoji pin */
 .project-with-image {
-  overflow: visible; /* important: allow the pin to overflow the wrapper */
-  position: relative;
+  overflow: visible;
 }
 
 .project-float-wrapper {
   float: left;
-  width: 300px;
-  margin: 2rem 1.5rem 1rem 0;
+  width: 200px;
+  margin: 0.4rem 1.5rem 1rem 0;
   position: relative;
   shape-outside: margin-box;
+  display: inline-block;
   z-index: 1;
 }
 
@@ -385,17 +437,29 @@ body {
   display: block;
   object-fit: contain;
   border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+/* Emoji "pin" decorations per sticky */
 .project-float-wrapper::after {
-  content: "📌";
   position: absolute;
-  top: -28px;         /* moved further up */
-  left: -12px;
-  font-size: 2rem;
-  transform: rotate(-20deg);
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%) rotate(8deg);
+  font-size: 1.9rem;
   z-index: 5;
   pointer-events: none;
+}
+
+.project-section:nth-of-type(3n+1) .project-float-wrapper::after {
+  content: "🔖"; /* bookmark */
+}
+.project-section:nth-of-type(3n+2) .project-float-wrapper::after {
+  content: "📎"; /* paperclip */
+}
+.project-section:nth-of-type(3n+3) .project-float-wrapper::after {
+  content: "📍"; /* pushpin */
 }
 
 /* ------------------------------

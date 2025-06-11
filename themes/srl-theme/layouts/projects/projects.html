@@ -20,17 +20,23 @@
 
   <!-- Project content -->
   <article class="projects-main">
+    
+    <!-- Section title -->
+    <section class="projects-section-title">
+      <h2>Electrical and Computer</h2>
+    </section>
+
     {{ range .Site.Data.projects.projects }}
       <section id="{{ .id }}" class="project-section">
         {{ if .image }}
           <div class="project-with-image">
-            <div class="project-float-wrapper">
-              <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .name }}" class="project-float-icon" />
-            </div>
-            <div class="project-text">
-              <h2>{{ .name }}</h2>
-              <p>{{ .description | markdownify }}</p>
-            </div>
+            <h2>{{ .name }}</h2>
+            <p>
+              <span class="project-float-wrapper">
+                <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .name }}" class="project-float-icon" />
+              </span>
+              {{ .description | markdownify }}
+            </p>
           </div>
         {{ else }}
           <h2>{{ .name }}</h2>

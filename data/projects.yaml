@@ -8,7 +8,7 @@ intro:
 projects:
   - id: image
     name: IMAGE
-    image: "imagea11y.png"
+    image: "projects/IMAGE.png"
     description: |
       Internet Multimodal Access to Graphical Exploration (IMAGE) is a project aimed at making internet graphics accessible for people who are blind or partially sighted through rich audio and touch. 
       On the internet, graphic material such as maps, photographs, and charts are clear and straightforward to those who can see it, but not for blind or low-vision users. For them, graphical information is often limited to manually generated alt-text HTML labels, often abridged, and lacking in richness. 
