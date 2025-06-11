@@ -11,6 +11,10 @@ body {
   color: #111;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* ------------------------------
    Navbar Basics
 ------------------------------- */
@@ -411,18 +415,21 @@ body {
   background-size: 100% 28px;
   font-family: 'Georgia', serif;
   position: relative;
+  height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto; 
 }
 
 /* Sidebar: scrollable while mouse hovers over it + notebook margin line */
 .projects-sidebar {
   width: 20%;
   position: sticky;
-  top: 120px;
+  top: 50px;
   align-self: flex-start;
   padding-right: 1.5rem;
   border-right: 2px solid rgba(200, 0, 0, 0.2);
-  overflow-y: auto; 
-  max-height: calc(100vh - 120px); 
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
 }
 
 .projects-sidebar::-webkit-scrollbar {
@@ -452,6 +459,8 @@ body {
 
 .projects-sidebar li {
   margin-bottom: 1.2rem;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .projects-sidebar a {
@@ -459,6 +468,7 @@ body {
   color: #4a3b2f;
   font-weight: 600;
   transition: color 0.3s;
+  display: block;
 }
 
 .projects-sidebar a:hover {
