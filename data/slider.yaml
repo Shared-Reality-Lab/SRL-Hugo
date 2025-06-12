@@ -1,0 +1,30 @@
+slides:
+  - id: image
+    image: banner1.jpg
+    title: Interpret Graphic with IMAGE
+    caption: Making internet graphics accessible to blind users using AI, audio, and touch.
+    link: projects/#image
+
+  - id: wearables
+    image: banner2.jpg
+    title: Wearable Haptics
+    caption: Sensor-embedded footwear and clothing for VR, training, and rehabilitation.
+    link: projects/#wearables
+
+  - id: ar-therapy
+    image: banner3.png
+    title: AR Art Therapy
+    caption: Generative AR tool to help chronic pain patients express themselves visually.
+    link: projects/#ar-therapy
+
+  - id: adina
+    image: banner4.png
+    title: AI Digital Nurse Avatar (ADiNA)
+    caption: GPT-driven psychosocial support avatar for elderly care and nurse workload reduction.
+    link: projects/#adina
+
+  - id: atc
+    image: carousel5.jpg
+    title: Observing Air Traffic Controllers at Pierre-Elliot Trudeau International Airport
+    caption: Studying workflows of air traffic controllers and pilots to improve communication.
+    link: projects/#image

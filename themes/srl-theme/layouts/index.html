@@ -3,62 +3,18 @@
 <section class="hero">
   <div class="swiper">
     <div class="swiper-wrapper">
-
-      <!-- Slide 1 – IMAGE Project -->
-      <a href="{{ "projects/#image" | absURL }}" class="swiper-slide slide-link">
-        <div class="slide-content">
-          <img src="/~shahdy/srl-hugo-test/images/banner1.jpg" alt="Interpret Graphic with IMAGE" class="slide-img" />
-          <div class="slide-text">
-            <h2>Interpret Graphic with IMAGE</h2>
-            <p>Making internet graphics accessible to blind users using AI, audio, and touch.</p>
+      {{ range .Site.Data.slider.slides }}
+        <a href="{{ .link | absURL }}" class="swiper-slide slide-link">
+          <div class="slide-content">
+            <img src="/~shahdy/srl-hugo-test/images/{{ .image }}" alt="{{ .title }}" class="slide-img" />
+            <div class="slide-text">
+              <h2>{{ .title }}</h2>
+              <p>{{ .caption }}</p>
+            </div>
           </div>
-        </div>
-      </a>
-
-      <!-- Slide 2 – Haptic Wearables -->
-      <a href="{{ "projects/#wearables" | absURL }}" class="swiper-slide slide-link">
-        <div class="slide-content">
-          <img src="/~shahdy/srl-hugo-test/images/banner2.jpg" alt="Wearable Haptics" class="slide-img" />
-          <div class="slide-text">
-            <h2>Wearable Haptics</h2>
-            <p>Sensor-embedded footwear and clothing for VR, training, and rehabilitation.</p>
-          </div>
-        </div>
-      </a>
-
-      <!-- Slide 3 – AR Art Therapy -->
-      <a href="{{ "projects/#ar-therapy" | absURL }}" class="swiper-slide slide-link">
-        <div class="slide-content">
-          <img src="/~shahdy/srl-hugo-test/images/banner3.png" alt="AR Art Therapy" class="slide-img" />
-          <div class="slide-text">
-            <h2>AR Art Therapy</h2>
-            <p>Generative augmented reality tool to help chronic pain patients express themselves visually.</p>
-          </div>
-        </div>
-      </a>
-
-      <!-- Slide 4 – ADiNA AI Nurse -->
-      <a href="{{ "projects/#adina" | absURL }}" class="swiper-slide slide-link">
-        <div class="slide-content">
-          <img src="/~shahdy/srl-hugo-test/images/banner4.png" alt="ADiNA Nurse Avatar" class="slide-img" />
-          <div class="slide-text">
-            <h2>AI Digital Nurse Avatar (ADiNA)</h2>
-            <p>GPT-driven psychosocial support avatar for elderly care and nurse workload reduction.</p>
-          </div>
-        </div>
-      </a>
-    
-      <a href="{{ "projects/#image" | absURL }}" class="swiper-slide slide-link">
-        <div class="slide-content">
-          <img src="/~shahdy/srl-hugo-test/images/carousel5.jpg" alt="Interpret Graphic with IMAGE" class="slide-img" />
-          <div class="slide-text">
-            <h2>Observing Air Traffic Controllers at Pierre-Elliot Trudeau International Airport</h2>
-            <p>We are studying the workflows of air traffic controllers and pilots to make text-based controller-pilot communication more efficient.</p>
-          </div>
-        </div>
-      </a>
-
-    </div>
+        </a>
+      {{ end }}
+    </div>    
     <div class="swiper-pagination"></div>
   </div>
 </section>
