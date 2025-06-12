@@ -4,27 +4,46 @@ slides:
     title: Interpret Graphic with IMAGE
     caption: Making internet graphics accessible to blind users using AI, audio, and touch.
     link: projects/#image
+    portrait: false
 
   - id: wearables
     image: banner2.jpg
     title: Wearable Haptics
     caption: Sensor-embedded footwear and clothing for VR, training, and rehabilitation.
     link: projects/#wearables
+    portrait: false
 
   - id: ar-therapy
     image: banner3.png
     title: AR Art Therapy
     caption: Generative AR tool to help chronic pain patients express themselves visually.
     link: projects/#ar-therapy
+    portrait: false
 
   - id: adina
     image: banner4.png
     title: AI Digital Nurse Avatar (ADiNA)
     caption: GPT-driven psychosocial support avatar for elderly care and nurse workload reduction.
     link: projects/#adina
+    portrait: false
 
   - id: atc
     image: carousel5.jpg
     title: Observing Air Traffic Controllers at Pierre-Elliot Trudeau International Airport
     caption: Studying workflows of air traffic controllers and pilots to improve communication.
     link: projects/#image
+    portrait: false
+
+  - id: sliv
+    image: slider/sliv.png
+    title: "SLIV - Scan, locate, interact, validate: An AI-Driven Approach To Enhance Shopping Accessibility For Blind and Visually Impaired Individuals"
+    caption:  SLIV is an AI-powered assistive technology designed to enhance independence for blind and visually impaired individuals during grocery shopping and other daily activities. SLIV classifies user intent, detects objects in the environment, and utilizes vision-language reasoning to give directions to the user, helping them find desired objects.
+    link: projects/#image
+    portrait: true
+  
+  - id: khushi
+    image: slider/khushi.png
+    title: Observing Air Traffic Controllers at Pierre-Elliot Trudeau International Airport
+    caption: SLIV is an AI-powered assistive technology designed to enhance independence for blind and visually impaired individuals during grocery shopping and other daily activities. SLIV classifies user intent, detects objects in the environment, and utilizes vision-language reasoning to give directions to the user, helping them find desired objects.
+    link: projects/#image
+    portrait: false

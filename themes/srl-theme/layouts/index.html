@@ -5,9 +5,12 @@
     <div class="swiper-wrapper">
       {{ range .Site.Data.slider.slides }}
         <a href="{{ .link | absURL }}" class="swiper-slide slide-link">
-          <div class="slide-content">
-            <img src="/~shahdy/srl-hugo-test/images/{{ .image }}" alt="{{ .title }}" class="slide-img" />
-            <div class="slide-text">
+          <div class="slide-content horizontal-layout">
+            <div class="slide-img-wrapper {{ if .portrait }}portrait{{ end }}">
+              <div class="pin"></div>
+              <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .title }}" class="slide-img" />
+            </div>
+            <div class="slide-text sticky-note">
               <h2>{{ .title }}</h2>
               <p>{{ .caption }}</p>
             </div>
