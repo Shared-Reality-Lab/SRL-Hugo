@@ -490,6 +490,28 @@ html, body {
   padding-left: 2rem;
 }
 
+.projects-sidebar li.sidebar-label {
+  font-family: cursive; /* default system cursive font */
+  font-size: 1rem;
+  font-weight: bold;
+  color: #5c2d91; /* rich purple */
+  margin: 1rem 0 0.3rem 0;
+  padding-left: 0.2rem;
+  position: relative;
+}
+
+/* Clean underline in purple */
+.projects-sidebar li.sidebar-label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #5c2d91;
+  border-radius: 1px;
+}
+
 /* Project card base */
 .project-section {
   padding: 2rem;

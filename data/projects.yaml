@@ -254,3 +254,453 @@ projects:
       Despite progress in deep learning, machine-generated captions for real-world scenes remain poor—especially for visually impaired users using smartphones or camera glasses with narrow field of view.
 
       This project uses a head-mounted 360° camera, crowdsourced human labeling, and deep learning to train more effective indoor navigation scene descriptions. Results will be benchmarked against previous systems developed by our lab, especially for tasks like intersection crossing.
+
+past_projects:
+  - id: chatting-with-the-historical-figure-stars
+    name: Chatting with the (historical figure) stars
+    image: "projects/nietzche.jpg"
+    description: |
+      This project will develop a prototype platform to enable near-real-time conversations with your favourite historical personalities, using a combination of AI tools for avatar rendering and dialog management. The pipeline will consist of:
+
+      - Obtain input questions from the user who wishes to speak with a historical figure  
+      - Use a generative AI platform such as DALL-E to create an image of the historical figure, possibly in a specified context (e.g., Nietzsche in a pub)  
+      - Provide the input query to a language model such as ChatGPT to obtain text output from the chosen figure  
+      - Animate the image of the generated character as a cartoon or possibly photorealistic avatar  
+      - Have the avatar speak the output text through a speech synthesis framework, matching specified vocal characteristics, potentially following the approach used here  
+
+      We anticipate applications of such a platform for education and entertainment purposes, for example, allowing students to learn the principles of physics straight from Newton, discuss impressionist art with Monet, or trade insults with Don Rickles.
+
+  - id: haptically-enabled-learning-of-phonemes
+    name: Haptically Enabled Learning of Phonemes (HELP) for Reinforced Language Acquisition
+    image: "projects/apparatusArm.png"
+    description: |
+      This project relates to improving one's skills in a second language by employing a novel vibrotactile phoneme encoding mechanism to facilitate language learning and pronunciation. This can be used both as an augmentation to the audible properties of a second language, and as a feedback mechanism during speech practice.
+
+      Although the time required to render phonemes through our prototype mechanism is too slow for speech rates, it is acceptable for individual word training, since the learner is likely to spend at least a few seconds working on the pronunciation of a new word. This project will investigate optimal designs for faster haptic rendering, which is feasible since the learning task in this scenario only requires that the encoded phonemes be discriminated from one another, rather than necessary "understood" as speech. The vibrotactile phoneme encoding can be used more sparsely during speaking practice by rendering its output only in the case of a mispronunciation by the learner. In this manner, it would signal both the mispronunciation event itself and provide feedback as to the correct pronunciation.
+
+      Project tasks will involve a combination of haptic rendering design, speech signal processing, interaction design, and carrying out user experiments to compare designs.
+
+  - id: mixed-reality-audio-rendering
+    name: Mixed reality audio rendering for improved information communications
+    image: "projects/spatialaudio.jpg"
+    description: |
+      This project involves the exploration of novel strategies for auditory rendering in a mixed reality scenario such that the computer-generated information is delivered to the user in a more effective manner, facilitating awareness of such information while minimizing interference with the user's attention to other activities. The student should be familiar with the basics of signal processing techniques, and be comfortable rapidly prototyping different design concepts. Mobile development experience would be particularly useful.
+
+  - id: mixed-reality-hallucinations-schizophrenia
+    name: Mixed-Reality Platform for Simulation and Synthesis of Multi-Modal Hallucinations with Applications to Schizophrenia Treatment
+    image: "projects/schizophrenia.jpg"
+    description: |
+      Treating patients with schizophrenia for auditory hallucinations has traditionally required multiple trials of antipsychotic medications, to which approximately one in three patients are resistant. An alternative, Avatar Therapy, has been shown to effectively reduce the distress and helplessness associated with auditory hallucinations. While Avatar Therapy holds great promise, there are many open questions as to the requirements for optimal delivery of this treatment. Similarly, many potential enhancements to how avatars are rendered to the patient remain to be tested. Exploration of these questions and enhancements requires development of a mixed reality platform that offers to the therapist the ability to easily adjust various parameters of the avatar(s). We will iteratively design, implement, and test such a platform, and then apply the knowledge gained to an augmented reality version of the platform suitable for use outside of the therapist's office. The resulting intelligent medical device will offer the possibility of providing therapeutic benefits to patients in their day-to-day activities.
+
+      This project involves the following components:  
+      - Graphical and audio avatar rendering: developing a Unity- and 3D-audio-based avatar manipulation system for display in a VR or AR headset  
+      - Speech pipeline, involving recognition of tell-tale vocal indications of a hallucination episode, and speech rendering in the voice of the avatar, initially from the therapist's input, but later, generated semi-automatically  
+      - Haptic augmentation: prototyping and testing wearable technologies suitable of reproducing the sensation of someone touching or grabbing your arm or shoulder  
+      - Biosignals-based quantitative evaluation: making use of ocular biomarkers and other physiological indicators of stress to measure affective state  
+
+      Although the skill sets relevant to this project are specific to core elements of computer engineering and computer science, this project is especially suitable for students with biomedical engineering interests.
+
+  - id: stylegan2-avatar-interface
+    name: Exploration of style mixing on StyleGAN2 to design new paradigms of interaction for avatar-creator interfaces
+    image: "projects/styleGAN.png"
+    description: |
+      This project focuses on the graphical synthesis of avatars that can be customized by patients and therapists, for the Avatar Therapy project, described above. The interface for avatar creation must provide users with a great variety of customization options to closely match patients' mental representation of the hallucinations while keeping interactions as simple as possible. These constraints motivated the development of a machine learning approach based on Generative Adversarial Networks (GANs), which are state-of-the-art networks to generate high-quality and high-resolution faces. The main challenge of this approach is to design new interaction paradigms to enable a non-engineer user to control the output of the network and converge towards a face that makes patients feel they are in the presence of their hallucination. We generate faces using the open source StyleGAN2 network. This is trained using style mixing regularization, which is a regularization technique based on style transfer. It enables the network to specialize layers into synthesizing different levels of details in the output face. This particular training method can be leveraged to perform style mixing, generating a new output that combines coarse aspects of one face with finer aspects of a second one, as illustrated in the image above.
+
+      Project objectives, in chronological order, are as follows:  
+      - gain familiarity with the framework, in particular, the style mixing scripts, and reproduce the results of Karras et al.'s StyleGAN2 paper  
+      - generate different design ideas for a UI based on style mixing for avatar creation  
+      - implement the most promising design preferably under the format of a web application  
+      - proceed with user testing to determine the validity of the style mixing approach. Analyze the results to point out strengths and weaknesses  
+      - draw conclusions on how this approach could be combined to other approaches currently developed at the SRL  
+      - integrate the style mixing approach into the existing system based on other approaches  
+
+      Project Team: 1-4 members  
+      Skills: Students should be reasonably well versed in machine and deep learning, with interests in human-computer interaction and web applications and have relatively strong programming skills in Python and web development (HTML, JavaScript). Familiarity with Git would be particularly useful.
+
+  - id: haptic-device-sensory-reeducation
+    name: Haptic device for sensory reeducation applications
+    image: "projects/sensory-reeducation.png"
+    description: |
+      Nerve damage, frequently caused by injury, can result in the loss of sensorimotor functions in certain parts of the hand. After suturing the nerve, unpleasant sensations on contact, including tingling and electric shocks are often felt. Following nerve regrowth, it is necessary to re-train the brain to interpret the signals from these nerves correctly. This project involves the design of haptic devices to help in the process of sensory reeducation, which can involve two phases, depending on the severity of the loss of sensitivity: relearning how to localize sensations, and differentiation of shapes and textures in the identification of objects. Reeducation and stimulation should be started in a timely manner post-injury for maximum neuroplasticity benefits. However, since areas of injury often cannot be touched right away due to sterility concerns, we require some means of contactless skin stimulation, which is now feasible with the use of ultrasonic haptics and the associated Leap motion hand-tracking system. Unity experience is strongly desirable, since this environment will be used to interface to the controlling and sensing hardware.
+
+  - id: ar-360-camera-mediated-future
+    name: "AR and 360: toward the camera-mediated future"
+    description: |
+      Augmented reality glasses are gaining popularity, with several products in the market, including Microsoft Hololens 2, the Vuzix Blade, the Everysight Raptor, Magic Leap and Google's Enterprise Edition 2. However, most applications remain limited to basic information display overlays, or mixed reality games, which, while no doubt compelling, are relevant only for isolated use in specific contexts. As the technologies improve, leading to lighter, more comfortable, and power-efficient devices that can be worn all day, we are interested in exploring the potential for head-worn displays and imaging devices to enhance our capabilities as a fixture of everyday activity, just as smartphones augment our communication and memory. At the same time, it is important that we gain a better understanding of how people wearing such devices will interact with and be perceived by others, if they are to gain social acceptability--a lesson not lost on Google. This project will: 1) prototype several applications related to navigation in the everyday world with a particular emphasis on the use of 360° video input as a potentially valuable information source, e.g., providing visual guidance to someone who needs to retrace their steps to return to their car, and 2) examine social reactions and acceptability of different form factors and visible (to the outside) clues of head-worn camera operation.
+
+  - id: multimodal-monitoring
+    name: Multimodal monitoring for high-consequence environments
+    description: |
+      We are exploring the delivery of monitoring information from complex systems, for example, patient vital signs or industrial plants, to those responsible for monitoring the system, e.g., clinicians in the OR and ICU, or plant operators. The challenge is to do so in a manner that allows the clinician or operator to maintain state awareness and easily notice problems that warrant intervention, but without imposing significant demands on their attention or cognitive resources. To this end, we have developed a novel, efficient, approach to delivering such information using haptic actuators, in which the transitions from a "normal" to "abnormal" state are readily apparent and easily identifiable. This project will expand on the current rendering technique and investigate the tradeoffs between haptic and auditory representations in terms of their effectiveness in supporting situational awareness and decision-making. Students should be creative experimentalists, quick learners, and have a reasonable understanding of signal processing techniques.
+
+  - id: camera-array-telepresence
+    name: Enhanced Remote Viewing Capabilities from a Camera Array
+    image: "projects/camarray.png"
+    description: |
+      Our camera array architecture, initially developed for remote viewing of surgical (medical) procedures, provides real-time viewpoint interpolation capabilities, allowing users to look around the scene as if physically present. We are now interested in applying this architecture to more general video-mediated activities, including face-to-face videoconferencing, and exploring the potential to leverage mobile interaction with the array in a manner that compensates for the limited screen real estate of mobile devices. This project will examine the qualitative experience of telepresence when using a smartphone display as a mobile window into the remote environment by updating the software as required to run on the newer architecture of hardware available, and preparing and conducting an experiment comparing the mobile telepresence capabilities with a pan-tilt-zoom camera, and a fixed large-screen display.
+
+      Specific tasks include:  
+      1. Updating the software architecture of the (Ethernet-based) camera frame acquisition and interpolation routines, and the transmission of the rendered video to smartphone, to run on our current generation of hardware and available support libraries.  
+      2. Acquisition of test video footage from multiple calibrated video sources.  
+      3. Configuring and testing the existing software architecture to make use of pre-recorded video sources, which may involve direct retrieval of uncompressed data from RAM or possibly real-time decoding of compressed video from SSD.  
+      4. Recording of the actual experimental video content, which will involve some human activity that must be "judged" by the experiment participants.  
+      5. Implementing the virtual pan-tilt-zoom camera to support one of the experiment conditions.  
+      6. Carrying out the user study and evaluating the results.
+
+      Project Team: 1-2 members  
+      Skills: systems experience, good programming knowledge, interest in human-computer interaction and experimental studies
+
+  - id: ar-tools-firefighters
+    name: Augmented Reality Tools for Enhanced Training of First Responders
+    image: "projects/first-responders.svg"
+    description: |
+      This project is intended to equip firefighters with a heads-up-display (similar to Google glass) that provides them with valuable information related to their task, e.g., pointers to the nearest exit point and a breadcrumb trail indicating the path taken to the present location. The system was developed initially with support from the Mozilla Gigabit Community Fund and trialled with firefighters in a simple training scenario. Recent updates have integrated indoor positioning information, along with other sensor data from the TI Sensor Tag. Now, these data must be integrated to render the appropriate view of virtual content, overlaid correctly with the real-world scene.
+
+      Sub-projects include:  
+      - Building 3D indoor maps using the Project Tango tablet and leveraging this information for improved accuracy of indoor position and visualization of environment in low-visibility conditions.  
+      - Incorporating position and orientation knowledge to render the relevant virtual information, including maps, waypoints, beacons, exit markers, and locations of other responders, as a see-through augmented reality display.  
+      - Integrating new interactivity, allowing the firefighters to share information through the system, correlate their position with a map display, mark locations within the environment, and access additional data from external sensors such as the TI SensorTag.
+
+      Project Team: 1-3 members  
+      Skills: strong software development ability, in particular on Android platform (for our augmented reality display); computer graphics experience would be highly desirable
+
+  - id: mobile-mixed-methods
+    name: Mobile Mixed-Methods Data Collection for Machine Learning Applications
+    image: "projects/mobile-mixed-methods.jpg"
+    description: |
+      Numerous artificial intelligence projects aim at recognizing high-level psychological concepts such as emotions or anxiety. There is significant interest in doing so in the mobile case, that is, using smartphones or wearable devices. However, these projects are hindered by a lack of large labeled datasets, representative of users' different contexts, e.g., activities, day of the week, and weather. Although existing mobile experience sampling methods allow the collection of self-reports from users in their natural environment, they require disruptive notifications that interrupt the users' regular activity. We have conceptualized a new data collection technique that overcomes this problem, allowing for the collection of large amounts of self-reporting data without such interruption.
+
+      Starting from an existing prototype implementation of this data collection technique, this project aims to extend the self-reported data with quantitative data collection capabilities, i.e., smartphone sensor data and physiological signals. The objective of these modifications is to enable use of this data collection framework in practical machine learning applications. The outcomes of this project have the potential to contribute significantly to the fields of applied machine learning, user-centered artificial intelligence and affective computing.
+
+  - id: multimodal-alarms
+    name: Multimodal Alarms for the OR and ICU
+    image: "projects/multimodal-alarms.jpg"
+    description: |
+      At present, the operating room (OR) and intensive care unit (ICU) are noisy environments, exacerbated by frequent alarms. Regardless of whether the alarms are valid or false, all command attention, raise stress, and are often irrelevant to the responsibilities of individual clinicians. To cope with these problems, this project investigates the possibility of using multimodal alarms, preserving audio for those alarms that should be announced to the entire team, but delivering certain alarm cues individually, through haptics (vibrations) to the feet.
+
+      As a first step, the project will involve designing and conducting an experiment to determine the degree to which both haptic and audio alarms can be learned, recognized in the context of other demanding activities, and to quantify the reaction times and accuracy to such cues, comparing unisensory auditory and multisensory auditory and haptic stimuli. We will employ the stop-signal reaction task (SSRT) and Profile of Mood States (POMS) during pre and post paradigm exposure to quantify the fluidity of attentional decision-making and fatigue, respectively, to the unisensory and multisensory conditions.
+
+      Through these experiments, we hope to determine preliminary guidelines for the number of distinct alarms that can be conveyed effectively through haptics, leading to a reduction in the demands on the audio channel. (This project is being conducted in collaboration with a US-based professor of Anesthesiology Critical Care Medicine.)
+
+  - id: mixed-reality-hri
+    name: Mixed Reality Human-Robot Interaction for Reduction of Workplace Injury
+    image: "projects/mixed-reality-hri.jpg"
+    description: |
+      As part of a multi-site FRQNT-funded project, we are investigating the use of mixed reality in a human-robot interaction scenario to reduce the risk to workers arising from musculo-skeletal injury. The concept is to provide workers with an interface that adequately conveys the visual, auditory, and haptic cues to permit efficient manipulation and control of their tools, but in a safe manner.
+
+      Our recent efforts resulted in the development of a lightweight replica of the tool handle, equipped with sensors and actuators, that allow the user to manipulate a mixed-reality model of the actual tool. Graphical augmentation, using a CAD model of the tool, and optionally, video overlay through a see-through display, will give the operator a visual impression of how the tool is responding, while recorded or synthesized sound, measured forces, torques, and vibrations, acquired by sensors at the tool end, will be mapped to auditory and haptic feedback cues delivered at safe levels to the operator, facilitating effective operation while avoiding RSI.
+
+      At present, manipulation of the handle is tracked with an optical motion capture system, and the mixed reality display is rendered through an Epson Moverio BT-200 display, but we are seeking to migrate to an Acer mixed-reality device, providing full-screen immersion and built-in motion tracking.
+
+      The project includes the following sub-tasks:
+      - instrumentation of actual tool with sensors for acquisition of force, torque, and vibration data
+      - reproduction of acquired sensor data at replica tool handle, complemented by task-specific graphical display
+      - improved rendering of tool state information, including graphical, auditory, and vibrotactile modalities, in the user's workspace
+      - integration of the 3D-printed tool handle with a force-feedback haptic device to enrich the perceptual experience of (tele-)manipulation of the actual tool; this will eventually be replaced by an actual cable-driven robotic assembly being developed by colleagues at Université Laval
+
+  - id: untethered-force-feedback
+    name: Untethered Force Feedback Devices
+    image: "projects/untethered-force-feedback.jpg"
+    description: |
+      We regularly experience force and vibrotactile feedback from our everyday interactions with physical objects. For virtual and augmented reality scenarios, a wide range of vibration effects can be generated using vibrotactile actuators. However, reproducing the effects of force has typically relied upon robotic systems such as the Senseable Phantom, which must be supported (grounded) to provide their feedback, and are therefore not suitable for use outside of a limited workspace. To provide the experience (or illusion) of force feedback in mobile applications, such as for hand-held game controllers, researchers have experimented with the use of solenoids, flywheels, and electrical muscle stimulation. 
+      In this project, we will make use of such mechanisms and investigate related approaches to convey force feedback to users of both hand-held and wearable devices, in particular, to simulate the effects of object collision. An initial application is to improve the haptic experience of working with a simulated power tool in a VR environment.
+
+  
+  - id: intersection-assistance-vision
+    name: Vision-based intersection-crossing assistance for the visually impaired
+    image: "projects/intersection-assistance.jpg"
+    description: |
+      Our lab has developed a vision-based machine learning (neural network) prototype that provides auditory feedback to visually impaired users to help them keep within the designated safe crossing zones at pedestrian intersections. Users wear a smartphone on a lanyard around their neck, and activate the feedback when they are ready to cross. However, to make the prototype useful in practice, additional training data should be collected and labeled, and several design issues need to be addressed:
+
+      The lanyard naturally sways from side to side due to the user's motion. Therefore, image capture must be sensitive to the gait cycle timing so as to avoid biasing the feedback as a result of this sway. Ideally, this can be done by acquisition of images at the mid-point of the swing, as determined by reading the IMU, or otherwise, by training the system to compensate for the angle of the smartphone.
+      When the neural network is uncertain of the user's orientation relative to the intersection crossing, possibly because of significant occlusion of the view, we would like to make use of IMU data to estimate the change in orientation since the last output from the vision-based process. In this manner, the system can continue providing useful feedback, rather than having to report a failure condition, or remaining silent.
+      Since the system is intended to be integrated as a component of our Autour app, the crossing assistance feedback could be activated automatically every time the user approaches an intersection. If such an "auto-start" feature is enabled, it will be necessary to carry out additional training of an intersection-detection network, possibly combined with GPS data, to determine proximity to known intersections.
+
+  - id: foot-haptics-interface
+    name: Development of a new haptic interface for the feet
+    description: |
+      Haptic perception through the feet informs a wide range of dynamic and static human activity. Stimulating the foot, for example to render virtual ground surface reactions, requires comparatively strong, and thus large actuators due to their placement between the ground and a human loading the foot. In stationary setups, actuators can be integrated into static assemblies at the ground surface. However, this is not feasible for mobile applications, for which the stimuli must be provided wherever the user happens to be. In such scenarios, delivery of sufficiently strong stimuli through conventional haptic actuators, such as voice coils, poses a significant challenge in terms of the associated electrical power requirements. Our project will implement new approaches to help render the stimuli with sufficient force, thereby overcoming this challenge.
+
+      Specifically, we would like to implement a variant of a design suggested by Berrezag, Visell and Hayward for an amorphous haptic interface for reproducing effects of compressibility and crushability (Berrezag et al., EuroHaptics 2012). Their design is based on two deformable chambers, made of oriented polymers, such as biaxially oriented polypropylene (BOPP), and connected by a conduit filled with magnetorheological (Mr) fluid. By varying the viscosity of the fluid through changes to the applied magnetic field, the system can be used to render various haptic effects, stimulating different textures and material behavior. Our proposed variant offers certain advantages, and has potential applications to rehabilitation, gaming, and VR.
+
+  - id: mobile-experience-sampling
+    name: Non-Intrusive Mobile Experience Sampling Methods for Machine Learning Applications
+    image: "projects/experience-sampling.jpg"
+    description: |
+      Numerous artificial intelligence projects aim at recognizing high-level psychological concepts such as emotions or anxiety. There is significant interest in doing so in the mobile case, that is, using smartphones or wearable devices. However, these projects are hindered by a lack of large labeled datasets, representative of users' different contexts, e.g., activities, day of the week, and weather. Although existing mobile experience sampling methods (ESM) allow the collection of self-reports from users in their natural environment, they require disruptive notifications that interrupt the users' regular activity.
+
+      We have conceptualized a new data collection technique that overcomes this problem, allowing for collection of large amounts of self-reporting data without such interruption. This project aims to explore several designs for the technique, implement the more promising ones, and test them. The result has the potential to contribute significantly to the fields of applied machine learning, user-centered artificial intelligence, and affective computing.
+
+      Tasks include:
+
+      Interaction design: Apply user-centered design techniques to the creation of mobile graphical user interface (GUI) layouts that would allow the reporting of different types of data, e.g., current anxiety level on a continuous or Likert scale.
+      Mobile implementation: Android and/or iOS implementation of the preferred interaction designs.
+      Validation: Design and execution of a user study quantifying the improved performance and user experience of the new reporting system in comparison with existing experience sampling methods. This will form part of a conference or journal paper submission.
+      This project requires a student with strong mobile development experience (Android and/or iOS) and interests in HCI/UX research.
+  
+  - id: wine-recommender
+    name: Wine Recommender
+    image: "projects/wine-recommender.jpg"
+    description: |
+      Within the context of an industrial collaboration, we are undertaking the design and prototype development of a recommendation system for wines that begins with limited user data, and over time, becomes tailored to the individual consumer's tastes and profiles of similar users. The objective is not only to offer recommendations that the user is likely to enjoy, but also to help educate users as to specific characteristics of the wines. Much of this project can be viewed as a conventional machine learning challenge, but there is an arguably even more important component that relates to the user experience. Thus, significant effort will be allocated to gaining an understanding of how the target audience for the app currently makes their wine selections, and ensuring that the app supports existing habits.
+      Sub-projects include:
+
+      User modeling: Develop tools to fit individual users into general groupings related to their interest and knowledge of wines, and wine preferences initially known, with minimal interaction requirements, e.g., a lightweight app enrollment process.
+      Interaction design: Develop and test several interface iterations that offer wine recommendations based on the user's profile and current interests, in a manner that includes an explanation of the characteristics of the wine that make up part of the logic for particular recommendations.
+      Exploratory recommendation engine: Develop a content-based filtering algorithm with a tunable exploration bias, that generates recommendations based on a user profile and input related to the user's immediate interests.
+
+  - id: social-media-analytics
+    name: Social Media Analytics
+    description: |
+      We developed tools for scraping social media feeds for posts of relevance to public safety, to facilitate early detection of events including flooding, highway accidents, road closures, fires, and downed electrical lines. The system was installed for the use of the Ministère de la securité publique of Quebec.
+
+  - id: video-tagger-ui
+    name: Video tagger and classifier UI
+    description: |
+      We developed the infrastructure for a web-based video tagging interface and a prototype object-and-event detector. Together, these tools could allow for both manual and automated tagging of video clips in popular repositories such as YouTube and Vimeo. We now wish to build on this architecture by improving the toolkit of object and event detection capabilities that can be tailored for a variety of general-purpose video analytics purposes. Our long-term objective is to combine these tools with user feedback on the automated detection to train more complex recognizers using machine learning techniques.
+
+  - id: open-orchestra
+    name: Open Orchestra
+    image: "projects/openorchestra.jpg"
+    description: |
+      The orchestral training of professional and semi-professional musicians and vocalists requires expensive resources that are not always available when and where they are needed even if the funding for them were made available. What is needed is the musical equivalent of an aircraft simulator that gives the musician or vocalist the very realistic experience of playing or singing with an orchestra. The purpose of making this experience available through a next generation network-enabled platform is to provide the extensive tools and resources necessary at very low cost and wherever there is access to a high speed network.
+
+  - id: health-services-virtual-org
+    name: Health Services Virtual Organization
+    image: "projects/hsvo.png"
+    description: |
+      The HSVO aims to create a sustainable research platform for experimental development of shared ICT-based health services. This includes support for patient treatment planning as well as team and individual preparedness in the operating room, emergency room, general practice clinics, and patients' bedsides. In the context of the Network-Enabled Platforms program, the project seeks to offer such support to distributed communities of learners and health-care practitioners. Achieving these goals entails the development of tools for simultaneous access to the following training and collaboration resources: remote viewing of surgical procedures (or cadaveric dissections), virtual patient simulation involving medical mannequins and software simulators, access to 3D anatomical visualization resources, and integration of these services with the SAVOIR middleware along with the Argia network resource management software.
+
+  - id: food-analysis-simulator
+    name: Simulating a Food Analysis Instrument
+    image: "projects/food_adventure.jpg"
+    description: |
+      We build on HTML5 and other web-related technologies to implement a simulator used for teaching the use of a spectrometer for the detection of food bacteria (e.g., in yogurt, milk, or chicken). Accurate detection of these bacteria is an important topic in the food industry, which directly impacts on our health and wellbeing. Importantly, making such simulators available through the web allows access to the underlying pedagogical content and training of students in third-world countries, where the Internet is available, but qualified educators are in short supply. Hands-on experience with a simulator of sufficient fidelity, especially one designed with instructional case scenarios, can provide invaluable educational and training opportunities for these students that would not otherwise be possible. In our simulator, the student is presented with a case scenario of food poisoning in a Montreal restaurant, and is then given the task of analyzing a food sample. Various options are presented, ranging from watching a brief documentary of the operation of the machine, to a guided set of steps that the student is invited to perform in a laboratory to solve the task. Users can directly control the knobs and buttons of the simulated spectrometer and are provided with a rich visual experience of the consequences of their actions, as the appropriate video clip is played back (forward or in reverse, e.g., to illustrate the effects of a switch being turned off).
+
+  - id: neuro-3d-visualization
+    name: 3D Visualization and Gestural Interaction with Multimodal Neurological Data
+    image: "projects/neuro_viz.png"
+    description: |
+      This project deals with the challenges of medical image visualization, in particular within the domain of neurosurgery. We wish to provide an effective means of visualizing and interacting with data of the patient's brain, in a manner that is natural to surgeons, for training, planning, and surgical tasks. This entails three fundamental objectives: advanced scientific visualization, robust recognition of an easily learned and usable set of input gestures for navigation and control, and real-time communication of the data between multiple participants to permit effective understanding and interpretation of the contents. The required expertise to accomplish these tasks spans the areas of neurosurgery, human-computer interaction, image processing, visualization, network communications.
+
+  - id: amblyopia-treatment-device
+    name: Mobile Game Device for Amblyopia Treatment
+    image: "projects/i2i.jpg"
+    description: |
+      Amblyopia is a visual disorder affecting a significant proportion of the population. We are developing a prototype device for assessment and treatment of this symptom, based on a modified game application running on a compact autostereoscopic display platform. By sending a calibrated "balanced-point" representation to both eyes, we aim for a therapeutic process to gradually engage signals from the weaker eye to engage it in the visual process. The adaptation of this approach from a lab-based and controlled environment to a portable device for daily use has the potential to make amblyopia treatment more accessible.
+
+  - id: enhanced-virtual-presence
+    name: Enhanced Virtual Presence and Performance
+    image: "projects/bwc.jpg"
+    description: |
+      This project will enhance the next generation of virtual presence and live performance technologies in a manner that supports the task-specific demands of communication, interaction, and production. The goals are to: improve the functionality, usability, and richness of the experience; support use by multiple people, possibly at multiple locations, engaged in work, artistic performance, or social activities; and avoid inducing greater fatigue than the alternative (non-mediated) experience. This work builds on recent activities in Shared Spaces and the World Opera Project.
+
+  - id: world-opera
+    name: World Opera
+    image: "projects/worldopera.jpg"
+    description: |
+      Can opera be performed if the opera singers are standing on different stages in different time zones in different countries? This question is at the heart of the World Opera Project, a planned joint, real-time live opera performance to take place simultaneously in several Canadian, U.S. and European cities. The project is envisioned as a worldwide opera house located in cyberspace.
+
+  - id: underwater-video-platform
+    name: Underwater High Definition Video Camera Platform
+    image: "projects/undersea.jpg"
+    description: |
+      The Undersea Window transmits live full broadcast high definition video from a camera on the undersea VENUS network, 100 m below the surface of the Saanich Inlet on Vancouver Island, to scientists, educators and the public throughout Canada and around the world via CA*net 4 and inter-connected broadband networks. The project will serve as a test bed for subsequent high definition video camera deployment on the NEPTUNE network in the Pacific Ocean. We subsequently worked on the development of Web services software that matches a common set of underwater video camera control inputs and video stream outputs to the bandwidth available to a particular scientist and allows scientists to collaborate through sharing the same underwater view in real time. We then produced a web-based video camera user interface that makes use of the controls and features available through these web services. In addition, we tested an existing automated event detection algorithm for possible integration into the "live" system.
+
+  - id: adaptive-streaming-audio
+    name: Adaptive Streaming for Interactive Mobile Audio
+    image: "projects/banff-nico-zack-jamming.jpg"
+    description: |
+      This work involves evaluation of audio codec quality in the context of end-to-end network transmission systems, development of adaptive streaming protocols for wireless audio with low latency and high fidelity characteristics, and testing of these protocols in real-world settings. Our freely downloadable streaming engine, nStream is available for Linux, OS X, and Gumstix platforms.
+
+  - id: ar-board-games
+    name: Augmented Reality Board Games
+    image: "projects/board_games.jpg"
+    description: |
+      As novel gaming interfaces increase in popularity, we are investigating the possibilities afforded by augmenting traditional game play with interactive digital technology. The intent is to overcome the physical limitations of game play to create new, more compelling experiences, while retaining the physicality, social aspects, and engagement of board games.
+
+  - id: natural-interactive-walking
+    name: Natural Interactive Walking (aka Haptic Snow)
+    image: "projects/2x2_tile.jpg"
+    description: |
+      This project is based on the synthesis of ground textures to create the sensation of walking on different surfaces (e.g. on snow, sand, and through water). Research issues involve sensing and actuation methods, including both sound and haptic synthesis models, as well as the physical architecture of the floor itself.
+
+  - id: audioscape-mobile
+    name: "Audioscape: Mobile Immersive Interaction with Sound and Music"
+    image: "projects/audioscape.jpg"
+    description: |
+      This project involves the creation of a compelling experience of immersive 3D audio for each individual in a group of users, located in a common physical space of arbitrary scale. The architecture builds upon our earlier immersive real-time audiovisual framework: a modeled audio performance space consisting of sounds and computational sound objects, represented in space as graphical objects. Current and planned activities include experimentation with different technologies for low-latency wireless audio communication, a large-scale augmented reality environment to support immersive interaction, and embedding of 3D video textures (e.g., other human participants) into the displayed space.
+
+  - id: ui-paradigms-3d
+    name: User Interface Paradigms for Manipulation of and Interaction with a 3D Audiovisual Environment
+    image: "projects/modapp.jpg"
+    description: |
+      We would like to develop an effective interface for object instantiation, position, view, and other parameter control, which moves beyond the limited (and often bewilderingly complex) keyboard and mouse devices, in particular within the context of performance. The problem can be divided into a number of actions (or gestures that the user needs to perform), the choice of sensor (to acquire these input gestures), and appropriate feedback (to indicate to the user what has been recognized and/or performed).
+
+  - id: affective-user-experience
+    name: Evaluation of Affective User Experience
+    image: "projects/emomirror.png"
+    description: |
+      The goal of this project is to develop and validate a suite of reliable, valid, and robust quantitative and quqlitative, objective and subjective evaluation methods for computer game-, new media-, and animation environments that address the unique challenges of these technologies. Our work in these area at McGill spans biological and neurological processes involved in human psychological and physiological states, pattern recognition of biosignals for automatic psychophysiological state recognition, biologically inspired computer vision for automatic facial expression recognition, physiological responses to music, and stress/anxiety measurement using physiological data.
+
+  - id: multi-projector-calibration
+    name: Automatic Multi-Projector Calibration
+    image: "projects/procams.png"
+    description: |
+      Multiple video projectors can be used to provide a seamless, undistorted image or video over one or more display surfaces. Correct rendering requires calibration of the projectors with respect to these surface(s) and an efficient mechanism to distribute and warp the frame buffer data to the projectors. Typically, the calibration process involves some degree of manual intervention or embedding of optical sensors in the display surface itself, neither of which is practical for general deployment by non-technical users. We show that an effective result can in fact be achieved without such intervention or hardware augmentation, allowing for a fully automatic multi-projector calibration that requires nothing more than a low-cost uncalibrated camera and the placement of paper markers to delimit the boundaries of the desired display region. Both geometric and intensity calibration are performed by projection of graycoded binary patterns, observed by the camera. Finally, the frame buffer contents for display are distributed in real time by a remote desktop transport to multiple rendering machines, connected to the various projectors.
+
+  - id: virtual-rear-projection
+    name: Virtual Rear Projection
+    image: "projects/rear-projection.jpg"
+    description: |
+      We transform the walls of a room into a single logical display using front-projection of graphics and video. The output of multiple projectors is pre-warped to correct misalignment and the intensity reduced in regions where these overlap to create a uniformly illuminated display. Occlusions are detected and compensated for in real-time, utilizing overlapping projectors to fill in the occluded region, thereby producing an apparently shadow-free display. Ongoing work is aimed at similar capabilities without any calibration steps as well as using deliberately projected graphics content on the occluding object to augment interaction with the environment.
+
+  - id: super-resolution-algorithms
+    name: Efficient Super-Resolution Algorithms
+    image: "projects/preconditioning.png"
+    description: |
+      Super-resolution attempts to recover a high-resolution image or video sequence from a set of degraded and aliased low-resolution ones. We are working on efficient preconditioning methods that accelerate super-resolution algorithms without reducing the quality of the results achieved. These methods apply equally to image restoration problems and compressed video sequences, and have been demonstrated to work effectively for rational magnification factors.
+
+  - id: dynamic-image-mosaicing
+    name: Dynamic Image Mosaicing with Robustness to Parallax
+    image: "projects/stitch.jpg"
+    description: |
+      Image mosaicing is commonly used to generate wide field-of-view results by stitching together many images or video frames. Existing methods are constrained by camera motion model and the amount of overlap required between adjoining images. For example, they cope poorly with parallax introduced by general camera motion, translation in non-planar scenes, or cases with limited overlap between adjacent camera views. Our research aims to resolve these limitations effectively to support real-time video mosaicing at high-resolution.
+
+  - id: dynamic-view-synthesis
+    name: Dynamic View Synthesis
+    image: "projects/view.jpg"
+    description: |
+      Acquiring video of users in a CAVE-like environment and regenerating it at a remote location poses two problems: segmentation, the extraction of objects of interest, i.e., people, from the background, and arbitrary view generation or view synthesis, to render the video from an appropriate virtual camera. As our background is dynamic and complex, naive segmentation techniques such as blue screening are inappropriate. However, we can exploit available geometric information, registering all background pixels with the environment empty and then, during operation, determine whether each pixel corresponds to the background through color consistency tests. Our view synthesis approach is to build a volumetric model through an efficient layered approach, in which input images are warped into a sequence of planes in the virtual camera space. For each pixel in each plane, we determine its occupancy and color through color consistency, using this to compose the novel image in a back-to-front manner.
+
+  - id: closed-loop-gestural-ml
+    name: Machine Learning Techniques for Closed-Loop Gestural Interaction
+    image: "projects/gestural-ml.png"
+    description: |
+      This project seeks to model the dynamics of movement for the purpose of sensory motor interaction design. The goal is to learn continuous models of movement or gesture, capturing the most salient features of the dynamics as well as the normative ranges of variability, and to do so in a way that facilitates using the movement models in closed loop interaction. The idea is to facilitate the acquisition and use of internal models of the dynamics in question on the part of users. Two main approaches are being explored: The learning of movement primitives by a kind of parametric semi-Bayesian nonlinear dynamical system (based on the Dynamic Movement Primitives of Ijspeert, Schaal, and Nakanishi), and the modeling of movement by nonparametric Bayesian dynamical systems. The novel aspect is the tight integration of statistical models with nonvisual feedback designed to aid interaction.
+
+  - id: high-res-video-synthesis
+    name: High-Resolution Video Synthesis from Mixed-Resolution Video
+    image: "projects/hdef.jpg"
+    description: |
+      To increase the frame rate at high resolution of CMOS image sensors, we propose using their non destructive read-out capabilities to simultaneously generate high-resolution frames H at frame rate h and low-resolution frames L at frame rate l > h. Our method applies an image-processing algorithm to both sequences in order to synthesize a high-resolution video sequence S, at high frame rate l, containing the high-resolution details and the low-resolution motion dynamics. A motion evaluation algorithm is used to evaluate pixel motion in a coarse manner between the last interpolated (synthesized) high-resolution frame St-1 and the current low-resolution frame Lt generated by the camera.
+
+  - id: automated-door-attendant
+    name: Automated Door Attendant
+    image: "projects/ada.jpg"
+    description: |
+      The ADA is an interactive agent that serves the role of a simplified secretary, tailored for a university environment. The agent greets visitors, with a "talking head," takes messages, schedules appointments, and allows the browsing of selected documents. Components includes a video monitor, speaker, microphone, and camera. The attendant is presently being augmented with an animated face that allows for dynamic control of its movement in order to simulate the acts of speaking, turning to look in the direction of a visitor, and even yawning. We wish to carry out such control of the head as appropriate to the activity currently taking place.
+
+  - id: peripheral-communications
+    name: Peripheral Communications
+    description: |
+      We consider two problems related to communication between geographically distributed family members. First, we examine the problem of supporting peripheral awareness, in order to improve both emotional well-being and awareness of family activity. This is based on a field study to determine the role and importance of various peripheral cues in different aspects of everyday activities. The results from the study were used to guide the design of our proposed augmented communications environment. Second, we consider the choice of mechanism to facilitate the on-demand transition to foreground communication in such an environment. The design suggests an expansion of Buxton's taxonomy of foreground and background interaction technologies to encompass a third class of peripheral communications.
+
+  - id: disparity-object-segmentation
+    name: Disparity from Contour for Object Segmentation with Occlusion
+    image: "projects/disparity.jpg"
+    description: |
+      A new disparity-based segmentation method is proposed that explores the static 3D geometry of a background, and produces disparity-embedded object contours which can be used to separate objects via a multi-histogram scheme. This method does not require identical cameras or frame by frame full stereo reconstruction. It has low computational cost and can be applied to various vision applications that require object segmentation as a first step processing. The experiment results show that the proposed method is able to segment multiple objects despite occlusions.
+
+  - id: hierarchical-image-coding
+    name: Hierarchical Image Coding and Region of Interest Selection
+    image: "projects/rohr.jpg"
+    description: |
+      We are developing low-complexity hierarchical encoding algorithms that provide modest data reduction at low cost for transmission over computer networks. A key feature is that the encoding is progressive, permitting truncation of the data stream at an arbitrary position with reduction in image quality rather than loss of content. On a related theme, we note that transmission of the entire data content of a video stream does not take into account the potentially diverse interests or capabilities of heterogeneous clients nor the relative importance of different components of the scene. Assuming operation on a multicast network, the challenge here is to ensure that individual client requests are balanced against overall system constraints, such as total available server bandwidth and limit of multicast channels. Our long-term goal is for such region selection to be automated with the assistance of intelligent agents, possibly given some hints from the user, for example, "I'm interested in this person's face" or "follow that object."
+
+  - id: interaction-paradigms-large-screen
+    name: Interaction Paradigms in a Large Screen Environment
+    image: "projects/modapp.jpg"
+    description: |
+      Virtual interaction metaphors for two-handed control have been studied in the past primarily in terms of speed and efficiency. We concentrate our analysis instead on the cognitive effects such metaphors have on users within a large screen environment. Based on a series of experiments we determine how best to manage the division of labour between hands in order to minimize conceptual error. Empirical evidence suggests that the proficiency of bimanual paradigms, such as toolglasses or pieglasses, varies according to a number of factors, for instance the amount of effort required by the non-preferred hand.
+
+  - id: gesture-parsing-multimodal
+    name: Parsing and Interpreting Gestures in a Multimodal Virtual Environment
+    image: "projects/gesture.jpg"
+    description: |
+      Human-computer interaction based on the traditional input mode of keyboard and mouse fails to scale to the demands of large immersive environments, where users may be standing and moving about the space. Instead, we propose a gestural interaction paradigm in which users employ physical gestures to commmunicate their intentions. We are developing a framework for the acquisition and parsing of such gestures, using input from either video camera, data glove, or computer mouse (as a prototype). The architecture is fully configurable through XML files and uses a common data type in order to facilitate integration with other software components distributed over the network.
+
+  - id: statistical-multiobject-tracking
+    name: Statistical Multi-Object Tracking
+    image: "projects/tracker.jpg"
+    description: |
+      We are developing a generic object tracker capable of following, in real-time, multiple objects in a dynamic, real-world, possibly cluttered environment, in which lighting levels can change dramatically, for example, a classroom where the instructor walks in front of a projection screen. Our tracker uses a combination of movement detection and statistical feature extraction to locate and maintain objects within the camera's field of view. A final step matches the various features found in the current image with the objects previously identified by the system.
+
+  - id: fingertip-tracking-gesture
+    name: Hand and Fingertip Tracking for Gesture Recognition
+    image: "projects/hand.jpg"
+    description: |
+      In augmented reality environments, traditional input interfaces such as the keyboard-mouse combination are no longer adequate. We turn, instead, to gestural language, long an important component of human interaction, employing computer vision techniques to perform hand tracking and gesture recognition. Our approach employs edge detection for foreground segmentation and tracks the wrist location with a particle filter. Based on the wrist location and orientation, we then determine the positions of the fingertips, exploiting their semi-circular shape by modelling the fingertip extremities as a circular arc. The fingertips can be located by looking for maximal responses of a circular Hough transform, applied to the hand boundary image, followed by several heuristic tests to filter out false positives and duplicate detection.
+
+  - id: stochastic-parsing-multimodal
+    name: Stochastic Parsing with Semantic Constraints in Multimodal Interaction
+    image: "projects/map_nav.jpg"
+    description: |
+      This project uses typed feature structures and syntactic/semantic constraints to interpret user actions through arbitrary modes such as speech, gesture, and handwriting. To this end we have developed a unique parsing algorithm that takes advantage of this approach to search through partially specified hierarchical descriptions of user activity. This algorithm is the core of a larger multimodal framework that can generically incorporate many existing techniques in multimodal interaction such as temporal constraints, prosodic effects, and dialogue management. We intend to demonstrate these capabilities in a handful of applications, among them a simple multimodal game and a multimodal map navigation system.
+
+  - id: camera-array-parallel
+    name: Parallel Distributed Camera Arrays
+    image: "projects/pdca.jpg"
+    description: |
+      To provide more robust and efficient object tracking for Intelligent Environments, we are working with colleagues to create a set of networked low-cost camera arrays that collectively provide high resolution and large field-of-view image processing capabilities. Our approach involves the development of a number of novel technologies, such as smart cameras with on-board reconfigurable image processing and network communication capabilities, techniques for cooperative parallel distributed image processing that are suitable for multi-camera image data, and techniques for reconstruction of arbitrary viewpoints from a network of video cameras viewing a scene. Our present efforts are aimed at developing algorithms to support an array of cameras for parallel distributed processing of image sequences. This involves synchronized video acquisition, monocular processing of the individual images, stereo processing of nearby pairs, matching and triangulation for depth extraction, and finally, integration of the stereo information from multiple pairs to generate a rich model of the objects.
+
+  - id: camera-calibration
+    name: Camera Calibration Methods
+    image: "projects/calib.jpg"
+    description: |
+      We conducted a thorough study investigating the effects of training data quantity, pixel coordinate noise, training data measurement error, and the choice of camera model on camera calibration results. The study includes a detailed comparison of various camera models, in order to determine the relative importance of the various radial and decentering distortion coefficients. While Tsai's world-reference based method yielded the most accurate results when trained on data of low measurement error, this, however, is difficult to achieve in practice without an expensive and time-consuming setup. In contrast, Zhang's planar calibration method, although sensitive to noise in training data, requires only relative measurements between adjacent calibration points, which can be accomplished accurately with trivial effort, suggesting that in the absence of sophisticated measurement apparatus, this may easily outperform Tsai's method.
+
+  - id: cross-continental-studio
+    name: Recording Studio that Spans a Continent
+    image: "projects/norris.jpg"
+    description: |
+      On Saturday September 23, 2000, a jazz group performed in a concert hall at McGill University in Montreal and the recording engineers mixing the 12 channels of audio during the performance were not in a booth at the back of the hall, but rather in a theatre at the University of Southern California in Los Angeles.
+
+  - id: intelligent-classroom
+    name: Intelligent Classroom Project
+    image: "projects/eclass.jpg"
+    description: |
+      Classroom presentation technology was augmented with sensors, wired to computers for context-sensitive processing. Now, rather than require manual control, the room activates and configures the appropriate equipment automatically, in response to instructor activity. For example, when an instructor logs on to the computer, the system infers that a lecture is being started, automatically turns off the lights, lowers the screen, turns on the projector, and switches the projector to computer input. The simple act of placing an overhead transparency on the document viewer causes the slide to be displayed and the room lights adjusted to an appropriate level. Similarly, audiovisual sources such as the VCR or laptop computer output are displayed automatically in response to activation cues. Together, these mechanisms assume the role of skilled operator, taking responsibility for the low-level control of the technology, thereby freeing the instructor to concentrate on the lecture itself, rather than the user interface.
+
+  - id: robocup-legged
+    name: RoboCup Legged Competition
+    image: "projects/aibo.jpg"
+    description: |
+      From 1999 through 2002, McGill was the only Canadian university and one of only four North American schools to participate in the Sony Legged league of the RoboCup Competition. This competition pitted our Sony legged robots against teams from other universities in a "cat-eat-cat" test of artificial intelligence and soccers skills.
+
+  - id: phidgets-interface
+    name: Phidgets Interface
+    image: "projects/phidget.jpg"
+    description: |
+      Based on the work of Greenberg and Fitchett, a project group designed and prototyped an elegant, USB-based I/O system to allow for easy and rapid development of software that interfaces to analog and digital inputs, digital outputs, and stepper motor control. The software environment surrounding this system was initially limited to running under Visual Basic on Windows systems but we are now extending the libraries with more advanced graphical capabilities and porting the system to Linux.
+
+  - id: graffitiboard
+    name: GraffitiBoard
+    description: |
+      The GraffitiBoard is a wall-sized computer display that tracks the position of a pointer (such as a user's finger) and displays the resulting penstrokes as if the user were writing on the wall. A video projector produces the displayed image while a video camera captures the users' actions. By applying a simple colour tracking algorithm or a more complex cross-correlation technique, it is possible to recognize certain actions and respond accordingly. For example, if the user's hand is placed on the wall, a palette with various painting options can be generated at that location. For our demostration program, we use both colour tracking and correlation techniques to track the movement of user's finger and draw and pictures and letters.
+
+  - id: ubivcr
+    name: UbiVCR Speech Interface
+    description: |
+      This project uses speech recognition software and video overlay text messages to provide an intuitive VCR interface. Current projects include rebuilding a perl script that generates an electronic TV guide from the web, improving the grammar to deal with context-sensitive help, and running a formal experiment comparing the UbiVCR with other VCR-programming methods.
+
+  - id: millenium-exhibit
+    name: Millenium Exhibit
+    description: |
+      This project involved the development of two components of a fictitious house of the future for the Ontario Science Center. The exhibit consists of a dining room and living room scenario. Each room reacts to user activity, utilizing information from video cameras, voice recognition, and various low-level sensors, providing output through synthesized speech, audio and video clips.
+
+  - id: reactive-room
+    name: Reactive Room
+    description: |
+      This project (1993-1995) developed a state of the art videoconferencing facility, augmented with various sensors, which reacted to user activity by automatically selecting appropriate configurations of audio and video sources. The system infers the intentions of users and reacts accordingly, allowing them to conduct both local and videoconference meetings, making full use of the presentation technology (document camera, VCR, digital whiteboard) without needing to interact with the computer.
+
+  - id: afdp
+    name: Adaptive File Distribution Protocol
+    description: |
+      AFDP is a protocol for the efficient and reliable distribution of large files to many hosts on a LAN or internetwork. The protocol is built on top of UDP, and uses a rate-based flow control mechanism following the publishing metaphor.
+
+  - id: novice
+    name: "NOVICE: Neural Network Robotic Control"
+    image: "projects/novice.jpg"
+    description: |
+      A robotic system using simple visual processing and controlled by neural networks was developed. The robot performs docking and target reaching without prior geometric calibration of its components. All effects of control signals on the robot are learned by the controller through visual observation during a training period, and refined during actual operation. Minor changes in the system's configuration result in a brief period of degraded performance while the controller adapts to the new mappings.

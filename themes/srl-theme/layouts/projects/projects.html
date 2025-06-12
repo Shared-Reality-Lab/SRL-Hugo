@@ -12,7 +12,13 @@
   <!-- Sidebar navigation -->
   <nav class="projects-sidebar">
     <ul>
+      <li class="sidebar-label"><strong>Available Projects</strong></li>
       {{ range .Site.Data.projects.projects }}
+        <li><a href="#{{ .id }}">{{ .name }}</a></li>
+      {{ end }}
+
+      <li class="sidebar-label"><strong>Past Projects</strong></li>
+      {{ range .Site.Data.projects.past_projects }}
         <li><a href="#{{ .id }}">{{ .name }}</a></li>
       {{ end }}
     </ul>
@@ -21,7 +27,7 @@
   <!-- Project content -->
   <article class="projects-main">
     
-    <!-- Section title -->
+    <!-- Available Projects Section -->
     <section class="projects-section-title">
       <h2>Electrical and Computer</h2>
     </section>
@@ -44,8 +50,32 @@
         {{ end }}
       </section>
     {{ end }}
+
+    <!-- Past Projects Section -->
+    <section class="projects-section-title">
+      <h2>Electrical and Computer – Past Projects</h2>
+    </section>
+
+    {{ range .Site.Data.projects.past_projects }}
+      <section id="{{ .id }}" class="project-section">
+        {{ if .image }}
+          <div class="project-with-image">
+            <h2>{{ .name }}</h2>
+            <p>
+              <span class="project-float-wrapper">
+                <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .name }}" class="project-float-icon" />
+              </span>
+              {{ .description | markdownify }}
+            </p>
+          </div>
+        {{ else }}
+          <h2>{{ .name }}</h2>
+          <p>{{ .description | markdownify }}</p>
+        {{ end }}
+      </section>
+    {{ end }}
+
   </article>
-  
 
 </div>
 
