@@ -20,11 +20,11 @@ slides:
     link: projects/#ar-therapy
     portrait: false
 
-  - id: adina
-    image: banner4.png
-    title: AI Digital Nurse Avatar (ADiNA)
-    caption: GPT-driven psychosocial support avatar for elderly care and nurse workload reduction.
-    link: projects/#adina
+  - id: rta
+    image: slider/rta2.png
+    title: "RTA Reimagined: Enhanced Experience. Reduced Workload. Better Situational Awareness"
+    caption: Managing Required Time of Arrival (RTA) in today's cockpits can be complex and mentally taxing for pilots. This project introduces and evaluates novel, graphically-integrated RTA widgets for the Navigation Display, designed to improve situational awareness, reduce workload, and enhance user experience.
+    link: projects/#ar-therapy
     portrait: false
 
   - id: atc

@@ -50,18 +50,39 @@
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-  const swiper = new Swiper('.swiper', {
-    loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
+  window.addEventListener("DOMContentLoaded", () => {
+    const swiperInstance = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   clickable: true,
+      // },
+    });
+
+    const tabs = document.querySelectorAll('.bookmark-tab');
+
+    if (tabs.length > 0) {
+      tabs[0].classList.add('active');
+    }
+
+    swiperInstance.on('slideChange', function () {
+      tabs.forEach(tab => tab.classList.remove('active'));
+      const activeIndex = swiperInstance.realIndex;
+      if (tabs[activeIndex]) {
+        tabs[activeIndex].classList.add('active');
+      }
+    });
+
+    tabs.forEach((btn, i) => {
+      btn.addEventListener('click', () => swiperInstance.slideToLoop(i));
+    });
   });
 </script>
+
 
 
 <!-- support the themed hamburger animation -->
