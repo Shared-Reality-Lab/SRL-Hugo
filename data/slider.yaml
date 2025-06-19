@@ -47,3 +47,38 @@ slides:
     caption: SLIV is an AI-powered assistive technology designed to enhance independence for blind and visually impaired individuals during grocery shopping and other daily activities. SLIV classifies user intent, detects objects in the environment, and utilizes vision-language reasoning to give directions to the user, helping them find desired objects.
     link: projects/#image
     portrait: false
+
+  - id: adina
+    image: slider/adina.png
+    title: AI-Digital Nurse Avatar (ADiNA)
+    caption: Integrating emotion recognition into ADiNA—an AI-powered digital nurse avatar—to sense seniors' feelings and respond with tailored empathy.
+    link: projects/#image
+    portrait: false
+
+  - id: stbo
+    image: slider/STBO.jpg
+    title: Investigating visual and haptic guidance in the flight deck for future taxi operations
+    caption: To accommodate more and more aircraft, airports are exploring time-constrained taxi operations. In these scenarios, flight crews must adhere to predefined speed profiles along their taxi routes, adding complexity to an already demanding phase of flight. Our research investigates how different guidance methods—ranging from visual cues to haptic feedback—affect pilot performance, workload, situational awareness, and attention allocation.
+    link: projects/#image
+    portrait: false
+
+  - id: sonification
+    image: slider/sonification.png
+    title: Investigating Sonification for Accessible Interpretation of Complex Charts
+    caption: "Inspired by the challenges that blind and low-vision individuals face with traditional financial visualizations, this study explores potential of sonification to render complex time-series data through sound. Within context of stock trading, we map three parameters: price, Relative Strength Index (RSI), and Bollinger Bands; into distinct auditory channels. By encoding both individual values and their dynamic interactions, our system aims to enable users to detect overbought/oversold conditions, volatility shifts, and trend reversals through only auditory cues."
+    link: projects/#image
+    portrait: false
+
+  - id: copilot
+    image: slider/copilot1.png
+    title: Integration of an autonomous co-pilot using visual and voice interactions to maintain team activity
+    caption: "This project analyzes how an autonomous co-pilot, combining visual interface and voice control, can be integrated into the cockpit while supporting team dynamics"
+    link: projects/#image
+    portrait: false
+
+  - id: bionicear
+    image: slider/bionicear.png
+    title: Bionic Ear
+    caption: "A smart earpiece that sits seamlessly around the ear. It uses brain and bio-signals to understand the user's attentional focus and provide an enhanced hearing experience accordingly, all without the user having to push buttons or speak."
+    link: projects/#image
+    portrait: false

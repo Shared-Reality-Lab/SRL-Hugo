@@ -6,34 +6,29 @@
       <div class="swiper-wrapper">
         {{ range .Site.Data.slider.slides }}
           <a href="{{ .link | absURL }}" class="swiper-slide slide-link">
-            <div class="slide-content horizontal-layout">
-              <div class="slide-img-wrapper {{ if .portrait }}portrait{{ end }}">
-                <div class="pin"></div>
-                <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .title }}" class="slide-img" />
+            <div class="slide-content full-slide">
+              <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .title }}" class="slide-img" />
+              <div class="caption-overlay">
+                <div class="caption-text">
+                  <h2>{{ .title }}</h2>
+                  <p>{{ .caption }}</p>
+                </div>
               </div>
-              <div class="slide-text sticky-note">
-                <h2>{{ .title }}</h2>
-                <p>{{ .caption }}</p>
-              </div>
-            </div>
+            </div>            
           </a>
         {{ end }}
       </div>
-      <div class="swiper-pagination"></div>
+               
+      <div class="swiper-button-prev" aria-label="Previous slide"></div>
+      <div class="swiper-button-next" aria-label="Next slide"></div>
+
     </div>
   </section>
 
-  <nav class="swiper-bookmark-tabs" aria-label="Slide bookmarks">
-    {{ range $index, $slide := .Site.Data.slider.slides }}
-      <button class="bookmark-tab" data-index="{{ $index }}" aria-label="{{ $slide.title }}">
-        {{ add $index 1 }}
-      </button>
-    {{ end }}
-  </nav>
 </div>
 
 <!-- About Us -->
-<section class="section section-highlight" id="aboutus" role="region" aria-label="About Us">
+<section class="section-highlight notebook-background" id="aboutus">
   <div class="about-container">
     <h2>About us</h2>
     <p>
@@ -45,36 +40,32 @@
   </div>
 </section>
 
-<!-- Blog -->
-<section class="section section-white" id="blog" role="region" aria-label="Blog">
+<!-- Alternating sections -->
+<section class="section section-white" id="blog">
   <h2>Blog</h2>
   <p>Lab stories, news, and updates.</p>
   <a href="{{ "blog/" | absURL }}">See more →</a>
 </section>
 
-<!-- Projects -->
-<section class="section section-dark" id="projects" role="region" aria-label="Projects">
+<section class="section section-dark" id="projects">
   <h2>Projects</h2>
   <p>Sonification, accessibility, and HCI research.</p>
   <a href="{{ "projects/" | absURL }}">See more →</a>
 </section>
 
-<!-- Publications -->
-<section class="section section-white" id="publications" role="region" aria-label="Publications">
+<section class="section section-white" id="publications">
   <h2>Publications</h2>
   <p>Conference papers and peer-reviewed work.</p>
   <a href="{{ "publications/" | absURL }}">See more →</a>
 </section>
 
-<!-- Personnel -->
-<section class="section section-dark" id="personnel" role="region" aria-label="Personnel">
+<section class="section section-dark" id="personnel">
   <h2>Personnel</h2>
   <p>The people behind the lab.</p>
   <a href="{{ "personnel/" | absURL }}">See more →</a>
 </section>
 
-<!-- FAQ -->
-<section class="section section-white" id="faq" role="region" aria-label="FAQ">
+<section class="section section-white" id="faq">
   <h2>FAQ</h2>
   <p>Common questions about our work.</p>
   <a href="{{ "faq/" | absURL }}">See more →</a>
