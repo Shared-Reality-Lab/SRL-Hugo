@@ -9,6 +9,14 @@ projects:
   - id: image
     name: IMAGE
     image: "projects/IMAGE.png"
+    tags:
+      - assistive technology
+      - audio
+      - haptics
+      - multimodal
+      - ML
+      - accessibility
+      - LLM
     description: |
       Internet Multimodal Access to Graphical Exploration (IMAGE) is a project aimed at making internet graphics accessible for people who are blind or partially sighted through rich audio and touch. 
       On the internet, graphic material such as maps, photographs, and charts are clear and straightforward to those who can see it, but not for blind or low-vision users. For them, graphical information is often limited to manually generated alt-text HTML labels, often abridged, and lacking in richness. 
@@ -31,9 +39,45 @@ projects:
       11. Exploring haptic renderings for diagrams and similar textbook materials
       12. Exploring other commercial ML tools that could be used to extend/improve our existing preprocessors, e.g., scene recognizer
 
+
+  - id: adair
+    name: ADAIR
+    image: "projects/adair.png"
+    tags:
+      - assistive technology
+      - audio
+      - haptics
+      - multimodal
+      - ML
+      - accessibility
+      - LLM
+    description: |
+      Advanced AIRspace Usability (ADAIR) is a joint research project between École Polytechnique Montreal, McGill University, and Toronto Metropolitan University, alongside industrial partners including Adacel, Bombardier, Thales Canada, CMC Électronique, Marinvent Corp., and Presagis. This project focuses on designing the future of flight deck technologies.
+      Our research is part of the roadmap defined by the International Civil Aviation Organization (ICAO) to manage the growing complexity and traffic in modern airspace. The project aims to improve flight deck user interfaces, optimize pilot tasks, reduce cognitive load, and enhance situational awareness while maintaining safety and operational efficiency. A core principle of our work is involving pilots directly in the design, testing, and evaluation of our prototypes.
+      
+      Key areas of research include:
+      1. Data Management and Communication
+      We are developing future cockpit communication systems that move beyond voice, using digital data links like Controller Pilot Data Link Communication (CPDLC) and Automatic Dependent Surveillance-Contract (ADS-C) as primary channels. This enables more efficient and safer exchanges between pilots and air traffic control (ATC), especially during high workload or emergency scenarios. We're also exploring the use of large language models (LLMs) to convert pilot speech into structured messages and integrate these with visual interfaces such as dynamic maps.
+
+      2. Trajectory-Based Operations (TBO)**  
+      TBO is a next-generation air traffic management concept that relies on 4D trajectories (latitude, longitude, altitude, and time) to optimize flight efficiency and safety. Our team is designing new flight deck interfaces that help pilots manage time constraints associated with Required Time of Arrival (RTA) in both flight and taxi operations (Surface TBO). This includes intuitive visual tools and map overlays to maintain awareness of timing and spatial requirements without overwhelming the crew.
+
+      3. Future Flight Deck and Single-Pilot Operations (SPO)
+      The future of aviation is trending toward Reduced Crew Operations (RCO) and Single-Pilot Operations (SPO), where pilots take on expanded roles supported by intelligent automation. Our work investigates how autonomous systems and natural language interfaces can collaborate with pilots, especially in abnormal or emergency situations. We are comparing touch-based interactions with natural language communication to support tasks like checklist management, system monitoring, and joint decision-making with autonomous agents, ensuring that safety and workload remain manageable.
+
+      If you're interested in contributing as a graduate student or post-doc, particularly in areas such as interface design, automation, human-autonomy teaming, or natural language interaction, please get in touch!
+
   - id: cybersight
     name: CyberSight
     image: "projects/cybersight.jpg"
+    tags:
+      - assistive technology
+      - mobile
+      - audio
+      - computer vision
+      - ML
+      - accessibility
+      - speech technology
     description: |
       Blind and visually impaired (BVI) individuals often find the shopping experience to be inaccessible. A variety of applications and tools have been created to address aspects of these problems, and AI technology continues to improve for identifying objects and text. However, gaps remain, in particular, necessary functionality such as locating specific articles, reaching for them on the shelf, verifying that they have acquired the desired item, and obtaining pricing information. At present, for those in the BVI community, these tasks generally involve reliance on the assistance of others.
 
@@ -50,6 +94,14 @@ projects:
   - id: vibrations
     name: Speech-to-Vibration
     image: "projects/vibrations.png"
+    tags:
+      - assistive technology
+      - mobile
+      - audio
+      - haptics
+      - accessibility
+      - speech technology
+      - wearable
     description: |
       We are developing a vibrotactile apparatus that converts speech audio into vibrations delivered on the user's skin. Previous research conducted by our lab and other researchers has proposed various designs and language encoding strategies. These studies have demonstrated the effectiveness of these approaches in enabling individuals without hearing loss to comprehend complex vocabulary solely through vibrotactile stimulation. However, there has been little research exploring the benefits of multimodal fusion to interpretation of speech for deaf or hard-of-hearing individuals, and the research that has been conducted for unimodal (haptic) sensory substitution with this community has been limited to pilot studies employing a simplistic vocabulary (50 single-syllable words), with testing trials presenting four options from which the user could choose.
 
@@ -63,21 +115,18 @@ projects:
 
       During the project, students will work closely with graduate students and a postdoctoral fellow, designing a set of vibrotactile stimuli that maps different letters or phonemes to a distinct vibration pattern. This includes applying signal processing techniques on a digital audio workstation (DAW) or through Python libraries. The student will also work on implementing the software needed to run the user training and testing. This may include modifying the existing code (Dart/Flutter) or creating new applications. The student will have the opportunity to contribute with their insights and opinions during the system development and testing, and participate in co-authorship of an intended research publication.
 
-  - id: ar-therapy
-    name: AR Art Therapy
-    image: "projects/ararttherapy.jpg"
-    description: |
-      For many patients suffering from chronic pain, it is difficult to express how their pain feels in words. This project will develop a tool to allow patients to collaboratively illustrate their pain experience in communication with their doctor. In this regard, art therapy has long been a tool that allows such individuals to work through their pain in a physical way and better communicate with their healthcare team. However, for many, expressing themselves effectively through the creation of art is a daunting process. By creating an augmented reality tool, leveraging generative networks that helps in this process, patients will gain a way to benefit from the art therapy paradigm without requiring artistic skills. At a high level, the fundamental tasks the student(s) will undertake include:
-
-      - Potentially assisting in the creation of one or more data sets suitable for training the generative models
-      - Choosing an appropriate toolset for developing a virtual environment
-      - Developing a basic virtual environment through which a patient and doctor can interact
-      - Adding virtual "art tools" that patients can use to draw on their own virtual avatar
-      - This project is suitable for a group of motivated students with experience or strong interest in augmented and/or virtual reality, and the applications of machine learning techniques.
-
   - id: navigation
     name: Navigation Assistance
     image: "projects/navigation.jpg"
+    tags:
+      - assistive technology
+      - mobile
+      - audio
+      - computer vision
+      - haptics
+      - accessibility
+      - ML
+      - navigation
     description: |
       This project aims to leverage the benefits of smartphones, possibly carried on a neck-worn lanyard, or connected to external devices such as head-worn panoramic camera systems, to provide navigation assistance for the visually impaired community,
 
@@ -93,6 +142,15 @@ projects:
   - id: musical-telepresence
     name: Musical Telepresence
     image: "projects/music-presence.jpg"
+    tags:
+      - telepresence
+      - audio
+      - video
+      - multimodal
+      - AR
+      - XR
+      - networking
+      - computer vision
     description: |
       Videoconferencing technology allows for effective interaction, as long as everyone remains in front of their computer screen (and camera), and is willing to accept a stationary 2D view of their counterparts. However, as we have all experienced from the years of the pandemic, this is not the same as being together "in the real world", and is limiting in terms of the degree of engagement with one another. Musical practice and performance by videoconferencing is an activity where the sense of distance is very much emphasized by the technology, not just by questions of latency (delay), but also, the limits on natural expression that can be reproduced from a fixed perspective.
 
@@ -112,6 +170,14 @@ projects:
   - id: enhanced-social-intelligence
     name: Enhanced Social Intelligence in Teleconferencing Systems
     image: "projects/socialtelepresence.png"
+    tags:
+      - telepresence
+      - affective computing
+      - physiological
+      - audio
+      - video
+      - multimodal
+      - networking
     description: |
       The project involves prototyping of a systems architecture to enhance social engagement between distributed (remote) friends or family members participating in a shared media experience, such as watching a sports event or a movie (think Netflix Teleparty) that enhances their sense of connection without distracting from the main activity.
 
@@ -122,6 +188,11 @@ projects:
   - id: haptic-wearables
     name: Haptic Wearables
     image: "projects/danceshoes.jpg"
+    tags:
+      - haptics
+      - wearable
+      - sports
+      - rehabilitation
     description: |
       Our lab works on the design of wearable haptic devices that can be attached to the body or inserted into regular clothing, capable of sensing human input and delivering richly expressive output to the wearer. We are particularly interested in applications to rehabilitation therapy, sports training, information communication, virtual reality, and mobile gaming.
 
@@ -138,6 +209,14 @@ projects:
   - id: adina
     name: AI-Digital Nurse Avatar (ADiNA)
     image: "projects/adina.png"
+    tags:
+      - LLM
+      - ML
+      - speech technology
+      - multimodal
+      - healthcare
+      - avatar
+      - mobile
     description: |
       Our AI Digital Nurse Avatar (ADiNA) is a GPT-driven graphical avatar that interacts with users through speech for medical scenario information gathering and conversation with older adults for long-term psychosocial assessment purposes.
 
@@ -169,19 +248,13 @@ projects:
 
       We are seeking talented and motivated students to join this project to contribute to one or more of these tasks. Experience with the relevant ML frameworks, speech recognition and synthesis APIs would be a strong asset, although not essential.
 
-  - id: collab-architectures
-    name: Comparing Collaborative Interaction Architectures
-    image: "projects/ikea.jpeg"
-    description: |
-      Imagine designing an IKEA kitchen layout with your partner. Would it be easier and more efficient to do so by working with the 20-20 3D viewer IKEA Home Planner on a conventional computer display, or doing so in 3D with AR glasses, directly in your own kitchen environment, or perhaps, working collaboratively in an immersive 3D design environment?
-
-      That's the question that this project seeks to answer, by comparing performance and user experience through a study that evaluates the benefits of working collaboratively on the design task under different environments.
-
-      Whereas the IKEA and Hyve3D design software already exists, to carry out the same task under the HoloLens condition, the student(s) will need to work in Unity, developing the code to share the scene model being developed and manipulated within the environment, so that the evolving kitchen layout can be experienced together by the kitchen layout "co-designers". Comparison and analysis of the effectiveness of task collaboration supported by the different tools will follow a framework inspired in part by a recent study of collaboration in handheld AR environments.
-  
   - id: touching-faces-vr
     name: Touching Faces in VR
     image: "projects/VRtouch.jpg"
+    tags:
+      - haptics
+      - affective computing
+      - VR
     description: |
       Most haptic wearables focus on delivery of tactile stimuli to the human body, but rarely consider the face, which is an important area of social touch, especially for couples and parent-children relationships. This project will explore the possibilities for delivering remote touch to the face, and eventually, of feeling a sensation of doing so, in the virtual environment. The architecture will be based on a soft wearable prototype, which operates in conjunction with audio-graphical stimuli in the VR space. We anticipate simulating such interactions as a mother caressing the face of her child, or planting a kiss on the cheek. Applications extend not only to social interaction but further to treatment of medical conditions (e.g., phobia therapy).
 
@@ -190,20 +263,18 @@ projects:
       - Design and implementation of a prototype employing our soft actuation technology
       - Integration of the prototype within a VR environment
       - Design and execution of a user study and analysis of results
-
+      
       Suitable for students in Electrical and Computer or Mechanical Engineering, especially those interested in haptics, soft robotics, Unity, microcontroller programming, or user study design.
-
-  - id: temperature-illusions
-    name: Inducing Temperature Illusions Through Withdrawal Reflex
-    image: "projects/temperature-illusions.jpg"
-    description: |
-      We previously demonstrated that a simulated heat withdrawal response through a suitably timed electrical muscle stimulation (EMS) could elicit perception of a warmer temperature. However, potential experimental confounds need to be investigated to determine whether the observed effect is due specifically to muscle activation or could equally be induced through delivery of other stimuli, such as vibration.
-
-      This project will modify the hardware apparatus to deliver different stimuli and then carry out a follow-up research study.
 
   - id: 4dx-authoring
     name: Content Authoring for 4DX Cinema
     image: "projects/armrest.png"
+    tags:
+      - multimodal
+      - haptics
+      - video
+      - XR
+      - ML
     description: |
       Building on our first-generation prototype, this project aims to develop an open-source interactive authoring tool to control a multimodal haptic armrest to enhance the user experience of viewing audio-visual media. The haptic armrest delivers sensations of vibrotactile, poking, airflow, and thermal (cooling/warming) stimuli.
 
@@ -215,6 +286,37 @@ projects:
       - Assisted haptic authoring via audiovisual analysis
 
       Ideal for Honour's or capstone students with interest in HCI, multimedia, and strong development skills. Prototype hardware, actuator code, and effect generation algorithms provided.
+
+past_projects:
+  - id: ar-therapy
+    name: AR Art Therapy
+    image: "projects/ararttherapy.jpg"
+    description: |
+      For many patients suffering from chronic pain, it is difficult to express how their pain feels in words. This project will develop a tool to allow patients to collaboratively illustrate their pain experience in communication with their doctor. In this regard, art therapy has long been a tool that allows such individuals to work through their pain in a physical way and better communicate with their healthcare team. However, for many, expressing themselves effectively through the creation of art is a daunting process. By creating an augmented reality tool, leveraging generative networks that helps in this process, patients will gain a way to benefit from the art therapy paradigm without requiring artistic skills. At a high level, the fundamental tasks the student(s) will undertake include:
+
+      - Potentially assisting in the creation of one or more data sets suitable for training the generative models
+      - Choosing an appropriate toolset for developing a virtual environment
+      - Developing a basic virtual environment through which a patient and doctor can interact
+      - Adding virtual "art tools" that patients can use to draw on their own virtual avatar
+      - This project is suitable for a group of motivated students with experience or strong interest in augmented and/or virtual reality, and the applications of machine learning techniques.
+
+  - id: collab-architectures
+    name: Comparing Collaborative Interaction Architectures
+    image: "projects/ikea.jpeg"
+    description: |
+      Imagine designing an IKEA kitchen layout with your partner. Would it be easier and more efficient to do so by working with the 20-20 3D viewer IKEA Home Planner on a conventional computer display, or doing so in 3D with AR glasses, directly in your own kitchen environment, or perhaps, working collaboratively in an immersive 3D design environment?
+
+      That's the question that this project seeks to answer, by comparing performance and user experience through a study that evaluates the benefits of working collaboratively on the design task under different environments.
+
+      Whereas the IKEA and Hyve3D design software already exists, to carry out the same task under the HoloLens condition, the student(s) will need to work in Unity, developing the code to share the scene model being developed and manipulated within the environment, so that the evolving kitchen layout can be experienced together by the kitchen layout "co-designers". Comparison and analysis of the effectiveness of task collaboration supported by the different tools will follow a framework inspired in part by a recent study of collaboration in handheld AR environments.
+  
+  - id: temperature-illusions
+    name: Inducing Temperature Illusions Through Withdrawal Reflex
+    image: "projects/temperature-illusions.jpg"
+    description: |
+      We previously demonstrated that a simulated heat withdrawal response through a suitably timed electrical muscle stimulation (EMS) could elicit perception of a warmer temperature. However, potential experimental confounds need to be investigated to determine whether the observed effect is due specifically to muscle activation or could equally be induced through delivery of other stimuli, such as vibration.
+
+      This project will modify the hardware apparatus to deliver different stimuli and then carry out a follow-up research study.
 
   - id: skin-coupling
     name: Measuring Skin-Coupling of Wearable Devices
@@ -255,7 +357,6 @@ projects:
 
       This project uses a head-mounted 360° camera, crowdsourced human labeling, and deep learning to train more effective indoor navigation scene descriptions. Results will be benchmarked against previous systems developed by our lab, especially for tasks like intersection crossing.
 
-past_projects:
   - id: chatting-with-the-historical-figure-stars
     name: Chatting with the (historical figure) stars
     image: "projects/nietzche.jpg"
