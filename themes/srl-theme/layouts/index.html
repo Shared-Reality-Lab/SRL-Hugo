@@ -2,13 +2,13 @@
 
 <div class="hero-block">
   <section class="hero" role="region" aria-label="Featured Slides">
-    <div class="swiper">
+    <div class="swiper" role="group" aria-roledescription="carousel">
       <div class="swiper-wrapper">
         {{ range .Site.Data.slider.slides }}
-          <a href="{{ .link | absURL }}" class="swiper-slide slide-link">
+          <a href="{{ .link | absURL }}" class="swiper-slide slide-link" aria-label="{{ .title }}">
             <div class="slide-content full-slide">
               <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .title }}" class="slide-img" />
-              <div class="caption-overlay">
+              <div class="caption-overlay" aria-hidden="true">
                 <div class="caption-text">
                   <h2>{{ .title }}</h2>
                   <p>{{ .caption }}</p>
@@ -18,13 +18,16 @@
           </a>
         {{ end }}
       </div>
-               
+
+      <!-- Pagination Dots -->
+      <div class="swiper-pagination" aria-hidden="true"></div>
+
+      <!-- Subtle Arrows -->
       <div class="swiper-button-prev" aria-label="Previous slide"></div>
       <div class="swiper-button-next" aria-label="Next slide"></div>
 
     </div>
   </section>
-
 </div>
 
 <!-- About Us -->
@@ -40,37 +43,4 @@
   </div>
 </section>
 
-<!-- Alternating sections -->
-<section class="section section-white" id="blog">
-  <h2>Blog</h2>
-  <p>Lab stories, news, and updates.</p>
-  <a href="{{ "blog/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-dark" id="projects">
-  <h2>Projects</h2>
-  <p>Sonification, accessibility, and HCI research.</p>
-  <a href="{{ "projects/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-white" id="publications">
-  <h2>Publications</h2>
-  <p>Conference papers and peer-reviewed work.</p>
-  <a href="{{ "publications/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-dark" id="personnel">
-  <h2>Personnel</h2>
-  <p>The people behind the lab.</p>
-  <a href="{{ "personnel/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-white" id="faq">
-  <h2>FAQ</h2>
-  <p>Common questions about our work.</p>
-  <a href="{{ "faq/" | absURL }}">See more →</a>
-</section>
-
 {{ end }}
-
-

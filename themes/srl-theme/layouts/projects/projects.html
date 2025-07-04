@@ -1,39 +1,53 @@
 {{ define "main" }}
 
+{{/* Collect (unique) tags from all projects */}}
+{{ $allTags := slice }}
+{{ range .Site.Data.projects.projects }}
+  {{ range .tags }}
+    {{ if not (in $allTags .) }}
+      {{ $allTags = $allTags | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ range .Site.Data.projects.past_projects }}
+  {{ range .tags }}
+    {{ if not (in $allTags .) }}
+      {{ $allTags = $allTags | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 <section class="projects-intro section-white">
   <h1>{{ .Site.Data.projects.intro.title }}</h1>
-  <p>
-    {{ .Site.Data.projects.intro.text | markdownify }}
-  </p>
+  <p>{{ .Site.Data.projects.intro.text | markdownify }}</p>
 </section>
 
 <div class="projects-container">
 
-  <!-- Sidebar navigation -->
-  <nav class="projects-sidebar">
-    <ul>
-      <li class="sidebar-label"><strong>Available Projects</strong></li>
-      {{ range .Site.Data.projects.projects }}
-        <li><a href="#{{ .id }}">{{ .name }}</a></li>
-      {{ end }}
+  <!-- floating filter button + tag menu -->
+  <div class="filter-floating-wrapper">
+    <button class="filter-toggle-btn">Filter Projects</button>
+    <div class="filter-tag-menu">
+      <strong>Filter by Tags</strong>
+      <div class="tag-options">
+        {{ range $allTags }}
+          <label><input type="checkbox" value="{{ . }}"> {{ . }}</label>
+        {{ end }}
+      </div>
+      <button class="clear-filter-btn">Clear Filters</button>
+    </div>
+  </div>
 
-      <li class="sidebar-label"><strong>Past Projects</strong></li>
-      {{ range .Site.Data.projects.past_projects }}
-        <li><a href="#{{ .id }}">{{ .name }}</a></li>
-      {{ end }}
-    </ul>
-  </nav>
-
-  <!-- Project content -->
   <article class="projects-main">
-    
+
     <!-- Available Projects Section -->
+
     <section class="projects-section-title">
       <h2>Electrical and Computer</h2>
     </section>
 
     {{ range .Site.Data.projects.projects }}
-      <section id="{{ .id }}" class="project-section">
+      <section id="{{ .id }}" class="project-section" {{ with .tags }}data-tags='{{ . | jsonify }}'{{ end }}>
         {{ if .image }}
           <div class="project-with-image">
             <h2>{{ .name }}</h2>
@@ -47,6 +61,13 @@
         {{ else }}
           <h2>{{ .name }}</h2>
           <p>{{ .description | markdownify }}</p>
+        {{ end }}
+        {{ if .tags }}
+          <div class="project-tags">
+            {{ range .tags }}
+              <span class="tag-badge">{{ . }}</span>
+            {{ end }}
+          </div>
         {{ end }}
       </section>
     {{ end }}
@@ -57,7 +78,7 @@
     </section>
 
     {{ range .Site.Data.projects.past_projects }}
-      <section id="{{ .id }}" class="project-section">
+      <section id="{{ .id }}" class="project-section" {{ with .tags }}data-tags='{{ . | jsonify }}'{{ end }}>
         {{ if .image }}
           <div class="project-with-image">
             <h2>{{ .name }}</h2>
@@ -72,6 +93,13 @@
           <h2>{{ .name }}</h2>
           <p>{{ .description | markdownify }}</p>
         {{ end }}
+        {{ if .tags }}
+          <div class="project-tags">
+            {{ range .tags }}
+              <span class="tag-badge">{{ . }}</span>
+            {{ end }}
+          </div>
+        {{ end }}
       </section>
     {{ end }}
 
@@ -80,33 +108,44 @@
 </div>
 
 <script>
-  const sidebarLinks = document.querySelectorAll(".projects-sidebar a");
-  const intro = document.querySelector(".projects-intro");
+  const projects = document.querySelectorAll('.project-section');
+  const tagOptionsContainer = document.querySelector('.tag-options');
+  const clearBtn = document.querySelector('.clear-filter-btn');
+  const toggleBtn = document.querySelector('.filter-toggle-btn');
+  const tagMenu = document.querySelector('.filter-tag-menu');
 
-  // Hide intro on click
-  sidebarLinks.forEach(link => {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const targetId = link.getAttribute("href").substring(1);
-      const target = document.getElementById(targetId);
+  toggleBtn.addEventListener('click', () => {
+    tagMenu.style.display = tagMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
 
-      if (intro) intro.style.display = "none";
+  function filterProjects() {
+    const selectedTags = [...document.querySelectorAll('.tag-options input:checked')].map(cb => cb.value.toLowerCase());
 
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-        history.replaceState(null, "", "#" + targetId);
+    projects.forEach(project => {
+      const tagData = project.dataset.tags;
+      let projectTags = [];
+
+      try {
+        if (tagData) {
+          projectTags = JSON.parse(tagData).map(t => t.toLowerCase());
+        }
+      } catch (e) {
+        projectTags = [];
       }
+
+      const matches = selectedTags.every(tag => projectTags.includes(tag));
+      project.style.display = selectedTags.length === 0 || matches ? 'block' : 'none';
     });
+  }
+
+  tagOptionsContainer.addEventListener('change', filterProjects);
+
+  clearBtn.addEventListener('click', () => {
+    document.querySelectorAll('.tag-options input:checked').forEach(cb => cb.checked = false);
+    filterProjects();
   });
 
-  // Show intro again when scrolling to top
-  window.addEventListener("scroll", () => {
-    // Show intro if scrolled to (or near) the top
-    if (window.scrollY < 10) {
-      if (intro) intro.style.display = "block";
-    }
-  });
+  filterProjects(); // initial run
 </script>
-
 
 {{ end }}

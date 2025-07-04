@@ -6,10 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
   <!-- Swiper CSS -->
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
 
@@ -32,20 +29,18 @@
   </button>
 
   <div class="nav-links" id="navLinks">
-    <a data-target="aboutus">About Us</a>
-    <a data-target="blog">Blog</a>
-    <a data-target="projects">Projects</a>
-    <a data-target="publications">Publications</a>
-    <a data-target="personnel">Personnel</a>
-    <a data-target="faq">FAQ</a>    
+    <a href="{{ .Site.BaseURL }}#aboutus">About Us</a>
+    <a href="{{ .Site.BaseURL }}blog/">Blog</a>
+    <a href="{{ .Site.BaseURL }}projects/">Projects</a>
+    <a href="{{ .Site.BaseURL }}publications/">Publications</a>
+    <a href="{{ .Site.BaseURL }}personnel/">Personnel</a>
+    <a href="{{ .Site.BaseURL }}faq/">FAQ</a>    
   </div>
 </nav>
 
 <main id="top">
   {{ block "main" . }}{{ end }}
 </main>
-
-<!-- ** Scripts ** -->
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -61,19 +56,22 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
     });
   });
 </script>
 
-
-<!-- support the themed hamburger animation -->
+-<!-- support the themed hamburger animation -->
 <script>
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
 
-  navToggle.addEventListener('click', function () {
+  navToggle.addEventListener('click', () => {
     navLinks.classList.toggle('open');
-    navToggle.classList.toggle('open'); // Only this is needed to animate the spans
+    navToggle.classList.toggle('open');
   });
 
   // Close the nav when any link is clicked
@@ -84,28 +82,6 @@
     });
   });
 </script>
-
-
-<!-- base url logic-->
-<script>
-  // Get the base URL from Hugo's config and remove the trailing slash if it exists
-  const base = "{{ .Site.BaseURL }}".replace(/\/$/, "");
-  const currentURL = window.location.href;
-  const homeURL = window.location.origin + base;
-
-  // Check if the user is currently on the homepage (with or without trailing slash)
-  const isHome = currentURL === homeURL || currentURL === homeURL + "/";
-
-  document.querySelectorAll('.nav-links a').forEach(link => {
-    const target = link.getAttribute('data-target');
-    if (isHome) {
-      link.setAttribute('href', `#${target}`);
-    } else {
-      link.setAttribute('href', `${base}/${target}/`);
-    }
-  });
-</script>
-
 
 </body>
 </html>
