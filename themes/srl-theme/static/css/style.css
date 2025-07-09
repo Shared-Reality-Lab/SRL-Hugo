@@ -396,7 +396,8 @@ html, body {
   text-align: center;
 }
 
-.about-container {
+.about-container,
+.grants-container {
   max-width: 900px;
   margin: 0 auto;
   font-size: 1.1rem;
@@ -406,11 +407,44 @@ html, body {
 }
 
 .about-container h2 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   margin-bottom: 1.5rem;
   background: none;
   color: #222;
   -webkit-text-fill-color: initial;
+}
+
+/* ------------------------------
+   Sponsors Section
+------------------------------- */
+.sponsors-background {
+  background-color: #f9f9f9;
+  padding: 2rem 2rem 3rem;
+}
+
+.grants-container p {
+  margin-bottom: 2rem;
+}
+
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.sponsor-logo {
+  height: 50px;
+  max-width: 140px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.sponsor-logo:hover {
+  filter: none;
 }
 
 /* ------------------------------

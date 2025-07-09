@@ -33,13 +33,22 @@
 <!-- About Us -->
 <section class="section-highlight notebook-background" id="aboutus">
   <div class="about-container">
-    <h2>About us</h2>
-    <p>
-      The Shared Reality Lab works to achieve high-fidelity distributed interaction, with both real and virtual data, at levels of presence that support the most demanding applications, and to do so in spite of sensor and bandwidth limitations. Our lab works with audio, video, and haptic technologies, mixed reality and mobile computing, building systems that leverage their capabilities to facilitate and enrich both human-computer and computer-mediated human-human interaction. Active projects include development of conversational avatars for therapy and engagement with older adults, rendering audio-haptic experiences of graphics contents for users who are blind, multimodal immersive walking experiences, telepresence for music and social interaction, and design of the flight deck of the future.
-    </p>
-    <p>
-      For questions about the lab, please contact <a href="https://cim.mcgill.ca/~jer/email.html" target="_blank" rel="noopener">Prof. Jeremy Cooperstock</a>.
-    </p>
+    <h2>{{ .Site.Data.srl.about.title }}</h2>
+    <p>{{ .Site.Data.srl.about.body | markdownify }}</p>
+  </div>
+</section>
+
+<!-- Grants & Sponsors -->
+<section class="section-highlight sponsors-background" id="grants">
+  <div class="grants-container">
+    <p>{{ .Site.Data.srl.grants.description | markdownify }}</p>
+    <div class="sponsor-logos">
+      {{ range .Site.Data.srl.grants.sponsors }}
+        <a href="{{ .link }}" target="_blank" rel="noopener">
+          <img src="{{ "images/grants/" | relURL }}{{ .logo }}" alt="{{ .name }}" class="sponsor-logo" />
+        </a>      
+      {{ end }}
+    </div>
   </div>
 </section>
 
