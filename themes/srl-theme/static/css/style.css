@@ -419,11 +419,12 @@ html, body {
 ------------------------------- */
 .sponsors-background {
   background-color: #f9f9f9;
-  padding: 2rem 2rem 3rem;
+  padding: 3rem 2rem 4rem;
 }
 
 .grants-container p {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .sponsor-logos {
@@ -431,20 +432,19 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  gap: 2.5rem 3rem; 
+  margin-top: 2rem;
 }
 
 .sponsor-logo {
-  height: 50px;
-  max-width: 140px;
+  height: 70px;
+  max-width: 180px;     
   object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .sponsor-logo:hover {
-  filter: none;
+  transform: scale(1.15); /* zoom on hover */
 }
 
 /* ------------------------------

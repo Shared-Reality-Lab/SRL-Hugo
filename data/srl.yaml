@@ -47,21 +47,15 @@ grants:
     - name: innovation
       logo: logo_cfi.jpg
       link: http://www.innovation.ca
+    - name: IMD
+      logo: imdresearch.jpeg
+      link: https://www.imdresearch.ca/
+    - name: Humanware
+      logo: humanware.jpg
+      link: https://www.humanware.com/
     - name: Haply Robotics
       logo: haply.png
       link: https://www.haply.co/
-    - name: Mozilla
-      logo: mozilla.png
-      link: https://www.mozilla.org/
-    - name: Google Research
-      logo: google-research.png
-      link: https://research.google/
-    - name: HP Labs
-      logo: hp.png
-      link: https://www.hpl.hp.com/
-    - name: Humanware
-      logo: humanware.png
-      link: https://www.humanware.com/
-    - name: ISED
-      logo: ised.png
-      link: https://ised-isde.canada.ca/
+    - name: Haply Robotics
+      logo: hbhl_logo_en_pantone.png
+      link: https://www.mcgill.ca/hbhl
