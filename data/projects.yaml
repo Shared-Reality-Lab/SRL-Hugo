@@ -44,13 +44,11 @@ projects:
     name: ADAIR
     image: "projects/adair.png"
     tags:
-      - assistive technology
-      - audio
-      - haptics
-      - multimodal
-      - ML
-      - accessibility
+      - aviation
+      - visualization
       - LLM
+      - speech technology
+      - haptics
     description: |
       Advanced AIRspace Usability (ADAIR) is a joint research project between École Polytechnique Montreal, McGill University, and Toronto Metropolitan University, alongside industrial partners including Adacel, Bombardier, Thales Canada, CMC Électronique, Marinvent Corp., and Presagis. This project focuses on designing the future of flight deck technologies.
       Our research is part of the roadmap defined by the International Civil Aviation Organization (ICAO) to manage the growing complexity and traffic in modern airspace. The project aims to improve flight deck user interfaces, optimize pilot tasks, reduce cognitive load, and enhance situational awareness while maintaining safety and operational efficiency. A core principle of our work is involving pilots directly in the design, testing, and evaluation of our prototypes.

@@ -1,0 +1,61 @@
+about:
+  title: About Us
+  body: >
+    The Shared Reality Lab works to achieve high-fidelity distributed interaction, with both real and virtual data, at levels of presence that support the most demanding applications, and to do so in spite of sensor and bandwidth limitations. Our lab works with audio, video, and haptic technologies, mixed reality and mobile computing, building systems that leverage their capabilities to facilitate and enrich both human-computer and computer-mediated human-human interaction. Active projects include development of conversational avatars for therapy and engagement with older adults, rendering audio-haptic experiences of graphics contents for users who are blind, multimodal immersive walking experiences, telepresence for music and social interaction, and design of the flight deck of the future.
+
+    For questions about the lab, please [contact Prof. Jeremy Cooperstock](https://cim.mcgill.ca/~jer/email.html).
+
+grants:
+  description: >
+    The Shared Reality Lab is currently funded by grants and contracts from the Natural Sciences and Engineering Research Council, MEDTEQ, Healthy Brains, Healthy Lives, CRIAQ, iMD Research, AI Mental Health Precision, Humanware, and Haply Robotics.
+    Past funding sources include the Fonds Nature et technologies, Sécurité publique Québec, Canadian Internet Registry Association, Networks of Centres of Excellence, Minstère du développement économique, de l'innovation et de l'exportation, Secrétariat du Conseil du trésor, CANARIE, and Innovation, Science and Economic Development Canada, as well as industrial support from HP Labs, Google Research, Mozilla, and InterDigital Corporation.
+
+  sponsors:
+    - name: ic
+      logo: ic.svg
+      link: https://www.ic.gc.ca
+    - name: NSERC
+      logo: nserc.jpg
+      link: https://www.nserc-crsng.gc.ca/
+    - name: frqnt
+      logo: logo_fqrnt.gif
+      link: http://www.fqrnt.gouv.qc.ca
+    - name: sct
+      logo: logo_sct.png
+      link: http://www.tresor.gouv.qc.ca
+    - name: mdeie
+      logo: logo_mdeie2.jpg
+      link: http://www.mdeie.gouv.qc.ca
+    - name: MEDTEQ
+      logo: medteq.jpg
+      link: https://www.medteq.ca/
+    - name: CRIAQ
+      logo: criaq.jpeg
+      link: https://www.criaq.aero/
+    - name: cirmmt
+      logo: cirmmt_block_logo.png
+      link: http://www.cirmmt.org
+    - name: grand
+      logo: logo_grand.png
+      link: http://www.grand-nce.ca/
+    - name: CIRA
+      logo: cip-en-colour-web.jpg
+      link: https://www.cira.ca/
+    - name: canarie
+      logo: logo_canarie.gif
+      link: http://www.canarie.ca
+    - name: innovation
+      logo: logo_cfi.jpg
+      link: http://www.innovation.ca
+    - name: IMD
+      logo: imdresearch.jpeg
+      link: https://www.imdresearch.ca/
+    - name: Humanware
+      logo: humanware.jpg
+      link: https://www.humanware.com/
+    - name: Haply Robotics
+      logo: haply.png
+      link: https://www.haply.co/
+    - name: Haply Robotics
+      logo: hbhl_logo_en_pantone.png
+      link: https://www.mcgill.ca/hbhl

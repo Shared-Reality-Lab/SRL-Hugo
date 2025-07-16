@@ -2,13 +2,13 @@
 
 <div class="hero-block">
   <section class="hero" role="region" aria-label="Featured Slides">
-    <div class="swiper">
+    <div class="swiper" role="group" aria-roledescription="carousel">
       <div class="swiper-wrapper">
         {{ range .Site.Data.slider.slides }}
-          <a href="{{ .link | absURL }}" class="swiper-slide slide-link">
+          <a href="{{ .link | absURL }}" class="swiper-slide slide-link" aria-label="{{ .title }}">
             <div class="slide-content full-slide">
               <img src="{{ "images/" | relURL }}{{ .image }}" alt="{{ .title }}" class="slide-img" />
-              <div class="caption-overlay">
+              <div class="caption-overlay" aria-hidden="true">
                 <div class="caption-text">
                   <h2>{{ .title }}</h2>
                   <p>{{ .caption }}</p>
@@ -18,59 +18,38 @@
           </a>
         {{ end }}
       </div>
-               
+
+      <!-- Pagination Dots -->
+      <div class="swiper-pagination" aria-hidden="true"></div>
+
+      <!-- Subtle Arrows -->
       <div class="swiper-button-prev" aria-label="Previous slide"></div>
       <div class="swiper-button-next" aria-label="Next slide"></div>
 
     </div>
   </section>
-
 </div>
 
 <!-- About Us -->
-<section class="section-highlight notebook-background" id="aboutus">
+<section class="section-highlight" id="aboutus">
   <div class="about-container">
-    <h2>About us</h2>
-    <p>
-      The Shared Reality Lab works to achieve high-fidelity distributed interaction, with both real and virtual data, at levels of presence that support the most demanding applications, and to do so in spite of sensor and bandwidth limitations. Our lab works with audio, video, and haptic technologies, mixed reality and mobile computing, building systems that leverage their capabilities to facilitate and enrich both human-computer and computer-mediated human-human interaction. Active projects include development of conversational avatars for therapy and engagement with older adults, rendering audio-haptic experiences of graphics contents for users who are blind, multimodal immersive walking experiences, telepresence for music and social interaction, and design of the flight deck of the future.
-    </p>
-    <p>
-      For questions about the lab, please contact <a href="https://cim.mcgill.ca/~jer/email.html" target="_blank" rel="noopener">Prof. Jeremy Cooperstock</a>.
-    </p>
+    <h2>{{ .Site.Data.srl.about.title }}</h2>
+    <p>{{ .Site.Data.srl.about.body | markdownify }}</p>
   </div>
 </section>
 
-<!-- Alternating sections -->
-<section class="section section-white" id="blog">
-  <h2>Blog</h2>
-  <p>Lab stories, news, and updates.</p>
-  <a href="{{ "blog/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-dark" id="projects">
-  <h2>Projects</h2>
-  <p>Sonification, accessibility, and HCI research.</p>
-  <a href="{{ "projects/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-white" id="publications">
-  <h2>Publications</h2>
-  <p>Conference papers and peer-reviewed work.</p>
-  <a href="{{ "publications/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-dark" id="personnel">
-  <h2>Personnel</h2>
-  <p>The people behind the lab.</p>
-  <a href="{{ "personnel/" | absURL }}">See more →</a>
-</section>
-
-<section class="section section-white" id="faq">
-  <h2>FAQ</h2>
-  <p>Common questions about our work.</p>
-  <a href="{{ "faq/" | absURL }}">See more →</a>
+<!-- Grants & Sponsors -->
+<section class="section-highlight sponsors-background" id="grants">
+  <div class="grants-container">
+    <p>{{ .Site.Data.srl.grants.description | markdownify }}</p>
+    <div class="sponsor-logos">
+      {{ range .Site.Data.srl.grants.sponsors }}
+        <a href="{{ .link }}" target="_blank" rel="noopener">
+          <img src="{{ "images/grants/" | relURL }}{{ .logo }}" alt="{{ .name }}" class="sponsor-logo" />
+        </a>      
+      {{ end }}
+    </div>
+  </div>
 </section>
 
 {{ end }}
-
-
