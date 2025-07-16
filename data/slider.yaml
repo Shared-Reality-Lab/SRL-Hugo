@@ -1,8 +1,8 @@
 slides:
   - id: image
     image: banner1.jpg
-    title: IMAGE (Internet Multimodal Access to Graphical Exploration)
-    caption: Making internet graphics accessible to blind users using AI, audio, and touch.
+    title: Internet Multimodal Access to Graphical Exploration (IMAGE)
+    caption: Making internet graphics accessible to blind users through audio and touch.
     link: projects/#image
     portrait: false
 
@@ -13,72 +13,67 @@ slides:
     link: projects/#wearables
     portrait: false
 
-  - id: ar-therapy
-    image: banner3.png
-    title: AR Art Therapy
-    caption: Generative AR tool to help chronic pain patients express themselves visually.
-    link: projects/#ar-therapy
-    portrait: false
-
   - id: rta
     image: slider/rta2.png
-    title: "RTA Reimagined: Enhanced Experience. Reduced Workload. Better Situational Awareness"
-    caption: Managing Required Time of Arrival (RTA) in today's cockpits can be complex and mentally taxing for pilots. This project introduces and evaluates novel, graphically-integrated RTA widgets for the Navigation Display, designed to improve situational awareness, reduce workload, and enhance user experience.
-    link: projects/#ar-therapy
+    title: "Next-Generation Avionics Interfaces"
+    caption: Developing displays for Required Time of Arrival (RTA).
+    link: projects/#adair
     portrait: false
 
   - id: atc
     image: carousel5.jpg
-    title: Observing Air Traffic Controllers at Pierre-Elliot Trudeau International Airport
+    title: Observing ATC
     caption: Studying workflows of air traffic controllers and pilots to improve communication.
-    link: projects/#image
+    link: projects/#adair
     portrait: false
 
   - id: sliv
     image: slider/sliv.png
-    title: "SLIV - Scan, locate, interact, validate: An AI-Driven Approach To Enhance Shopping Accessibility For Blind and Visually Impaired Individuals"
-    caption: An AI-powered tool that helps blind users shop independently by detecting objects and guiding them with vision-language reasoning.
-    link: projects/#image
+    title: "Enhancing Shopping Accessibility" 
+    caption: Helping blind and low-vision individuals shop independently with vision-language reasoning.
     portrait: true
 
   - id: khushi
     image: slider/khushi.png
-    title: Observing Air Traffic Controllers at Pierre-Elliot Trudeau International Airport
-    caption: A study exploring how air traffic controllers manage complex workflows in high-stakes environments.
-    link: projects/#image
+    title: Improved Information Display in High-Consequence Environments 
+    caption: Investigating augmented reality displays for monitoring patient vital signs.
     portrait: false
 
   - id: adina
     image: slider/adina.png
     title: AI-Digital Nurse Avatar (ADiNA)
-    caption: An empathetic AI nurse avatar that senses emotions and responds with personalized care for older adults.
-    link: projects/#image
+    caption: A conversational avatar for interaction with older adults.
     portrait: false
 
   - id: stbo
     image: slider/STBO.jpg
-    title: Investigating visual and haptic guidance in the flight deck for future taxi operations
-    caption: Researching visual and haptic cues to help pilots manage time-constrained taxiing in busy airports.
-    link: projects/#image
+    title: Multimodal guidance for future taxi operations
+    caption: Researching visual and haptic cues to help pilots with STBO operations
+    link: projects/#adair
     portrait: false
 
   - id: sonification
     image: slider/sonification.png
-    title: Investigating Sonification for Accessible Interpretation of Complex Charts
-    caption: Using sound to help blind users interpret stock data like RSI, volatility, and price trends without visuals.
-    link: projects/#image
+    title: Accessible Interpretation of Complex Charts
+    caption: Using sonification to help blind users interpret stock data. 
     portrait: false
 
   - id: copilot
     image: slider/copilot1.png
-    title: Integration of an autonomous co-pilot using visual and voice interactions to maintain team activity
-    caption: A voice- and vision-enabled co-pilot designed to support cockpit teamwork and decision-making.
-    link: projects/#image
+    title: Voice-Based Interaction with Autonomous Co-Pilots.
+    caption: Interaction with a voice-enabled autonomous co-pilot to support shared decision-making.
+    link: projects/#adair
     portrait: false
 
   - id: bionicear
     image: slider/bionicear.png
     title: Bionic Ear
-    caption: A smart earpiece that tunes into your focus using brain signals to enhance hearing in real-time.
-    link: projects/#image
+    caption: Building a multimodal model of audio attention to steer intelligent listening devices.
+    portrait: false
+
+  - id: uv
+    image: slider/bwc.jpg
+    title: Ultra-Videoconferencing
+    caption: Flexible, low-latency IP transport system for audio, video, and vibrosensory data.
+    link: projects/uv
     portrait: false
