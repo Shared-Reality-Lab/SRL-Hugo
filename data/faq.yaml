@@ -1,6 +1,6 @@
 - question: "I'm interested in your research area and would like to become one of your graduate students or post-docs. What should I do?"
   answer: >
-    We welcome inquiries regarding opportunities in the lab for both graduate students and postdoctoral fellows at any time. Before doing so, you should browse the web page descriptions of some of our group's current <a href="/~shahdy/srl-hugo-test/#projects">projects</a>, and apply to the graduate program in <a href="https://www.mcgill.ca/ece/graduate/programs" target="_blank">Electrical and Computer Engineering at McGill University</a>, specifying your interest in working with me in Human-Computer Interaction or Computer Vision as part of the Intelligent Systems research group.<br><br>
+    We welcome inquiries regarding opportunities in the lab for both graduate students and postdoctoral fellows at any time. Before doing so, you should browse the web page descriptions of some of our group's current <a href="projects">projects</a>, and apply to the graduate program in <a href="https://www.mcgill.ca/ece/graduate/programs" target="_blank">Electrical and Computer Engineering at McGill University</a>, specifying your interest in working with me in Human-Computer Interaction or Computer Vision as part of the Intelligent Systems research group.<br><br>
     To let me know about your interest, please <a href="https://cim.mcgill.ca/~jer/email.html">email me</a> with the following:
     <ul>
       <li>Cover letter outlining why you're interested, why you're a good fit, and how you'll contribute</li>
@@ -40,7 +40,7 @@
 
 - question: "Can I carry out an undergraduate capstone project or honour's thesis under your supervision?"
   answer: >
-    Yes, if you have strong marks and relevant interests. Please read the <a href="/~shahdy/srl-hugo-test/faq/">FAQ</a>, check the <a href="/~shahdy/srl-hugo-test/#projects">project list</a>, and email your CV and motivation with "UNDERGRAD" in the subject.
+    Yes, if you have strong marks and relevant interests. Please read the <a href="faq">FAQ</a>, check the <a href="projects">project list</a>, and email your CV and motivation with "UNDERGRAD" in the subject.
 
 - question: "Can I apply for an undergraduate research internship in your lab?"
   answer: >

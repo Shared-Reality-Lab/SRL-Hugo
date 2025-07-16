@@ -1,4 +1,4 @@
-baseURL = "/~shahdy/srl-hugo-test/"
+baseURL = "https://srl.mcgill.ca/test/"
 languageCode = "en-us"
 title = "Shared Reality Lab"
 theme = "srl-theme"
