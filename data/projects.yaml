@@ -502,7 +502,7 @@ past_projects:
       - video
       - mobile
       - telepresence
-   image: "projects/camarray.png"
+    image: "projects/camarray.png"
     description: |
       Our camera array architecture, initially developed for remote viewing of surgical (medical) procedures, provides real-time viewpoint interpolation capabilities, allowing users to look around the scene as if physically present. We are now interested in applying this architecture to more general video-mediated activities, including face-to-face videoconferencing, and exploring the potential to leverage mobile interaction with the array in a manner that compensates for the limited screen real estate of mobile devices. This project will examine the qualitative experience of telepresence when using a smartphone display as a mobile window into the remote environment by updating the software as required to run on the newer architecture of hardware available, and preparing and conducting an experiment comparing the mobile telepresence capabilities with a pan-tilt-zoom camera, and a fixed large-screen display.
 
@@ -835,7 +835,7 @@ past_projects:
     tags:
       - computer vision
       - video 
-   image: "projects/preconditioning.png"
+    image: "projects/preconditioning.png"
     description: |
       Super-resolution attempts to recover a high-resolution image or video sequence from a set of degraded and aliased low-resolution ones. We are working on efficient preconditioning methods that accelerate super-resolution algorithms without reducing the quality of the results achieved. These methods apply equally to image restoration problems and compressed video sequences, and have been demonstrated to work effectively for rational magnification factors.
 
