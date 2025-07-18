@@ -1151,3 +1151,78 @@ html, body {
 .undergrad-name {
   font-weight: 500;
 }
+
+/*
+
+
+/* ------------------------------
+    Publications
+------------------------------- */
+#publications {
+  padding: 3rem 1.5rem;
+  background-color: #fff;
+  color: #111;
+  max-width: 900px;
+  margin: auto;
+}
+
+#publications h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#publications h3 {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25rem;
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.pub-entry {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+}
+
+.pub-thumb {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.pub-details {
+  flex: 1;
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.pub-meta {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.pub-links a {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #0077cc;
+  transition: color 0.2s ease;
+}
+
+.pub-links a:hover {
+  color: #005fa3;
+}

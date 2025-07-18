@@ -2,32 +2,180 @@
 <section class="section section-white" id="publications">
   <h2>Publications</h2>
 
-  {{ $years := slice }}
-  {{ range $k, $v := site.Data.publications }}
-    {{ $years = $years | append (dict "year" $k "items" $v) }}
-  {{ end }}
-  {{ $years = sort $years "year" "desc" }}
+  <label for="group-by">Group by:</label>
+  <select id="group-by">
+    <option value="year">Year</option>
+    <option value="author">Author</option>
+    <option value="type">Type</option>
+  </select>
 
-  {{ range $years }}
-    <h3>{{ .year }}</h3>
-    <ul class="pub-list">
-      {{ range .items }}
-      <li class="pub-entry">
-        {{ with .image }}
-          <img class="pub-thumb" src="{{ . }}" alt="thumbnail" />
-        {{ end }}
-        <div class="pub-details">
-          <div class="pub-title">{{ .title }}</div>
-          <div class="pub-meta">{{ .authors }}, {{ .venue }}</div>
-          <div class="pub-links">
-            {{ with .pdf }}<a href="{{ . }}" target="_blank">[pdf]</a>{{ end }}
-            {{ with .link }}<a href="{{ . }}" target="_blank">[link]</a>{{ end }}
-            {{ with .bibtex }}<a href="{{ . }}" target="_blank">[bibtex]</a>{{ end }}
-          </div>
-        </div>
-      </li>
-      {{ end }}
-    </ul>
-  {{ end }}
+  <button id="toggle-all" style="margin-left: 1rem;">Expand All</button>
+
+  <div id="pub-output"></div>
+
+  <script type="application/json" id="pub-data">
+    [
+      {{- $len := len site.Data.publications -}}
+      {{- range $i, $entry := site.Data.publications -}}
+        {
+          "title": {{ $entry.title | jsonify }},
+          "authors": {{ $entry.authors | jsonify }},
+          "author_list": {{ $entry.author_list | jsonify }},
+          "venue": {{ $entry.venue | jsonify }},
+          "year": {{ $entry.year | default "Unknown" | jsonify }},
+          "type": {{ $entry.type | default "Unspecified" | jsonify }},
+          "pdf": {{ $entry.pdf | default "" | jsonify }},
+          "link": {{ $entry.link | default "" | jsonify }},
+          "bibtex": {{ $entry.bibtex | default "" | jsonify }},
+          "image": {{ $entry.image | default "" | jsonify }}
+        }{{ if lt (add $i 1) $len }},{{ end }}
+      {{- end -}}
+    ]
+  </script>
+
+  <style>
+    .collapsible-header {
+      cursor: pointer;
+      background-color: #f0f0f0;
+      padding: 0.5rem;
+      margin-top: 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .pub-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0 1rem;
+    }
+    .pub-list.hidden {
+      display: none;
+    }
+  </style>
+
+  <script>
+    const publications = JSON.parse(document.getElementById("pub-data").textContent);
+    const output = document.getElementById("pub-output");
+    const groupBySelect = document.getElementById("group-by");
+    const toggleAllButton = document.getElementById("toggle-all");
+
+    let currentlyExpanded = false;
+
+    function normalizeAuthor(name) {
+      return name
+        .trim()
+        .replace(/\s+/g, " ")
+        .replace(/\bJeremy R\.?\b/i, "J. R.")
+        .replace(/\bJ\.?R?\.?\b/gi, "J. R.")
+        .replace(/\bCooperstock,.*$/i, "Cooperstock, J. R.")
+        .replace(/\s+\./g, ".")
+        .replace(/\.([^\s])/g, ". $1")
+        .trim();
+    }
+
+    function groupBy(key) {
+      const grouped = {};
+
+      for (const pub of publications) {
+        if (!pub.title) continue;
+
+        let groupKeys;
+        if (key === "author") {
+          try {
+            groupKeys = JSON.parse(pub.author_list).map(normalizeAuthor);
+            if (!Array.isArray(groupKeys)) throw new Error();
+          } catch {
+            groupKeys = typeof pub.authors === "string"
+              ? pub.authors.split(/,\s*|\s+and\s+/).map(name => normalizeAuthor(name)).filter(Boolean)
+              : ["Unspecified"];
+          }
+        } else {
+          groupKeys = [pub[key] || "Unspecified"];
+        }
+
+        for (const g of groupKeys) {
+          const label = g.trim();
+          if (!grouped[label]) grouped[label] = [];
+
+          const identifier = `${pub.title}__${pub.year}`;
+          const alreadyAdded = grouped[label].some(p => `${p.title}__${p.year}` === identifier);
+          if (!alreadyAdded) {
+            grouped[label].push(pub);
+          }
+        }
+      }
+
+      return grouped;
+    }
+
+    function render(groupKey) {
+      const grouped = groupBy(groupKey);
+      const sortedKeys = Object.keys(grouped).sort((a, b) => {
+        if (groupKey === "year") return parseInt(b) - parseInt(a);
+        if (groupKey === "author") return a.split(',')[0].localeCompare(b.split(',')[0]);
+        return a.localeCompare(b);
+      });
+
+      output.innerHTML = "";
+      for (const key of sortedKeys) {
+        const group = grouped[key];
+
+        const section = document.createElement("section");
+
+        const heading = document.createElement("div");
+        heading.className = "collapsible-header";
+        heading.textContent = `${key} (${group.length})`;
+        heading.addEventListener("click", () => {
+          ul.classList.toggle("hidden");
+        });
+
+        const ul = document.createElement("ul");
+        ul.className = "pub-list hidden";
+
+        for (const pub of group) {
+          const li = document.createElement("li");
+          li.className = "pub-entry";
+
+          const img = pub.image ? `<img class="pub-thumb" src="${pub.image}" alt="thumbnail" />` : "";
+          const venue = pub.venue ? `, ${pub.venue}` : "";
+          const cleanAuthors = Array.isArray(pub.author_list)
+            ? pub.author_list.join(", ")
+            : (pub.authors || "").replace(/[{}"]/g, "").replace(/\\u0026/g, "&");
+
+          const links = [
+            pub.pdf ? `<a class="pub-btn" href="${pub.pdf}" target="_blank">[pdf]</a>` : "",
+            pub.link ? `<a class="pub-btn" href="${pub.link}" target="_blank">[link]</a>` : "",
+            pub.bibtex ? `<a class="pub-btn" href="${pub.bibtex}" target="_blank">[bibtex]</a>` : ""
+          ].join(" ");
+
+          li.innerHTML = `
+            ${img}
+            <div class="pub-details">
+              <div class="pub-title">${pub.title}</div>
+              <div class="pub-meta">${cleanAuthors}${venue}</div>
+              <div class="pub-links">${links}</div>
+            </div>
+          `;
+          ul.appendChild(li);
+        }
+
+        section.appendChild(heading);
+        section.appendChild(ul);
+        output.appendChild(section);
+      }
+
+      currentlyExpanded = false;
+      toggleAllButton.textContent = "Expand All";
+    }
+
+    toggleAllButton.addEventListener("click", () => {
+      const lists = document.querySelectorAll(".pub-list");
+      currentlyExpanded = !currentlyExpanded;
+      lists.forEach(list => list.classList.toggle("hidden", !currentlyExpanded));
+      toggleAllButton.textContent = currentlyExpanded ? "Collapse All" : "Expand All";
+    });
+
+    groupBySelect.addEventListener("change", e => render(e.target.value));
+    render("year");
+  </script>
 </section>
 {{ end }}

@@ -1,19 +1,4279 @@
-2025:
-  - title: "Novel Interfaces for Audio Manipulation"
-    authors: "Henry, M."
-    venue: "Master's thesis, McGill University, Department of Electrical and Computer Engineering, Montreal, Canada"
-    pdf: "/pdfs/henry2025.pdf"
-    image: "/images/pubs/henry.png"
-    link: "https://example.com"
-    bibtex: "/bibtex/henry2025.bib"
-
-  - title: "The Implications of Technology-Augmented Handbalancing in Training and Performance"
-    authors: "Kirby, L."
-    venue: "Master's thesis, McGill University, Department of Electrical and Computer Engineering, Montreal, Canada"
-    pdf: "/pdfs/kirby2025.pdf"
-
-2024:
-  - title: "Leveraging Large Language Models for Automated Chart Summarization"
-    authors: "Bazin, R."
-    venue: "Master's thesis, McGill University, Department of Electrical and Computer Engineering, Montreal, Canada"
-    pdf: "/pdfs/bazin2024.pdf"
+- key: Aguilera2016
+  title: 'Spatial Audio for Audioconferencing in Mobile Devices: Investigating the
+    Importance of Virtual Mobility and Private Communication and Optimizations'
+  authors: Aguilera, Emanuel, Lopez, Jose J., Cooperstock, Jeremy R.
+  author_list:
+  - Aguilera, Emanuel
+  - Lopez, Jose J.
+  - Cooperstock, Jeremy R.
+  venue: Journal of the Audio Engineering Society
+  year: '2016'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Akut2023
+  title: Enriching AI-based Image Descriptions for People who are Vision-Impaired
+  authors: Akut, R.
+  author_list:
+  - Akut, R.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2023'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Alirezaee2017
+  title: Did you feel that? Developing Novel Multimodal Alarms for High Consequence
+    Clinical Environments
+  authors: Alirezaee, Parisa, Girgis, Roger, Kim, Taeyong, Schlesinger, Joseph, Cooperstock,
+    Jeremy R.
+  author_list:
+  - Alirezaee, Parisa
+  - Girgis, Roger
+  - Kim, Taeyong
+  - Schlesinger, Joseph
+  - Cooperstock, Jeremy R.
+  venue: International Conference on Auditory Displays
+  year: '2017'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Alirezaee2019
+  title: Ergonomic Haptic Displays - Reducing Clinician Dependence on Patient Monitors
+    and Auditory Alarms
+  authors: Alirezaee, P., Schlesinger, J., Cooperstock, J. R.
+  author_list:
+  - Alirezaee, P.
+  - Schlesinger, J.
+  - Cooperstock, J. R.
+  venue: Human Factors and Ergonomics in Healthcare Symposium
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Alirezaee2020
+  title: Exploring the Effectiveness of Haptic Alarm Displays for Critical Care Environments
+  authors: Alirezaee, P., Weill-Duflos, A., Schlesinger, J., Cooperstock, J. R.
+  author_list:
+  - Alirezaee, P.
+  - Weill-Duflos, A.
+  - Schlesinger, J.
+  - Cooperstock, J. R.
+  venue: Haptics Symposium
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Alirezaee2020b
+  title: Exploring the Effectiveness of Haptic Alarm Displays for Critical Care Environments
+  authors: Alirezaee, P.
+  author_list:
+  - Alirezaee, P.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2020'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Al-Taha2018
+  title: Reversing Voice-Related Biases Through Haptic Feedback
+  authors: Al-Taha, F., Fortin, P., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - Al-Taha, F.
+  - Fortin, P.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: User Interface Software and Technology
+  year: '2018'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Anlauff2009
+  title: Modular tacTiles for Sonic Interactions with Smart Environments
+  authors: '{Anlauff, J.}, Hermann, T., Grosshauser, T., Cooperstock, J. R.'
+  author_list:
+  - '{Anlauff, J.}'
+  - Hermann, T.
+  - Grosshauser, T.
+  - Cooperstock, J. R.
+  venue: Haptic and Audio Interaction Design (HAID), Fourth International Workshop
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Anlauff2013
+  title: Augmented Feedback for Learning Single-Legged Stance on a Slackline
+  authors: Anlauff, J., Fung, J., Cooperstock, J. R.
+  author_list:
+  - Anlauff, J.
+  - Fung, J.
+  - Cooperstock, J. R.
+  venue: International Conference on Virtual Rehabilitation
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Anlauff2015
+  title: Modular Haptic Belt for Augmented Balance Feedback
+  authors: Anlauff, J., Fung, J., Cooperstock, J. R.
+  author_list:
+  - Anlauff, J.
+  - Fung, J.
+  - Cooperstock, J. R.
+  venue: International Society for Posture and Gait Research
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Anlauff2017
+  title: VibeWalk - Foot-Based Tactons During Walking and Quiet Stance
+  authors: Anlauff, J., Fung, J., Cooperstock, J. R.
+  author_list:
+  - Anlauff, J.
+  - Fung, J.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2017'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Anlauff2018
+  title: 'Feel-a-Bump: Haptic Feedback for Foot-based Angular Menu Selection'
+  authors: Anlauff, J., Kim, T., Cooperstock, J. R.
+  author_list:
+  - Anlauff, J.
+  - Kim, T.
+  - Cooperstock, J. R.
+  venue: Haptics Symposium
+  year: '2018'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau1999
+  title: Presenter Tracking in a Classroom Environment
+  authors: Arseneau, S., Cooperstock, J. R.
+  author_list:
+  - Arseneau, S.
+  - Cooperstock, J. R.
+  venue: IEEE Industrial Electronics (IECON'99), Session on Cooperative Environments
+  year: '1999'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau1999a
+  title: Real-Time Image Segmentation for Action Recognition
+  authors: Arseneau, S., Cooperstock, J. R.
+  author_list:
+  - Arseneau, S.
+  - Cooperstock, J. R.
+  venue: IEEE Pacific Rim Conference on Communications, Computers and Signal Processing
+    (PACRIM'99)
+  year: '1999'
+  type: inproceedings
+  keywords:
+  - background scene;clean difference image;difference picture technique;human action
+    recognition;image processing;light intensity changes;real-time image segmentation;image
+    recognition;image segmentation;image sequences;real-time systems;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau2000
+  title: Inter-layer Learning Towards Emergent Cooperative Behavior
+  authors: Arseneau, S., Sun, W., Zhao, C., Cooperstock, J. R.
+  author_list:
+  - Arseneau, S.
+  - Sun, W.
+  - Zhao, C.
+  - Cooperstock, J. R.
+  venue: 17th Annual Conference on Artificial Intelligence, American Association of
+    Artificial Intelligence
+  year: '2000'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau2000a
+  title: Robust Image Segmentation Towards an Action Recognition Algorithm
+  authors: Arseneau, S.
+  author_list:
+  - Arseneau, S.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2000'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau2000b
+  title: Automated Camera Tracking in a Real-World Environment
+  authors: Arseneau, Shawn, Cooperstock, J. R.
+  author_list:
+  - Arseneau, Shawn
+  - Cooperstock, J. R.
+  venue: ''
+  year: '2000'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau2002
+  title: Automated Feature Registration for Robust Tracking Methods
+  authors: Arseneau, S., Cooperstock, J. R.
+  author_list:
+  - Arseneau, S.
+  - Cooperstock, J. R.
+  venue: IEEE International Conference on Pattern Recognition
+  year: '2002'
+  type: inproceedings
+  keywords:
+  - algorithm; automated feature registration; background model; computer vision;
+    highly salient regions; minimal a priori information; motion characteristics;
+    people tracking; robust tracking methods; saliency map; saliency-based approach;
+    computer vision; image colour analysis; image motion analysis; image registration;
+    optical tracking; video signal processing;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau2006
+  title: An Improved Representation of Junctions through Asymmetric Tensor Diffusion
+  authors: Arseneau, S., Cooperstock, J. R.
+  author_list:
+  - Arseneau, S.
+  - Cooperstock, J. R.
+  venue: International Symposium on Visual Computing
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Arseneau2006a
+  title: An Asymmetrical Diffusion Framework for Junction Analysis
+  authors: Arseneau, S., Cooperstock, J. R.
+  author_list:
+  - Arseneau, S.
+  - Cooperstock, J. R.
+  venue: British Machine Vision Conference (BMVC)
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Aube2004
+  title: Modeling the Effect of Leadership on Crowd Flow Dynamics
+  authors: Aub&eacu;, F., Shield, R.
+  author_list:
+  - Aub&eacu;, F.
+  - Shield, R.
+  venue: Cellular Automata
+  year: '2004'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Audet2007
+  title: Shadow Removal in Front Projection Environments using Object Tracking
+  authors: Audet, S., Cooperstock, J. R.
+  author_list:
+  - Audet, S.
+  - Cooperstock, J. R.
+  venue: IEEE Projector-Camera Systems (ProCams)
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Audet2007a
+  title: Shadow Removal from Multi-Projector Displays via Three-Dimensional Modeling
+    and Object Tracking
+  authors: Audet, S.
+  author_list:
+  - Audet, S.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2007'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bazin2024
+  title: Leveraging Large Language Models for Automated Chart Summarization
+  authors: Bazin, R.
+  author_list:
+  - Bazin, R.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2024'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Benovoy2008
+  title: Towards immersive multimodal gameplay
+  authors: Benovoy, M., Zadel, M., Absar, R., Wozniewski, M., Cooperstock, J. R.
+  author_list:
+  - Benovoy, M.
+  - Zadel, M.
+  - Absar, R.
+  - Wozniewski, M.
+  - Cooperstock, J. R.
+  venue: GAMEON-NA
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Benovoy2008a
+  title: 'Biosignals Analysis and its Application in a Performance Setting: Towards
+    the development of an Emotional-Imaging Generator'
+  authors: Benovoy, M., Deitcher, J., Cooperstock, J. R.
+  author_list:
+  - Benovoy, M.
+  - Deitcher, J.
+  - Cooperstock, J. R.
+  venue: IEEE International Conference on Bio-Inspired Systems and Signal Processing
+    (BIOSIGNALS)
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Benovoy2010
+  title: Psychophysiological signal analysis and classification
+  authors: Benovoy, M., Cooperstock, J. R.
+  author_list:
+  - Benovoy, M.
+  - Cooperstock, J. R.
+  venue: CHI 2010 Brain Body and Bytes Workshop
+  year: '2010'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Berard2009
+  title: Did "Minority Report" Get it Wrong? Superiority of the Mouse over 3D Input
+    Devices for a 3D Placement Task
+  authors: B&eacute;rard, F., Ip, J., Benovoy, M., El-Shimy, D., Blum, J., Cooperstock,
+    J. R.
+  author_list:
+  - B&eacute;rard, F.
+  - Ip, J.
+  - Benovoy, M.
+  - El-Shimy, D.
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: IFIP TC13 Conference of Human-Computer Interaction (INTERACT)
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Berard2011
+  title: 'On the Limits of the Human Motor Control Precision: the Search for a Device''s
+    Human Resolution'
+  authors: B&eacute;rard, F., Wang, G., Cooperstock, J. R.
+  author_list:
+  - B&eacute;rard, F.
+  - Wang, G.
+  - Cooperstock, J. R.
+  venue: IFIP TC13 Conference on Human-Computer Interaction (INTERACT)
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Black2012
+  title: The measurement and treatment of suppression in amblyopia
+  authors: Black, J. M., Hess, R. F., Cooperstock, J. R., To, L., Thompson, B.
+  author_list:
+  - Black, J. M.
+  - Hess, R. F.
+  - Cooperstock, J. R.
+  - To, L.
+  - Thompson, B.
+  venue: Visualized Experiments
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blatter1999
+  title: 'Designing Tools, Designing Learning Opportunities: Issues in Developing
+    a CSCL System for the Technical Communication Classroom'
+  authors: Blatter, J., Cooperstock, J. R., Harris, R.
+  author_list:
+  - Blatter, J.
+  - Cooperstock, J. R.
+  - Harris, R.
+  venue: Computer Supported Cooperative Learning Conference
+  year: '1999'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2011
+  title: End-User Viewpoint Control of Live Video from a Medical Camera Array
+  authors: Blum, J., Sun, H., Olmos, A., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Sun, H.
+  - Olmos, A.
+  - Cooperstock, J. R.
+  venue: International Conference on Distributed Smart Cameras
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2011b
+  title: What's around me? Spatialized audio augmented reality for blind users with
+    a smartphone
+  authors: Blum, J., Bouchard, M., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Bouchard, M.
+  - Cooperstock, J. R.
+  venue: Mobile and Ubiquitous Systems (Mobiquitous) (Best Paper Award)
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2012
+  title: Smartphone sensor reliability for augmented reality applications
+  authors: Blum, J., Greencorn, D., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Greencorn, D.
+  - Cooperstock, J. R.
+  venue: Mobile and Ubiquitous Systems (Mobiquitous)
+  year: '2012'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2012b
+  title: Spatialized audio environmental awareness for blind users with a smartphone
+  authors: Blum, J., Bouchard, M., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Bouchard, M.
+  - Cooperstock, J. R.
+  venue: Mobile Networks and Applications
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2014
+  title: 'Real-Time Emergency Response: Improved Management of Real-Time Information
+    During Crisis Situations'
+  authors: Blum, J., Eichhorn, A., Smith, S., Sterle-Contala, M., Cooperstock, J.
+    R.
+  author_list:
+  - Blum, J.
+  - Eichhorn, A.
+  - Smith, S.
+  - Sterle-Contala, M.
+  - Cooperstock, J. R.
+  venue: Multimodal User Interfaces
+  year: '2014'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2015
+  title: Improving Haptic Feedback on Wearable Devices through Accelerometer Measurements
+  authors: Blum, J., Frissen, I., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Frissen, I.
+  - Cooperstock, J. R.
+  venue: User Interface Software and Technology (UIST)
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2016
+  title: Expressing Human State via Parameterized Haptic Feedback for Mobile Remote
+    Implicit Communication
+  authors: Blum, J., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: Augmented Human
+  year: '2016'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2018
+  title: Exploring the Limits of Vibrotactile Numeric Information Delivery
+  authors: Blum, J., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: Ubicomp
+  year: '2018'
+  type: inproceedings
+  keywords:
+  - poster
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2018a
+  title: 'Pseudo-Ambience: Filling the Gap Between Notifications and Continuous Information
+    Displays'
+  authors: Blum, J., Cooperstock, J. R., Cauchard, J.
+  author_list:
+  - Blum, J.
+  - Cooperstock, J. R.
+  - Cauchard, J.
+  venue: UbiTtention Workshop on Smart \& Ambient Notification and Attention Management
+  year: '2018'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2019
+  title: Single-Actuator Vibrotactile Numeric Information Delivery in the Face of
+    Distraction
+  authors: Blum, J., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2019a
+  title: 'Getting Your Hands Dirty Outside the Lab: A Practical Primer for Conducting
+    Wearable Vibrotactile Haptics Research'
+  authors: Blum, J., Fortin, P., Al-Taha, F., Alirezaee, P., Demers, M., Weill-Duflos,
+    A., Cooperstock, J. R.
+  author_list:
+  - Blum, J.
+  - Fortin, P.
+  - Al-Taha, F.
+  - Alirezaee, P.
+  - Demers, M.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: IEEE Transactions on Haptics, Special Issue on Wearable and Hand-held Haptics
+  year: '2019'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Blum2020
+  title: Habituation to Pseudo-Ambient Vibrotactile Patterns for Remote Awareness
+  authors: Blum, J. R., Cauchard, J., Cooperstock, J. R.
+  author_list:
+  - Blum, J. R.
+  - Cauchard, J.
+  - Cooperstock, J. R.
+  venue: Haptics Symposium
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bouanane2020
+  title: 'EchoDepth: Using a depth camera and sonification for blind navigation'
+  authors: Bouanane, Y.
+  author_list:
+  - Bouanane, Y.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2021'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bouillot2008
+  title: A Mobile Wireless Augmented Guitar
+  authors: Bouillot, N., Wozniewski, M., Settel, Z., Cooperstock, J.R.
+  author_list:
+  - Bouillot, N.
+  - Wozniewski, M.
+  - Settel, Z.
+  - Cooperstock, J.R.
+  venue: New Interfaces for Musical Expression (NIME)
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bouillot2009
+  title: 'AES White Paper AESTD1003V1: Best Practices in Network Audio'
+  authors: Bouillot, N., Cohen, E., Cooperstock, J. R., Floros, A., Fonseca, N., Foss,
+    R., Goodman, M., Grant, J., Gross, K., Harris, S., Harshbarger, B., Heyraud, J.,
+    Jonsson, L., Narus, J., Page, M., Snook, T., Tanaka, A., Trieger, J., Zanghieri,
+    U.
+  author_list:
+  - Bouillot, N.
+  - Cohen, E.
+  - Cooperstock, J. R.
+  - Floros, A.
+  - Fonseca, N.
+  - Foss, R.
+  - Goodman, M.
+  - Grant, J.
+  - Gross, K.
+  - Harris, S.
+  - Harshbarger, B.
+  - Heyraud, J.
+  - Jonsson, L.
+  - Narus, J.
+  - Page, M.
+  - Snook, T.
+  - Tanaka, A.
+  - Trieger, J.
+  - Zanghieri, U.
+  venue: Journal of the Audio Engineering Society
+  year: '2009'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bouillot2009a
+  title: 'Performance metrics for network audio systems: Methodology and a preliminary
+    comparison'
+  authors: Bouillot, N., Brul&eacute;, M., Cooperstock, J. R.
+  author_list:
+  - Bouillot, N.
+  - Brul&eacute;, M.
+  - Cooperstock, J. R.
+  venue: Audio Engineering Society 127th Convention
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bouillot2009b
+  title: Challenges and Performance of High-Fidelity Audio Streaming for Interactive
+    Performances
+  authors: Bouillot, N., Cooperstock, J. R.
+  author_list:
+  - Bouillot, N.
+  - Cooperstock, J. R.
+  venue: New Interfaces for Musical Expression (NIME)
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bouillot2011b
+  title: Extended User Control over Multichannel Content Delivered over the Web
+  authors: Bouillot, N., Tomiyoshi, M., Cooperstock, J. R.
+  author_list:
+  - Bouillot, N.
+  - Tomiyoshi, M.
+  - Cooperstock, J. R.
+  venue: Conference on Audio Networking
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Boussemart2004
+  title: A Framework for Collaborative 3D Visualization and Manipulation in an Immersive
+    Space using an Untethered Bimanual Gestural Interface
+  authors: Boussemart, Y., Rioux, F., Rudzicz, F., Wozniewski, M., Cooperstock, J.
+    R.
+  author_list:
+  - Boussemart, Y.
+  - Rioux, F.
+  - Rudzicz, F.
+  - Wozniewski, M.
+  - Cooperstock, J. R.
+  venue: 'VRST ''04: Proceedings of the ACM Symposium on Virtual Reality Software
+    and Technology'
+  year: '2004'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bouzekri2024
+  title: ChatGPT, Tell Me More About Pilots' Opinion on Automation
+  authors: Bouzekri, E., Fortin, P., Cooperstock, J. R.
+  author_list:
+  - Bouzekri, E.
+  - Fortin, P.
+  - Cooperstock, J. R.
+  venue: Cognitive and Computational Aspects of Situation Management (CogSIMA)
+  year: '2024'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Bresin2008
+  title: Auditory feedback through continuous control of crumpling sound synthesis
+  authors: Bresin, R., Delle Monache, S., Fontana, F., Papetti, S., Polotti, P., Visell,
+    Y.
+  author_list:
+  - Bresin, R.
+  - Delle Monache, S.
+  - Fontana, F.
+  - Papetti, S.
+  - Polotti, P.
+  - Visell, Y.
+  venue: 'Sonic Interaction Design: Sound, Information and Experience. A CHI 2008
+    Workshop organized by COST Action IC0601'
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cayouette2006
+  title: Generic Real-Time Tracking Method on Semi-Dynamic Scenes
+  authors: Cayouette, F., Cooperstock, J. R.
+  author_list:
+  - Cayouette, F.
+  - Cooperstock, J. R.
+  venue: International Conference on Pattern Recognition (ICPR)
+  year: '2006'
+  type: inproceedings
+  keywords:
+  - image sequence;realtime tracking;semidynamic scenes;target extraction;targets
+    identification;targets tracking;feature extraction;image motion analysis;image
+    sequences;object detection;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Chan2005
+  title: Hand and Fingertip Tracking for Gesture Recognition
+  authors: Chan, S-C.
+  author_list:
+  - Chan, S-C.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2005'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Chou1995
+  title: The Statistical Adversary Allows Optimal Money-Making Trading Strategies
+  authors: Chou, A., Cooperstock, J. R., El-Yaniv, R., Klugerman, M., Leighton, T.
+  author_list:
+  - Chou, A.
+  - Cooperstock, J. R.
+  - El-Yaniv, R.
+  - Klugerman, M.
+  - Leighton, T.
+  venue: ACM-SIAM Symposium on Discrete Algorithms (SODA)
+  year: '1995'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cirio2013
+  title: Vibrotactile Rendering of Splashing Fluids
+  authors: Cirio, G., Marchal, M., L&eacute;cuyer, A., Cooperstock, J. R.
+  author_list:
+  - Cirio, G.
+  - Marchal, M.
+  - L&eacute;cuyer, A.
+  - Cooperstock, J. R.
+  venue: Transactions on Haptics (Best Paper Award)
+  year: '2013'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cohen2002
+  title: The Challenges of Archiving Networked Based Multimedia Performances
+  authors: Cohen, E., Cooperstock, J. R., Kyriakakis, C.
+  author_list:
+  - Cohen, E.
+  - Cooperstock, J. R.
+  - Kyriakakis, C.
+  venue: Journal of the Acoustical Society of America
+  year: '2002'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1992
+  title: Adaptive Neural Networks for Vision-Guided Position Control of a Robot Arm
+  authors: Cooperstock, J. R., Milios, E.
+  author_list:
+  - Cooperstock, J. R.
+  - Milios, E.
+  venue: IEEE Intelligent Control
+  year: '1992'
+  type: inproceedings
+  keywords:
+  - adaptive neural networks;learning systems;nonlinearities;robot arm;vision-guided
+    position control;visual input;visual observation;adaptive systems;computer vision;learning
+    systems;manipulators;neural nets;position control;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1992a
+  title: Neural Network Control for a Vision-Guided Mobile Robot Arm
+  authors: Cooperstock, J. R., Milios, E.
+  author_list:
+  - Cooperstock, J. R.
+  - Milios, E.
+  venue: IASTED Control and Robotics
+  year: '1992'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1993
+  title: Self-Supervised Learning for Docking and Target Reaching
+  authors: Cooperstock, J. R., Milios, E.
+  author_list:
+  - Cooperstock, J. R.
+  - Milios, E.
+  venue: Intelligent Autonomous Systems
+  year: '1993'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1993a
+  title: An Efficiently Trainable Neural Network Based Vision-Guided Robot Arm
+  authors: Cooperstock, J. R., Milios, E.
+  author_list:
+  - Cooperstock, J. R.
+  - Milios, E.
+  venue: IEEE Robotics and Automation
+  year: '1993'
+  type: inproceedings
+  keywords:
+  - docking;target reaching;trainable neural network based vision-guided robot arm;training
+    period;visual observation;computer vision;manipulators;neural nets;position control;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1993b
+  title: Self-supervised learning for docking and target reaching
+  authors: Cooperstock, J. R., Milios, E.
+  author_list:
+  - Cooperstock, J. R.
+  - Milios, E.
+  venue: Journal of Robotics and Autonomous Systems
+  year: '1993'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1995
+  title: Evolution of a Reactive Environment
+  authors: Cooperstock, J. R., Tanikoshi, K., Beirne, G., Narine, T., Buxton, W.
+  author_list:
+  - Cooperstock, J. R.
+  - Tanikoshi, K.
+  - Beirne, G.
+  - Narine, T.
+  - Buxton, W.
+  venue: ACM Human Factors in Computing Systems (CHI)
+  year: '1995'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1995a
+  title: 'Making the User Interface Disappear: The Reactive Room'
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: IBM Center for Advanced Studies (CASCON)
+  year: '1995'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1995b
+  title: Turning Your Video Monitor into a Virtual Window
+  authors: Cooperstock, J. R., Tanikoshi, K., Buxton, W.
+  author_list:
+  - Cooperstock, J. R.
+  - Tanikoshi, K.
+  - Buxton, W.
+  venue: IEEE Pacific Rim Conference on Communications, Computers, Visualization and
+    Signal Processing (PACRIM)
+  year: '1995'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1995c
+  title: Exploiting Group Communications for Reliable High Volume Data Distribution
+  authors: Cooperstock, J. R., Kotsopoulos, S.
+  author_list:
+  - Cooperstock, J. R.
+  - Kotsopoulos, S.
+  venue: IEEE Pacific Rim Conference on Communications, Computers, Visualization and
+    Signal Processing (PACRIM)
+  year: '1995'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1996
+  title: Why Use a Fishing Line When You Have a Net? An Adaptive Multicast Data Distribution
+    Protocol
+  authors: Cooperstock, J. R., Kotsopoulos, S.
+  author_list:
+  - Cooperstock, J. R.
+  - Kotsopoulos, S.
+  venue: USENIX
+  year: '1996'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1996a
+  title: Reactive environments and augmented media spaces
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: University of Toronto, Department of Electrical and Computer Engineering
+  year: '1996'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1997
+  title: 'Reactive Environments: Throwing Away Your Keyboard and Mouse'
+  authors: Cooperstock, J. R., Fels, S. S., Buxton, W., Smith, K. C.
+  author_list:
+  - Cooperstock, J. R.
+  - Fels, S. S.
+  - Buxton, W.
+  - Smith, K. C.
+  venue: Communications of the ACM
+  year: '1997'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1997a
+  title: Rethinking the Remote Control
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: HCI International, Conference on Human-Computer Interaction
+  year: '1997'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock1997b
+  title: 'From the Flashing 12:00 to a Usable Machine: Applying UbiComp to the VCR'
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: ACM Conference on Human Factors in Computing Systems (CHI)
+  year: '1997'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2001
+  title: The Recording Studio that Spanned a Continent
+  authors: Cooperstock, J. R., Spackman, S.
+  author_list:
+  - Cooperstock, J. R.
+  - Spackman, S.
+  venue: IEEE International Conference on Web Delivering of Music (WEDELMUSIC)
+  year: '2001'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2001a
+  title: 'The Classroom of the Future: Enhancing Education through Augmented Reality'
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: HCI International, Conference on Human-Computer Interaction
+  year: '2001'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2003
+  title: 'Intelligent Classrooms need Intelligent Interfaces: How to Build a High-Tech
+    Teaching Environment that Teachers can use?'
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: American Society for Engineering Education
+  year: '2003'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2004
+  title: 'Broadband Networked Audio: Entering the Era of Multisensory Data Distribution'
+  authors: Cooperstock, J. R., Roston, J., Woszczyk, W.
+  author_list:
+  - Cooperstock, J. R.
+  - Roston, J.
+  - Woszczyk, W.
+  venue: 18th International Congress on Acoustics
+  year: '2004'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2005
+  title: Interacting in Shared Reality
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: HCI International, Conference on Human-Computer Interaction
+  year: '2005'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2005a
+  title: 'Integrating Communication with Interaction: Computer Vision Challenges for
+    Interactive and Intelligent Environments'
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: Workshop on Computer Vision for Interactive and Intelligent Environments
+    (CV4IIE)
+  year: '2005'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2007
+  title: Towards mobile spatial audio for distributed musical systems and multi-user
+    virtual environments
+  authors: Cooperstock, J. R., Wozniewski, M., Settel, Z.
+  author_list:
+  - Cooperstock, J. R.
+  - Wozniewski, M.
+  - Settel, Z.
+  venue: Spatial Audio for Mobile Devices, Workshop in conjunction with International
+    Conference on Human Interaction with Mobile Devices and Services (MobileHCI)
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2008
+  title: Human-Computer Interaction
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: Wiley Encyclopedia of Computer Science and Engineering
+  year: '2008'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2009
+  title: Stereoscopic Display Technologies, Interaction Paradigms and Rendering Approaches
+    for Neurosurgical Visualization
+  authors: Cooperstock, J. R., Wang, G.
+  author_list:
+  - Cooperstock, J. R.
+  - Wang, G.
+  venue: Stereoscopic Displays and Applications
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2011
+  title: 'Multimodal Telepresence Systems: Supporting Demanding Collaborative Human
+    Activities'
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: IEEE Signal Processing Magazine, special issue on Immersive Communications
+  year: '2011'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cooperstock2013
+  title: Overcoming Complexity in the Teaching and Learning Environment
+  authors: Cooperstock, J. R.
+  author_list:
+  - Cooperstock, J. R.
+  venue: Materials Science and Technology
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cote2001
+  title: 'Telepresence with no Strings Attached: An Architecture for a Shared Reality
+    Environment'
+  authors: C&ocirc;t&eacute;, C., Arseneau, S., Cooperstock, J. R.
+  author_list:
+  - C&ocirc;t&eacute;, C.
+  - Arseneau, S.
+  - Cooperstock, J. R.
+  venue: Second International Symposium on Mixed Reality (ISMR)
+  year: '2001'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cupellini2008
+  title: Exploring Musical Mappings and Generating Accompaniment with Chaotic Systems
+  authors: Cupellini, E., Rizzuti, C., Bilotta, E., Pantano, P., Wozniewski, M., Cooperstock,
+    J. R.
+  author_list:
+  - Cupellini, E.
+  - Rizzuti, C.
+  - Bilotta, E.
+  - Pantano, P.
+  - Wozniewski, M.
+  - Cooperstock, J. R.
+  venue: International Computer Music Conference
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Cupellini2017
+  title: 'The Sound Motion Controller: a distributed system for interactive music
+    performance'
+  authors: Cupellini, E., Cooperstock, J. R., Olivetti, M.
+  author_list:
+  - Cupellini, E.
+  - Cooperstock, J. R.
+  - Olivetti, M.
+  venue: Conference of the European Society for the Cognitive Sciences of Music
+  year: '2017'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Dansereau2013
+  title: A Particle Filter for Predicting an Orchestral Conductor's Baton Movements
+  authors: Dansereau, D., Brock, N., Cooperstock, J. R.
+  author_list:
+  - Dansereau, D.
+  - Brock, N.
+  - Cooperstock, J. R.
+  venue: Computer Music Journal
+  year: '2013'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Demers2021
+  title: Active Sampling for Efficient Subjective Evaluation of Tactons at Scale
+  authors: Demers, M., Fortin, P., Weill-Duflos, A., Yoo, Y., Cooperstock, J. R.
+  author_list:
+  - Demers, M.
+  - Fortin, P.
+  - Weill-Duflos, A.
+  - Yoo, Y.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Demers2021b
+  title: A Data-Driven Strategy for the Subjective Evaluation of Tacton Perceptual
+    Similarity
+  authors: Demers, M.
+  author_list:
+  - Demers, M.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2021'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Diaz2017
+  title: 'To Veer or Not to Veer: Learning How to Stay Within the Crosswalk from Experts'
+  authors: Diaz, M., Girgis, R., Fevans, T., Cooperstock, J. R.
+  author_list:
+  - Diaz, M.
+  - Girgis, R.
+  - Fevans, T.
+  - Cooperstock, J. R.
+  venue: International Workshop on Assistive Computer Vision and Robotics
+  year: '2017'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Dorado2011
+  title: Automatic multi-projector calibration with an uncalibrated camera
+  authors: Garcia-Dorado, I., Cooperstock, J. R.
+  author_list:
+  - Garcia-Dorado, I.
+  - Cooperstock, J. R.
+  venue: International Workshop on Projector-Camera Systems
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Ducher2023
+  title: Deploying wearable sensors for pandemic mitigation
+  authors: Duarte, N.
+  author_list:
+  - Duarte, N.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2023'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Duarte2022
+  title: 'Deploying wearable sensors for pandemic mitigation: a counterfactual modelling
+    study of Canada''s second COVID-19 wave'
+  authors: Duarte, Nathan, Arora, Rahul K., Bennett, Graham, Wang, Meng, Snyder, Michael
+    P., Cooperstock, Jeremy R., Wagner, Caroline E.
+  author_list:
+  - Duarte, Nathan
+  - Arora, Rahul K.
+  - Bennett, Graham
+  - Wang, Meng
+  - Snyder, Michael P.
+  - Cooperstock, Jeremy R.
+  - Wagner, Caroline E.
+  venue: PLOS Digital Health
+  year: '2022'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Ducher2021
+  title: GAN-based interaction paradigms for photorealistic avatar creation
+  authors: Ducher, C.
+  author_list:
+  - Ducher, C.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2021'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: El-Shimy2009
+  title: Multimodal Feedback in 3D Target Acquisition
+  authors: El-Shimy, D., Marentakis, G., Cooperstock, J. R.
+  author_list:
+  - El-Shimy, D.
+  - Marentakis, G.
+  - Cooperstock, J. R.
+  venue: IEEE 3D User Interfaces (3DUI)
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: El-Shimy2012
+  title: Eyes-Free Environmental Awareness for Navigation
+  authors: El-Shimy, D., Grond, F., Olmos, A., Cooperstock, J. R.
+  author_list:
+  - El-Shimy, D.
+  - Grond, F.
+  - Olmos, A.
+  - Cooperstock, J. R.
+  venue: Springer Journal on Multimodal User Interfaces, Special Issue on Interactive
+    Sonification
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: El-Shimy2012b
+  title: A Reactive Environment for Dynamic Volume Control
+  authors: El-Shimy, D., Hermann, T., Cooperstock, J. R.
+  author_list:
+  - El-Shimy, D.
+  - Hermann, T.
+  - Cooperstock, J. R.
+  venue: New Interfaces for Musical Expression (NIME)
+  year: '2012'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: El-Shimy2013
+  title: Reactive Environment for Network Music Performance
+  authors: El-Shimy, D., Cooperstock, J. R.
+  author_list:
+  - El-Shimy, D.
+  - Cooperstock, J. R.
+  venue: New Interfaces for Musical Expression (NIME)
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: El-Shimy2014
+  title: 'EmbodiComp: Embodied Interaction for Mixing and Composition'
+  authors: El-Shimy, D., Cooperstock, J. R.
+  author_list:
+  - El-Shimy, D.
+  - Cooperstock, J. R.
+  venue: Sound and Music Computing Conference (ICMC | SMC)
+  year: '2014'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: El-Shimy2015
+  title: 'EmbodiNet: Enriching Distributed Musical Collaboration through Embodied
+    Interactions'
+  authors: El-Shimy, D., Cooperstock, J. R.
+  author_list:
+  - El-Shimy, D.
+  - Cooperstock, J. R.
+  venue: IFIP TC13 Conference on Human-Computer Interaction (INTERACT)
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: El-Shimy2016
+  title: User-Driven Techniques for the Design and Evaluation of New Musical Interfaces
+  authors: El-Shimy, D., Cooperstock, J. R.
+  author_list:
+  - El-Shimy, D.
+  - Cooperstock, J. R.
+  venue: Computer Music Journal
+  year: '2016'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Ellaway2009
+  title: Integrating Simulation Devices and Systems
+  authors: Ellaway, R. H., Topps, D., Lachapelle, K., Cooperstock, J. R.
+  author_list:
+  - Ellaway, R. H.
+  - Topps, D.
+  - Lachapelle, K.
+  - Cooperstock, J. R.
+  venue: 'Medicine Meets Virtual Reality 17 - NextMed: Design for/the Well Being'
+  year: '2009'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Ellaway2010
+  title: Simulation Integration for Healthcare Education, Training and Assessment
+  authors: Ellaway, R., Cooperstock, J. R., Spencer, B.
+  author_list:
+  - Ellaway, R.
+  - Cooperstock, J. R.
+  - Spencer, B.
+  venue: Fifth International Conference on Digital Information Management
+  year: '2010'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Farooq2020
+  title: 'Embedded Haptic Waveguides to Improve Tactile Feedback: Designing a Custom
+    3D-Printed Surface to Enhance Signal Mediation'
+  authors: Farooq, A., Tan, H., Weill-Duflos, A., Cooperstock, J. R., Raisamo, R.
+  author_list:
+  - Farooq, A.
+  - Tan, H.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  - Raisamo, R.
+  venue: Sensors
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2014
+  title: Event-based haptic vibration synthesis using a recursive filter for lower
+    limb prosthetics
+  authors: Fortin, P., Otis, M., Duchaine, V., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Otis, M.
+  - Duchaine, V.
+  - Cooperstock, J. R.
+  venue: International Symposium on Haptic, Audio and Visual Environments and Games
+    (HAVE)
+  year: '2014'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2017
+  title: 'Laughter and Tickles: Toward Novel Approaches for Emotion and Behavior Elicitation'
+  authors: Fortin, P., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Cooperstock, J. R.
+  venue: IEEE Transactions on Affective Computing
+  year: '2017'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2017a
+  title: 'Raising the Heat: Electrical Muscle Stimulation for Simulated Heat Withdrawal
+    Response'
+  authors: Fortin, P., Blum, J., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: User Interface Software and Technology
+  year: '2017'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2018
+  title: 'SweatSponse: Closing the Loop on Notification Delivery Using Skin Conductance
+    Responses'
+  authors: Fortin, P., Sulmont, E., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Sulmont, E.
+  - Cooperstock, J. R.
+  venue: User Interface Software and Technology
+  year: '2018'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2019
+  title: Detecting Perception of Smartphone Notifications using Skin Conductance Responses
+    (Honorable Mention)
+  authors: Fortin, P., Sulmont, E., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Sulmont, E.
+  - Cooperstock, J. R.
+  venue: Human Factors in Computing (CHI)
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2019b
+  title: 'Towards Consistent Haptic Coupling with HaptiStrap: Doing Better than ``Tight
+    yet Comfortable'''''
+  authors: Fortin, P., Blum, J., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: User Interface Software and Technology (UIST)
+  year: '2019'
+  type: inproceedings
+  keywords:
+  - poster
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2019c
+  title: 'Exploring the Use of Fingerprint Sensor Gestures for Unlock Journaling:
+    A Comparison with Slide-to-X'
+  authors: Fortin, P., Huang, D., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Huang, D.
+  - Cooperstock, J. R.
+  venue: Mobile HCI
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2020
+  title: Contact Force Estimation from Raw Photoplethysmogram Signal
+  authors: Fortin, P., Blum, J., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Blum, J.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: Sensors
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2021
+  title: Non-Intrusive and Physiologically Informed Methods and Interfaces for Notification
+    Research
+  authors: Fortin, P.
+  author_list:
+  - Fortin, P.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2021'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Fortin2022
+  title: Understanding Smartphone Notifications' Activity Disruption via In Situ Wrist
+    Motion Monitoring
+  authors: Fortin, P., Cooperstock, J. R.
+  author_list:
+  - Fortin, P.
+  - Cooperstock, J. R.
+  venue: Human Factors in Computing Systems (CHI), Late-Breaking Work (LBW) track
+  year: '2022'
+  type: inproceedings
+  keywords:
+  - ref
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Gannavarapu2024
+  title: Investigating Factors Affecting Haptic Information Transfer and a Comparative
+    Analysis of Audio and Audio-Haptic Maps
+  authors: Gannavaraup, S.
+  author_list:
+  - Gannavaraup, S.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2024'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Gay-Betton2017
+  title: HAPTIC - Haptic Anatomical Positioning To Improve Clinical Monitoring
+  authors: Gay-Betton, D. M., Alirezaee, P., Cooperstock, J. R., Schlesinger, J. J.
+  author_list:
+  - Gay-Betton, D. M.
+  - Alirezaee, P.
+  - Cooperstock, J. R.
+  - Schlesinger, J. J.
+  venue: Design \& Semantics of Form \& Movement (DeSForM)
+  year: '2017'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Gellert2020
+  title: Comparing auditory and tactile cues to inform clinicians of patients' vital
+    signs
+  authors: Gellert, M., Katzman, N., Klein, J. P., Frenkel, A., Klein, M., Cooperstock,
+    J. R., Schlesinger, J. J., Bitan, Y.
+  author_list:
+  - Gellert, M.
+  - Katzman, N.
+  - Klein, J. P.
+  - Frenkel, A.
+  - Klein, M.
+  - Cooperstock, J. R.
+  - Schlesinger, J. J.
+  - Bitan, Y.
+  venue: Annual Meeting of the Human Factors and Ergonomics Society
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Giordano2008
+  title: Non-visual identification of walking grounds
+  authors: Giordano, B. L., McAdams, S., Visell, Y., Cooperstock, J. R., Yao, {H.-Y.},
+    Hayward, V.
+  author_list:
+  - Giordano, B. L.
+  - McAdams, S.
+  - Visell, Y.
+  - Cooperstock, J. R.
+  - Yao, {H.-Y.}
+  - Hayward, V.
+  venue: Acoustics'08
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Giordano2012
+  title: Identification of walked-upon materials in auditory, kinesthetic, haptic
+    and audio-haptic conditions
+  authors: Giordano, B. L., Visell, Y., Yao, {H.-Y.}, Hayward, V., Cooperstock, J.
+    R., McAdams, S.
+  author_list:
+  - Giordano, B. L.
+  - Visell, Y.
+  - Yao, {H.-Y.}
+  - Hayward, V.
+  - Cooperstock, J. R.
+  - McAdams, S.
+  venue: Acoustical Society of America
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Girgis2019
+  title: Deep Learning to Assist Visually Impaired Individuals with Visual Exploration
+  authors: Girgis, R.
+  author_list:
+  - Girgis, R.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2019'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Glesser2013
+  title: Overcoming Limitations of the Trackpad for 3D Docking Operations
+  authors: Glesser, D., B&eacute;rard, F., Cooperstock, J. R.
+  author_list:
+  - Glesser, D.
+  - B&eacute;rard, F.
+  - Cooperstock, J. R.
+  venue: Human Factors in Computing Systems (CHI), Works-in-Progress
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Grond2013
+  title: Making Sculptures Audible through Participatory Sound Design (artists' statement)
+  authors: Grond, F., Olmos, A., Cooperstock, J.
+  author_list:
+  - Grond, F.
+  - Olmos, A.
+  - Cooperstock, J.
+  venue: Leonardo Music Journal
+  year: '2013'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Gujar1995
+  title: 'Talking Your Way Around a Conference: A speech interface for remote equipment
+    control'
+  authors: Gujar, A., Daya, S., Cooperstock, J. R., Tanikoshi, K., Buxton, W.
+  author_list:
+  - Gujar, A.
+  - Daya, S.
+  - Cooperstock, J. R.
+  - Tanikoshi, K.
+  - Buxton, W.
+  venue: IBM Center for Advanced Studies (CASCON)
+  year: '1995'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Henry2025
+  title: Novel Interfaces for Audio Manipulation
+  authors: Henry, M.
+  author_list:
+  - Henry, M.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2025'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hess2012
+  title: 'An iPod treatment for amblyopia: An updated binocular approach'
+  authors: Hess, R. F., Thompson, B., Black, J. M., Maehara, G., Zhang, P., Bobier,
+    W. R., To, L., Cooperstock, J. R.
+  author_list:
+  - Hess, R. F.
+  - Thompson, B.
+  - Black, J. M.
+  - Maehara, G.
+  - Zhang, P.
+  - Bobier, W. R.
+  - To, L.
+  - Cooperstock, J. R.
+  venue: Optometry
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hess2015
+  title: '3D Vision: the haves and havenots'
+  authors: Hess, R. F., To, L., Zhou, J., Wang, G., Cooperstock, J.R.
+  author_list:
+  - Hess, R. F.
+  - To, L.
+  - Zhou, J.
+  - Wang, G.
+  - Cooperstock, J.R.
+  venue: i-Perception
+  year: '2015'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hieda2015
+  title: 'sharedFace: Interactive Facial Projection Mapping'
+  authors: Hieda, N., Cooperstock, J. R.
+  author_list:
+  - Hieda, N.
+  - Cooperstock, J. R.
+  venue: International Conference and Exhibition of Virtual Technologies and Uses
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hieda2015a
+  title: SharedFace2
+  authors: Hieda, N., Cooperstock, J. R.
+  author_list:
+  - Hieda, N.
+  - Cooperstock, J. R.
+  venue: 'International Conference and Exhibition of Virtual Technologies and Uses:
+    Laval Virtual ReVolution (refereed interactive demonstration)'
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hieda2015b
+  title: Digital Facial Augmentation for Interactive Entertainment
+  authors: Hieda, N., Cooperstock, J. R.
+  author_list:
+  - Hieda, N.
+  - Cooperstock, J. R.
+  venue: International Conference on Intelligent Technologies for Interactive Entertainment
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hieda2015c
+  title: Digital Facial Augmentation for Interactive Entertainment
+  authors: Hieda, N., Cooperstock, J. R.
+  author_list:
+  - Hieda, N.
+  - Cooperstock, J. R.
+  venue: EAI Endorsed Transactions on e-Learning
+  year: '2015'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hieda2015d
+  title: Digital Video Projection for Interactive Entertainment
+  authors: Hieda, N.
+  author_list:
+  - Hieda, N.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2015'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hieda2016
+  title: An Intelligent Floor Surface for Foot-based Exploration of Geospatial Data
+  authors: Hieda, N., Anlauff, J., Smith, S., Visell, Y., Cooperstock, J. R.
+  author_list:
+  - Hieda, N.
+  - Anlauff, J.
+  - Smith, S.
+  - Visell, Y.
+  - Cooperstock, J. R.
+  venue: International Workshop on Multimedia Signal Processing
+  year: '2016'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hilario2004
+  title: Occlusion Detection for Front-Projected Interactive Displays
+  authors: Hilario, M., Cooperstock, J. R.
+  author_list:
+  - Hilario, M.
+  - Cooperstock, J. R.
+  venue: Advances in Pervasive Computing. A Collection of Contributions Presented
+    at the 2nd International Conference on Pervasive Computing (Pervasive 2004)
+  year: '2004'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hochstein2000
+  title: 'Soccer-Swarm: A Graphical Framework for Soccer-Player Design'
+  authors: Hochstein, L., Lerner, S., Clark, J. J., Cooperstock, J. R.
+  author_list:
+  - Hochstein, L.
+  - Lerner, S.
+  - Clark, J. J.
+  - Cooperstock, J. R.
+  venue: International Symposium on Robotics
+  year: '2000'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Horodniczy2017
+  title: Free the Hands! Enhanced Target Selection via a Variable-Friction Shoe
+  authors: Horodniczy, D., Cooperstock, J. R.
+  author_list:
+  - Horodniczy, D.
+  - Cooperstock, J. R.
+  venue: Human Factors in Computing Systems (CHI)
+  year: '2017'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Horodniczy2016
+  title: Characterization and Application of a Variable-Friction Foot Device
+  authors: Horodniczy, D.
+  author_list:
+  - Horodniczy, D.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2016'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Hsueh2023
+  title: AI-Digital Nurse Avatar (ADiNA)
+  authors: Hsueh, D., Liu, Y., Vargas, M.F. De, Bazin, R., Moffatt, K., Cooperstock,
+    J. R.
+  author_list:
+  - Hsueh, D.
+  - Liu, Y.
+  - Vargas, M.F. De
+  - Bazin, R.
+  - Moffatt, K.
+  - Cooperstock, J. R.
+  venue: AGE-WELL AgeTech Innovation Week Conference
+  year: '2023'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Ip2011
+  title: To Virtualize or Not? The Importance of Physical and Virtual Components in
+    Augmented Reality Board Games
+  authors: Ip, J., Cooperstock, J. R.
+  author_list:
+  - Ip, J.
+  - Cooperstock, J. R.
+  venue: International Conference on Entertainment Computing
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Ip2011b
+  title: An Augmented Reality Prototype for Investigating Tangible and Virtual Components
+    in a Gaming Environment
+  authors: Ip, J.
+  author_list:
+  - Ip, J.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2011'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Isran2023
+  title: Designing Audio-Haptic Systems to Render Charts for Blind Individuals
+  authors: Isran, R.
+  author_list:
+  - Isran, R.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2023'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Katzman2019
+  title: Evaluation of tactile cues for simulated patients' status under high and
+    low workload
+  authors: Katzman, N., Gellert, M., Schlesinger, J. J., Oron-Gilad, T., Cooperstock,
+    J. R., Bitan, Y.
+  author_list:
+  - Katzman, N.
+  - Gellert, M.
+  - Schlesinger, J. J.
+  - Oron-Gilad, T.
+  - Cooperstock, J. R.
+  - Bitan, Y.
+  venue: International Meeting
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Katzman2020
+  title: Wearable haptic devices to monitor soldiers' physiology - discreet sensory
+    input improves safety and monitoring in hostile low-light and high-noise conditions
+  authors: Katzman, N., Gellert, M., Oron-Gilad, T., Cooperstock, J. R., Bitan, Y.,
+    Schlesinger, J. J
+  author_list:
+  - Katzman, N.
+  - Gellert, M.
+  - Oron-Gilad, T.
+  - Cooperstock, J. R.
+  - Bitan, Y.
+  - Schlesinger, J. J
+  venue: Military Health System Research Symposium
+  year: '2020'
+  type: inproceedings
+  keywords:
+  - poster
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Kim2012
+  title: 'TeleHuman: Effects of 3D Perspective on Gaze and Pose Estimation with a
+    Life-size Cylindrical Telepresence Pod'
+  authors: Kim, K., Bolton, J., Girouard, A., Cooperstock, J.R., Vertegaal, R.
+  author_list:
+  - Kim, K.
+  - Bolton, J.
+  - Girouard, A.
+  - Cooperstock, J.R.
+  - Vertegaal, R.
+  venue: SIGCHI Conference on Human factors in computing systems
+  year: '2012'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Kim2018
+  title: Enhanced Pressure-Based Multimodal Immersive Experiences
+  authors: Kim, T., Cooperstock, J. R.
+  author_list:
+  - Kim, T.
+  - Cooperstock, J. R.
+  venue: Augmented Human (Best poster presentation award)
+  year: '2018'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Kim2018c
+  title: Pressure or Movement? Usability of Multi-Functional Foot-Based Interfaces
+  authors: Kim, T., Ju, H., Cooperstock, J. R.
+  author_list:
+  - Kim, T.
+  - Ju, H.
+  - Cooperstock, J. R.
+  venue: Designing Interactive Systems
+  year: '2018'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Kim2019
+  title: Usability of Foot-Based Interaction Techniques for Mobile Solutions
+  authors: Kim, T., Blum, J., Alirezaee, P., Arnold, A., Fortin, P., Cooperstock,
+    J. R.
+  author_list:
+  - Kim, T.
+  - Blum, J.
+  - Alirezaee, P.
+  - Arnold, A.
+  - Fortin, P.
+  - Cooperstock, J. R.
+  venue: Mobile Solutions and Their Usefulness in Everyday Life
+  year: '2019'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Kim2019t
+  title: Exploration of foot-based interaction for menu control and virtual reality
+    applications
+  authors: Kim, T.
+  author_list:
+  - Kim, T.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2019'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Kinoe2007
+  title: 'Peripheral Telecommunications: Supporting Distributed Awareness and Seamless
+    Transitions to the Foreground'
+  authors: Kinoe, Y., Cooperstock, J. R.
+  author_list:
+  - Kinoe, Y.
+  - Cooperstock, J. R.
+  venue: International Conference on Smart Homes and Health Telematics (ICOST)
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Knappe2023
+  title: Towards a User Interface for Audio-Haptic Exploration of Internet Graphics
+    by People who are Blind and Partially Sighted
+  authors: Knappe, S.
+  author_list:
+  - Knappe, S.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2023'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Kirby2025
+  title: The Implications of Technology-Augmented Handbalancing in Training and Performance
+  authors: Kirby, L.
+  author_list:
+  - Kirby, L.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2025'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Knight2012
+  title: 'Visualization feedback for musical ensemble practice: A case study on phrase
+    articulation and dynamics'
+  authors: Knight, T., Bouillot, N., Cooperstock, J. R.
+  author_list:
+  - Knight, T.
+  - Bouillot, N.
+  - Cooperstock, J. R.
+  venue: Visualization and Data Analysis
+  year: '2012'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Lane-Smith2023b
+  title: Haptic Interfaces for Musical Notation and Expression
+  authors: Lane-Smith, J.
+  author_list:
+  - Lane-Smith, J.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2023'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Lane-Smith2023
+  title: 'The Hapstrument: A Bimanual Haptic Interface for Musical Expression'
+  authors: Lane-Smith, J., Chow, D., Ajami, S., Cooperstock, J. R.
+  author_list:
+  - Lane-Smith, J.
+  - Chow, D.
+  - Ajami, S.
+  - Cooperstock, J. R.
+  venue: New Interfaces for Musical Expression (NIME)
+  year: '2023'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Law2008
+  title: A Multi-modal Floor-space for Experiencing Material Deformation Underfoot
+    in Virtual Reality
+  authors: Law, A. W., Peck, B. V., Visell, Y., Kry, P., Cooperstock, J. R.
+  author_list:
+  - Law, A. W.
+  - Peck, B. V.
+  - Visell, Y.
+  - Kry, P.
+  - Cooperstock, J. R.
+  venue: IEEE International Workshop on Haptic Audio Visual Environments and Games
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Law2009
+  title: Multimodal floor for immersive environments
+  authors: Law, A., Ip, J., Peck, B., Visell, Y., Kry, P., Cooperstock, J. R.
+  author_list:
+  - Law, A.
+  - Ip, J.
+  - Peck, B.
+  - Visell, Y.
+  - Kry, P.
+  - Cooperstock, J. R.
+  venue: ACM SIGGRAPH Emerging Technologies
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Law2010
+  title: A Vibrotactile Floor for Enabling Interaction through Walking in Virtual
+    Spaces
+  authors: Law, A.
+  author_list:
+  - Law, A.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2010'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Lee2022
+  title: 'The Sound of Hallucinations: Toward a more convincing emulation of internalized
+    voices (Honorable Mention)'
+  authors: Lee, H., Jiang, R., Yoo, Y., Henry, M., Cooperstock, J. R.
+  author_list:
+  - Lee, H.
+  - Jiang, R.
+  - Yoo, Y.
+  - Henry, M.
+  - Cooperstock, J. R.
+  venue: Human Factors in Computing Systems (CHI)
+  year: '2022'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Lee2022b
+  title: Generating Convincing Simulation of Internalized Voices for Human-avatar
+    Interaction
+  authors: Lee, H.
+  author_list:
+  - Lee, H.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2022'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Li2022
+  title: Towards Context-aware Automatic Multimodal Haptic Effect Generation for Home
+    Theatre Environments
+  authors: Li, Y.
+  author_list:
+  - Li, Y.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2022'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Li2021
+  title: Context-aware Automatic Haptic Effect Generation Algorithm for Improved Content
+    Viewing Experience
+  authors: Li, Y., Yoo, Y., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - Li, Y.
+  - Yoo, Y.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference, Work in Progress Paper
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Li2021b
+  title: Towards Context-aware Automatic Haptic Effect Generation for Home Theatre
+    Environments
+  authors: Li, Y., Yoo, Y., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - Li, Y.
+  - Yoo, Y.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: Virtual Reality Software and Technology
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Liui2024
+  title: Design and Implementation of Conversational Humanoid Avatars for Healthcare
+    Applications
+  authors: Liu, Y.
+  author_list:
+  - Liu, Y.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2022'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: MacLean2021
+  title: 'CanHap 501: Learning Haptic UX Design in Remote Teams'
+  authors: MacLean, K. E, Levesque, V., Schneider, O., Irani, P., Weill-Duflos, A.,
+    Cooperstock, J. R.
+  author_list:
+  - MacLean, K. E
+  - Levesque, V.
+  - Schneider, O.
+  - Irani, P.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference, Work in Progress Paper
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Marchal2013
+  title: Multimodal Rendering of Walking over Virtual Grounds
+  authors: Marchal, M., Ciro, G., Visell, Y., Fontana, F., Serafin, S., Cooperstock,
+    J. R., L&eacute;cuyer, A.
+  author_list:
+  - Marchal, M.
+  - Ciro, G.
+  - Visell, Y.
+  - Fontana, F.
+  - Serafin, S.
+  - Cooperstock, J. R.
+  - L&eacute;cuyer, A.
+  venue: Human Walking in Virtual Environments
+  year: '2013'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Marino2024
+  title: 'Co-Here: an expressive videconferencing module for implicit affective interaction'
+  authors: Marino, D., Dai, J., Fortin, P., Henry, M., Cooperstock, J. R.
+  author_list:
+  - Marino, D.
+  - Dai, J.
+  - Fortin, P.
+  - Henry, M.
+  - Cooperstock, J. R.
+  venue: Graphics Interface
+  year: '2024'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Marino2023
+  title: 'I See What You''re Hearing: Facilitating The Effect of Environment on Perceived
+    Emotion While Teleconferencing'
+  authors: Marino, D., Henry, M., Fortin, P., Bhayana, R., Cooperstock, J. R.
+  author_list:
+  - Marino, D.
+  - Henry, M.
+  - Fortin, P.
+  - Bhayana, R.
+  - Cooperstock, J. R.
+  venue: Computer-Supported Cooperative Work and Social Computing (to appear)
+  year: '2023'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Marino2022
+  title: Implicitly Conveying Emotion While Teleconferencing
+  authors: Marino, D.
+  author_list:
+  - Marino, D.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2022'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Marino2021
+  title: Spontaneous Conversation Using WhatsHap, a Vibrotactile Phoneme Based Messaging
+    Platform
+  authors: Marino, D., de Vargas, M. F., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - Marino, D.
+  - de Vargas, M. F.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Millet2011
+  title: Initial Development of a Variable-Friction Floor Surface
+  authors: Millet, G., Otis, M., Chaw, G., Cooperstock, J. R.
+  author_list:
+  - Millet, G.
+  - Otis, M.
+  - Chaw, G.
+  - Cooperstock, J. R.
+  venue: Canadian Medical and Biological Engineering Conference
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Millet2017
+  title: Design of Variable-Friction Devices for Shoe-Floor Contact
+  authors: Millet, G., Otis, M., Horodniczy, D., Cooperstock, J. R.
+  author_list:
+  - Millet, G.
+  - Otis, M.
+  - Horodniczy, D.
+  - Cooperstock, J. R.
+  venue: Mechatronics
+  year: '2017'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Olmos2009
+  title: Exploring the role of latency and orchestra placement on the networked performance
+    of a distributed opera
+  authors: Olmos, A., Brul&eacute;, M., Bouillot, N., Benovoy, M., Blum, J., Sun,
+    H., Lund, N. W., Cooperstock, J. R.
+  author_list:
+  - Olmos, A.
+  - Brul&eacute;, M.
+  - Bouillot, N.
+  - Benovoy, M.
+  - Blum, J.
+  - Sun, H.
+  - Lund, N. W.
+  - Cooperstock, J. R.
+  venue: 12th Annual International Workshop on Presence
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Olmos2010
+  title: Multiple Angle Viewer for Remote Medical Training
+  authors: Olmos, A., Lachapelle, K., Cooperstock, J. R.
+  author_list:
+  - Olmos, A.
+  - Lachapelle, K.
+  - Cooperstock, J. R.
+  venue: International Workshop on Multimedia Technologies for Distance Leaning
+  year: '2010'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Olmos2011
+  title: Where do you want your ears? Comparing performance quality as a function
+    of listening position in a virtual jazz band
+  authors: Olmos, A., Rushka, P., Ko, D., Foote, G., Woszczyk, W., Cooperstock, J.
+    R.
+  author_list:
+  - Olmos, A.
+  - Rushka, P.
+  - Ko, D.
+  - Foote, G.
+  - Woszczyk, W.
+  - Cooperstock, J. R.
+  venue: Sound, Music and Computing
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Olmos2012
+  title: A High-Fidelity Orchestra Simulator for Individual Musicians' Practice
+  authors: Olmos, A., Bouillot, N., Knight, T., Mabire, N., Redel, J., Cooperstock,
+    J. R.
+  author_list:
+  - Olmos, A.
+  - Bouillot, N.
+  - Knight, T.
+  - Mabire, N.
+  - Redel, J.
+  - Cooperstock, J. R.
+  venue: Computer Music Journal
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Otis2011
+  title: Modeling of Lower Limbs for Vibrotactile Compensation
+  authors: Otis, M., Millet, G., Beniak, S., Cooperstock, J. R.
+  author_list:
+  - Otis, M.
+  - Millet, G.
+  - Beniak, S.
+  - Cooperstock, J. R.
+  venue: Canadian Medical and Biological Engineering Conference
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Otis2013
+  title: Vibration-Induced Friction Control for Walkway Locomotion Interface
+  authors: Otis, M., Millet, G., Cooperstock, J. R.
+  author_list:
+  - Otis, M.
+  - Millet, G.
+  - Cooperstock, J. R.
+  venue: 'Systems, Man, and Cybernetics, Part SMC: Human-Machine'
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Paneels2013
+  title: Listen to It Yourself! Evaluating Usability of "What's Around Me?" for the
+    Blind
+  authors: Pan&euml;els, S., Olmos, A., Blum, J., Cooperstock, J. R.
+  author_list:
+  - Pan&euml;els, S.
+  - Olmos, A.
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: Human Factors in Computing Systems (CHI)
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Paneels2013b
+  title: 'The Walking Straight Mobile Application: Helping the Visually Impaired Avoid
+    Veering'
+  authors: Pan&euml;els, S., Varenne, D., Blum, J., Cooperstock, J. R.
+  author_list:
+  - Pan&euml;els, S.
+  - Varenne, D.
+  - Blum, J.
+  - Cooperstock, J. R.
+  venue: International Conference on Auditory Displays
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Patil2020
+  title: Min-Max Inverse Reinforcement Learning for learning bi-modal dialogue policies
+  authors: Patil, G.
+  author_list:
+  - Patil, G.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2020'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pellerin2009
+  title: 'SoundPark: Exploring Ubiquitous Computing through a Mixed Reality Multi-player
+    Game Experiment'
+  authors: Pellerin, R., Bouillot, N., Pietkiewicz, T., Wozniewski, M., Settel, Z.,
+    E., Gressier-Soudan, Cooperstock, J. R.
+  author_list:
+  - Pellerin, R.
+  - Bouillot, N.
+  - Pietkiewicz, T.
+  - Wozniewski, M.
+  - Settel, Z.
+  - E., Gressier-Soudan
+  - Cooperstock, J. R.
+  venue: 9e Conf&eacute;rence Internationale sur Les NOuvelles TEchnologies de la
+    REpartition (NOTERE)
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pellerin2009a
+  title: 'SoundPark: Towards Highly Collaborative Game Support in a Ubiquitous Computing
+    Architecture'
+  authors: Pellerin, R., Bouillot, N., Pietkiewicz, T., Wozniewski, M., Settel, Z.,
+    E., Gressier-Soudan, Cooperstock, J. R.
+  author_list:
+  - Pellerin, R.
+  - Bouillot, N.
+  - Pietkiewicz, T.
+  - Wozniewski, M.
+  - Settel, Z.
+  - E., Gressier-Soudan
+  - Cooperstock, J. R.
+  venue: 9th IFIP International Conference on Distributed Applications and Interoperable
+    Systems
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pellerin2010
+  title: 'SoundPark: Exploring Ubiquitous Computing through a Mixed Reality Multi-player
+    Game Experiment'
+  authors: Pellerin, R., Bouillot, N., Pietkiewicz, T., Wozniewski, M., Settel, Z.,
+    E., Gressier-Soudan, Cooperstock, J. R.
+  author_list:
+  - Pellerin, R.
+  - Bouillot, N.
+  - Pietkiewicz, T.
+  - Wozniewski, M.
+  - Settel, Z.
+  - E., Gressier-Soudan
+  - Cooperstock, J. R.
+  venue: 'Studia Informatica Universalis, Special Issue: Best Papers from NOTERE 2009'
+  year: '2010'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2003
+  title: High-Resolution Video Synthesis from Mixed-Resolution Video Based on the
+    Estimate-and-Correct Method
+  authors: Pelletier, S.
+  author_list:
+  - Pelletier, S.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2003'
+  type: masterthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2005
+  title: High-Resolution Video Synthesis from Mixed-Resolution Video Based on the
+    Estimate-and-Correct Method
+  authors: Pelletier, S., Spackman, S., Cooperstock, J. R.
+  author_list:
+  - Pelletier, S.
+  - Spackman, S.
+  - Cooperstock, J. R.
+  venue: IEEE Workshop on Applications of Computer Vision (WACV)
+  year: '2005'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2006
+  title: Preconditioning for temporal video superresolution
+  authors: Pelletier, S., Cooperstock, J. R.
+  author_list:
+  - Pelletier, S.
+  - Cooperstock, J. R.
+  venue: British Machine Vision Conference (BMVC)
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2007
+  title: Fast super-resolution for rational magnification factors
+  authors: Pelletier, S., Cooperstock, J. R.
+  author_list:
+  - Pelletier, S.
+  - Cooperstock, J. R.
+  venue: International Conference on Image Processing (ICIP)
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2008
+  title: Fast image restoration with the Huber-Markov prior model
+  authors: Pelletier, S., Cooperstock, J. R.
+  author_list:
+  - Pelletier, S.
+  - Cooperstock, J. R.
+  venue: International Conference on Image Processing
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2009
+  title: Acceleration methods for image super-resolution
+  authors: Pelletier, S.
+  author_list:
+  - Pelletier, S.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2009'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2012
+  title: Preconditioning for Edge-Preserving Image Super-Resolution
+  authors: Pelletier, S., Cooperstock, J. R.
+  author_list:
+  - Pelletier, S.
+  - Cooperstock, J. R.
+  venue: IEEE Transactions on Image Processing
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pelletier2013
+  title: Real-time free viewpoint video from a range sensor and color cameras
+  authors: Pelletier, S., Cooperstock, J. R.
+  author_list:
+  - Pelletier, S.
+  - Cooperstock, J. R.
+  venue: Machine Vision and Applications
+  year: '2013'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Pollet2021
+  title: Multimodal Haptic Armrest for Immersive 4D Experiences
+  authors: Pollet, N. J. A., Uzan, E., Ruivo, P. B., Abravanel, T., Talhan, A., Yoo,
+    Y., Cooperstock, J. R.
+  author_list:
+  - Pollet, N. J. A.
+  - Uzan, E.
+  - Ruivo, P. B.
+  - Abravanel, T.
+  - Talhan, A.
+  - Yoo, Y.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference, Work in Progress Paper
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Qi2006
+  title: Wide-Baseline Image Mosaicing for Indoor Environments
+  authors: Qi, Z., Cooperstock, J. R.
+  author_list:
+  - Qi, Z.
+  - Cooperstock, J. R.
+  venue: International Conference on Pattern Recognition (ICPR)
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Qi2007
+  title: Automated Change Detection in an Undersea Environment using a Statistical
+    Background Model
+  authors: Qi, Z., Cooperstock, J. R.
+  author_list:
+  - Qi, Z.
+  - Cooperstock, J. R.
+  venue: Oceans '07
+  year: '2007'
+  type: inproceedings
+  keywords:
+  - artificial lighting;automated change detection system;mixture-of-Gaussians background
+    model;photometric complexity;sea snow;small floating particles;statistical background
+    model;swimming fish;undersea environment;underwater video cameras;video sequence;oceanographic
+    equipment;underwater equipment;underwater optics;video cameras;video signal processing;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Qi2007a
+  title: Overcoming Parallax and Sampling Density Issues in Image Mosaicing of Non-Planar
+    Scenes
+  authors: Qi, Z., Cooperstock, J. R.
+  author_list:
+  - Qi, Z.
+  - Cooperstock, J. R.
+  venue: British Machine Vision Conference (BMVC)
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Qi2008
+  title: Depth-based Image Mosaicing for Both Static and Dynamic Scenes
+  authors: Qi, Z., Cooperstock, J. R.
+  author_list:
+  - Qi, Z.
+  - Cooperstock, J. R.
+  venue: International Conference on Pattern Recognition (ICPR)
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Qi2008a
+  title: Towards dynamic mosaic generation with robustness to parallax effects
+  authors: Qi, Z.
+  author_list:
+  - Qi, Z.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2008'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Qi2012
+  title: Towards Dynamic Image Mosaic Generation With Robustness to Parallax
+  authors: Qi, Z., Cooperstock, J. R.
+  author_list:
+  - Qi, Z.
+  - Cooperstock, J. R.
+  venue: IEEE Transactions on Image Processing
+  year: '2012'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Rai2021
+  title: Improved Attribute Manipulation in the Latent Space of StyleGAN for Semantic
+    Face Editing
+  authors: Rai, A., Ducher, C., Cooperstock, J. R.
+  author_list:
+  - Rai, A.
+  - Ducher, C.
+  - Cooperstock, J. R.
+  venue: International Conference on Machine Learning and Applications
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Rajalingham2010
+  title: Probabilistic Tracking of Pedestrian Movements via In-Floor Force Sensing
+  authors: Rajalingham, R., Visell, Y., Cooperstock, J. R.
+  author_list:
+  - Rajalingham, R.
+  - Visell, Y.
+  - Cooperstock, J. R.
+  venue: Seventh Canadian Conference on Computer and Robot Vision (CRV)
+  year: '2010'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Regimbal2020
+  title: Single-Actuator Simultaneous Haptic Rendering for Multiple Vital Signs
+  authors: Regimbal, J., Radi, N., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - Regimbal, J.
+  - Radi, N.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: HCI International
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Regimbal2022
+  title: 'IMAGE: A Deployment Framework for Creating Multimodal Experiences of Web
+    Graphics'
+  authors: Regimbal, J., Blum, J. R., Cooperstock, J. R.
+  author_list:
+  - Regimbal, J.
+  - Blum, J. R.
+  - Cooperstock, J. R.
+  venue: Web4All 2022 - Accessibility in a Hybrid World
+  year: '2022'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Regimbal2024
+  title: 'IMAGE: An Open-Source, Extensible Framework for Deploying Accessible Audio
+    and Haptic Renderings of Web Graphics'
+  authors: Regimbal, J., Blum, J. R., Kuo, C., Cooperstock, J. R.
+  author_list:
+  - Regimbal, J.
+  - Blum, J. R.
+  - Kuo, C.
+  - Cooperstock, J. R.
+  venue: ACM Transactions on Accessible Computing
+  year: '2024'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Regimbal2024b
+  title: Investigating Haptic Co-Creation with Reinforcement Learning (Best Poster)
+  authors: Regimbal, J., Cooperstock, J. R.
+  author_list:
+  - Regimbal, J.
+  - Cooperstock, J. R.
+  venue: Eurohaptics
+  year: '2024'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Regimbal2024c
+  title: 'See What You Feel: Visualizing Static Haptic Scenes'
+  authors: Regimbal, J., Wilson, E., Cooperstock, J. R.
+  author_list:
+  - Regimbal, J.
+  - Wilson, E.
+  - Cooperstock, J. R.
+  venue: Eurohaptics
+  year: '2024'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Rioux2004
+  title: The Modellers' Apprentice - The Toolglass Metaphor in an Immersive Environment
+  authors: Rioux, F., Rudzicz, F., Wozniewski, M.
+  author_list:
+  - Rioux, F.
+  - Rudzicz, F.
+  - Wozniewski, M.
+  venue: British HCI Group Annual Conference
+  year: '2004'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Rioux2005
+  title: Software Framework for Parsing and Interpreting Gestures in a Multimodal
+    Virtual Reality Context
+  authors: Rioux, F.
+  author_list:
+  - Rioux, F.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2006'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Roston2007
+  title: 'Underwater Window: High Definition Video on VENUS and NEPTUNE'
+  authors: Roston, J., Bradley, C., Cooperstock, J. R.
+  author_list:
+  - Roston, J.
+  - Bradley, C.
+  - Cooperstock, J. R.
+  venue: Oceans '07
+  year: '2007'
+  type: inproceedings
+  keywords:
+  - NEPTUNE project network;Saanich Inlet;VENUS project node;camera control software;camera
+    control user interface;camera support system;high definition video camera;illumination;small
+    invertebrate behaviour;underwater HD camera selection;underwater window;zoom lens;light
+    sources;oceanographic equipment;seafloor phenomena;underwater equipment;user interfaces;video
+    cameras;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Rudzicz2006
+  title: 'Clavius: Bi-Directional Parsing for Generic Multimodal Interaction'
+  authors: Rudzicz, F.
+  author_list:
+  - Rudzicz, F.
+  venue: Joint Conference of the International Committee on Computational Linguistics
+    and the Association for Computational Linguistics (COLING/ACL-06 SRW)
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Rudzicz2006a
+  title: 'Put a Grammar Here: Bi-Directional Parsing in Multimodal Interaction'
+  authors: Rudzicz, F.
+  author_list:
+  - Rudzicz, F.
+  venue: ACM Conference on Human Factors in Computing Systems (CHI) Work-in-progress
+  year: '2006'
+  type: inproceedings
+  keywords:
+  - multimodal interaction
+  - natural language
+  - parsing
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Rudzicz2006b
+  title: 'CLAVIUS: Understanding Language Understaing in Multimodal Interaction'
+  authors: Rudzicz, F.
+  author_list:
+  - Rudzicz, F.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2006'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Salimpoor2008
+  title: 'Music and the Reward System: Characterizing Intensely Pleasurable Responses
+    to Music'
+  authors: Salimpoor, V. N., Benovoy, M., Longo, G., Cooperstock, J. R., Zatorre,
+    R. J.
+  author_list:
+  - Salimpoor, V. N.
+  - Benovoy, M.
+  - Longo, G.
+  - Cooperstock, J. R.
+  - Zatorre, R. J.
+  venue: The Neurosciences and Music - III
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Salimpoor2009
+  title: The Rewarding Aspects of Music Listening are Related to Degree of Emotional
+    Arousal
+  authors: Salimpoor, V. N., Benovoy, M., Longo, G., Cooperstock, J. R., Zatorre,
+    R. J.
+  author_list:
+  - Salimpoor, V. N.
+  - Benovoy, M.
+  - Longo, G.
+  - Cooperstock, J. R.
+  - Zatorre, R. J.
+  venue: PLoS ONE
+  year: '2009'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Salimpoor2009a
+  title: 'The Rewarding Aspects of Music Listening Involve the Dopaminergic Striatal
+    Reward Systems of the Brain: An Investigation with [C11]Raclopride PET and fMRI'
+  authors: Salimpoor, V. N., Benovoy, M., Longo, G., Larcher, K., Dagher, A., Cooperstock,
+    J. R., Zatorre, R. J.
+  author_list:
+  - Salimpoor, V. N.
+  - Benovoy, M.
+  - Longo, G.
+  - Larcher, K.
+  - Dagher, A.
+  - Cooperstock, J. R.
+  - Zatorre, R. J.
+  venue: 15th Annual Meeting of the Organization for Human Brain Mapping
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Settel2009
+  title: 'Audio Graffiti: A location based audio-tagging and remixing environment'
+  authors: Settel, Z., Wozniewski, M., Bouillot, N., Cooperstock, J. R.
+  author_list:
+  - Settel, Z.
+  - Wozniewski, M.
+  - Bouillot, N.
+  - Cooperstock, J. R.
+  venue: International Computer Music Conference
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Sheepy2016
+  title: Encouraging active and collaborative learning in two engineering courses
+  authors: Sheepy, E., Orjuela-Laverde, M., Cooperstock, J. R.
+  author_list:
+  - Sheepy, E.
+  - Orjuela-Laverde, M.
+  - Cooperstock, J. R.
+  venue: Supporting Active Learning and Technological Innoviation in Studies of Education
+  year: '2016'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Sulmont2019
+  title: Can You Teach Me to Machine Learn?
+  authors: Sulmont, E., Patitsas, E., Cooperstock, J. R.
+  author_list:
+  - Sulmont, E.
+  - Patitsas, E.
+  - Cooperstock, J. R.
+  venue: Special Interest Group on Computer Science Education Technical Symposium
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Sulmont2019a
+  title: What Is Hard About Teaching Machine Learning to Non-Majors? Insights From
+    Classifying Instructors' Learning Goals
+  authors: Sulmont, E., Patitsas, E., Cooperstock, J. R.
+  author_list:
+  - Sulmont, E.
+  - Patitsas, E.
+  - Cooperstock, J. R.
+  venue: Transactions on Computing Education, Special Issue on Machine Learning Education
+  year: '2019'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Sun2005
+  title: 'Requirements for Camera Calibration: Must Accuracy Come with a High Price?'
+  authors: Sun, W., Cooperstock, J. R.
+  author_list:
+  - Sun, W.
+  - Cooperstock, J. R.
+  venue: IEEE Workshop on Applications of Computer Vision (WACV)
+  year: '2005'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Sun2006
+  title: An Empirical Evaluation of Factors Influencing Camera Calibration Accuracy
+    Using Three Publicly Available Techniques
+  authors: Sun, W., Cooperstock, J. R.
+  author_list:
+  - Sun, W.
+  - Cooperstock, J. R.
+  venue: Machine Vision and Applications Journal
+  year: '2006'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Sun2006b
+  title: Multi-camera Object Segmentation in Dynamically Textured Scenes Using Disparity
+    Contours
+  authors: Sun, W.
+  author_list:
+  - Sun, W.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2006'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Talhan2023
+  title: Soft Pneumatic Haptic Wearable to Create the Illusion of Human Touch
+  authors: Talhan, A., Yoo, Y., Cooperstock, J. R.
+  author_list:
+  - Talhan, A.
+  - Yoo, Y.
+  - Cooperstock, J. R.
+  venue: IEEE Transactions on Haptics
+  year: '2024'
+  type: article
+  keywords:
+  - keyref
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: To2011
+  title: A game platform for treatment of amblyopia
+  authors: To, L., Thompson, B., Blum, J.R., Maehara, G., Hess, R., Cooperstock, J.
+    R.
+  author_list:
+  - To, L.
+  - Thompson, B.
+  - Blum, J.R.
+  - Maehara, G.
+  - Hess, R.
+  - Cooperstock, J. R.
+  venue: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  year: '2011'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tordini2013
+  title: Your attention, please! Determining saliency of competing audio stimuli in
+    natural scenarios
+  authors: Tordini, F., Bregman, A., Ankolekar, A., Sandholm, T. E., Cooperstock,
+    J. R.
+  author_list:
+  - Tordini, F.
+  - Bregman, A.
+  - Ankolekar, A.
+  - Sandholm, T. E.
+  - Cooperstock, J. R.
+  venue: Meetings on Acoustics - International Congress on Acoustics
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tordini2013a
+  title: Toward an improved model of auditory saliency
+  authors: Tordini, F., Bregman, A., Ankolekar, A., Sandholm, T. E., Cooperstock,
+    J. R.
+  author_list:
+  - Tordini, F.
+  - Bregman, A.
+  - Ankolekar, A.
+  - Sandholm, T. E.
+  - Cooperstock, J. R.
+  venue: International Conference on Auditory Displays
+  year: '2013'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tordini2014
+  title: 'Auditory salience modeling via streaming: A behavioural view'
+  authors: Tordini, F., Cooperstock, J. R.
+  author_list:
+  - Tordini, F.
+  - Cooperstock, J. R.
+  venue: 'Milestones in Music Cognition: BKN 25'
+  year: '2014'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tordini2015
+  title: 'The loud bird doesn''t (always) get the worm: Why computational salience
+    also needs brightness and tempo'
+  authors: Tordini, F., Bregman, A., Cooperstock, J. R.
+  author_list:
+  - Tordini, F.
+  - Bregman, A.
+  - Cooperstock, J. R.
+  venue: International Conference on Auditory Displays
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tordini2016
+  title: Prioritizing foreground selection of natural chirp sounds by tempo and spectral
+    centroid
+  authors: Tordini, F., Bregman, A., Cooperstock, J. R.
+  author_list:
+  - Tordini, F.
+  - Bregman, A.
+  - Cooperstock, J. R.
+  venue: Multimodal User Interfaces, Special Issue on Auditory Display
+  year: '2016'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tordini2018
+  title: Effects of global brightness on salience and auditory foreground perception
+  authors: Tordini, F., Bregman, A., Cooperstock, J. R.
+  author_list:
+  - Tordini, F.
+  - Bregman, A.
+  - Cooperstock, J. R.
+  venue: Speech in Noise Workshop
+  year: '2018'
+  type: inproceedings
+  keywords:
+  - nonref
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tordini2018a
+  title: Brightness and tempo in foreground/background selection with loudness-equalized
+    audio streams
+  authors: Tordini, F.
+  author_list:
+  - Tordini, F.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2018'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Tsotsos1995
+  title: The PLAYBOT Project
+  authors: Tsotsos, J. K., Dickinson, S., Jenkin, M., Milios, E., Jepson, A., Down,
+    B., Amdur, E., Stevenson, S., Black, M., Metaxas, D., Cooperstock, J. R., Culhane,
+    S., Nuflo, F., Verghese, G., Wai, W., Wilkes, D., Ye, Y.
+  author_list:
+  - Tsotsos, J. K.
+  - Dickinson, S.
+  - Jenkin, M.
+  - Milios, E.
+  - Jepson, A.
+  - Down, B.
+  - Amdur, E.
+  - Stevenson, S.
+  - Black, M.
+  - Metaxas, D.
+  - Cooperstock, J. R.
+  - Culhane, S.
+  - Nuflo, F.
+  - Verghese, G.
+  - Wai, W.
+  - Wilkes, D.
+  - Ye, Y.
+  venue: IJCAI Workshop on AI Applications for Disabled People
+  year: '1995'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Usher2004
+  title: A multi-filter approach to acoustic echo cancellation for teleconferencing
+  authors: Usher, J., Cooperstock, J. R., Woszczyk, W.
+  author_list:
+  - Usher, J.
+  - Cooperstock, J. R.
+  - Woszczyk, W.
+  venue: 75th Meeting of the Acoustical Society of America
+  year: '2004'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vargas2021
+  title: 'Speaking Haptically: from Phonemes to Phrases with a Mobile Haptic Communication
+    System (Finalist, Best Applications Paper Award)'
+  authors: de Vargas, M. F., Marino, D., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - de Vargas, M. F.
+  - Marino, D.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: Transactions on Haptics
+  year: '2021'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vargas2021b
+  title: 'Speaking Haptically: from Phonemes to Phrases with a Mobile Haptic Communication
+    System'
+  authors: de Vargas, M. F., Marino, D., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - de Vargas, M. F.
+  - Marino, D.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2021'
+  type: inproceedings
+  keywords:
+  - poster
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vargas203
+  title: 'Training to understand complex haptic phrases: a longitudinal investigation'
+  authors: de Vargas, M. F., Marino, D., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - de Vargas, M. F.
+  - Marino, D.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2023'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vargas2019
+  title: Haptic Speech Communication Using Stimuli Evocative of Phoneme Production
+  authors: de Vargas, M. F., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - de Vargas, M. F.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2007
+  title: Toward an Architectural Platform for Audio-Haptic Simulation in Walking
+  authors: Visell, Y., Cooperstock, J. R., Franinovic, K.
+  author_list:
+  - Visell, Y.
+  - Cooperstock, J. R.
+  - Franinovic, K.
+  venue: Enactive Interfaces (ENACTIVE'07)
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2007a
+  title: Enabling Gestural Interaction by Means of Tracking Dynamical Systems Models
+    and Assistive Feedback
+  authors: Visell, Y., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Cooperstock, J. R.
+  venue: IEEE Systems, Man and Cybernetics
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2007b
+  title: Modeling and Continuous Sonification of Affordances for Gesture-Based Interfaces
+  authors: Visell, Y., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Cooperstock, J. R.
+  venue: International Conference on Auditory Display
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2008
+  title: A Vibrotactile Device for Display of Virtual Ground Materials in Walking
+  authors: Visell, Y., Giordano, B., Cooperstock, J. R., Franinovic, K., Law, A.,
+    McAdams, S., Jathal, K., Fontana, F.
+  author_list:
+  - Visell, Y.
+  - Giordano, B.
+  - Cooperstock, J. R.
+  - Franinovic, K.
+  - Law, A.
+  - McAdams, S.
+  - Jathal, K.
+  - Fontana, F.
+  venue: EuroHaptics
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2009
+  title: 'Touch Is Everywhere: Floor Surfaces as Ambient Haptic Interfaces'
+  authors: Visell, Y., Law, A., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Law, A.
+  - Cooperstock, J. R.
+  venue: IEEE Transactions on Haptics
+  year: '2009'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2009a
+  title: Toward Iconic Vibrotactile Information Display Using Floor Surfaces
+  authors: Visell, Y., Law, A. W., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Law, A. W.
+  - Cooperstock, J. R.
+  venue: Third Joint Eurohaptics Conference and Symposium on Haptic Interfaces for
+    Virtual Environment and Teleoperator Systems
+  year: '2009'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2009b
+  title: Sound design and perception in walking interactions
+  authors: Visell, Y., Fontana, F., Giordano, B. L., Nordahl, R., Serafin, S., Bresin,
+    R.
+  author_list:
+  - Visell, Y.
+  - Fontana, F.
+  - Giordano, B. L.
+  - Nordahl, R.
+  - Serafin, S.
+  - Bresin, R.
+  venue: International Journal of Human-Computer Studies
+  year: '2009'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2010
+  title: Design of a Vibrotactile Display via a Rigid Surface
+  authors: Visell, Y., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Cooperstock, J. R.
+  venue: IEEE Haptics Symposium (Best Paper Award)
+  year: '2010'
+  type: inproceedings
+  keywords:
+  - design principle;digital inverse filtering;elastic suspension;force sensor;frequency
+    50 Hz to 750 Hz;immersive environment;light composite plate;rigid surface;structural
+    dynamics;user interaction;vibrotactile display;vibrotactile interface;virtual
+    ground surface material property;voice coil motor;display devices;force sensors;haptic
+    interfaces;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2010a
+  title: Interaction Capture in Immersive Virtual Environments via an Intelligent
+    Floor Surface
+  authors: Visell, Y., Law, A., Ip, J., Smith, S., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Law, A.
+  - Ip, J.
+  - Smith, S.
+  - Cooperstock, J. R.
+  venue: IEEE Virtual Reality (VR)
+  year: '2010'
+  type: inproceedings
+  keywords:
+  - auditory feedback;foot-floor contact interaction;immersive virtual environment;in-floor
+    force sensor;intelligent floor surface;natural ground surface;rendering technique;vibrotactile
+    feedback;floors;force sensors;haptic interfaces;rendering (computer graphics);virtual
+    reality;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2010b
+  title: Contact Sensing and Interaction Techniques for a Distributed, Multimodal
+    Floor Display
+  authors: Visell, Y., Smith, S., Law, A., Rajalingham, R., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Smith, S.
+  - Law, A.
+  - Rajalingham, R.
+  - Cooperstock, J. R.
+  venue: IEEE 3D User Interfaces (3DUI)
+  year: '2010'
+  type: inproceedings
+  keywords:
+  - augmented floor surfaces;floor-based multimodal touch surface interfaces;foot-floor
+    contact sensing;interaction techniques;computer displays;floors;haptic interfaces;
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2011
+  title: Vibration Influences Haptic Perception of Surface Compliance During Walking
+  authors: Visell, Y., Giordano, B.L., Millet, G., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Giordano, B.L.
+  - Millet, G.
+  - Cooperstock, J. R.
+  venue: PLoS ONE
+  year: '2011'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2011t
+  title: 'Walking on virtual ground: physics, perception, and interface design'
+  authors: Visell, Y.
+  author_list:
+  - Visell, Y.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2011'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2012a
+  title: Distributed human-computer interaction with augmented floor surface
+  authors: Visell, Y., Smith, S., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Smith, S.
+  - Cooperstock, J. R.
+  venue: 'Walking with the senses: Perceptual techniques for walking in virtual environments'
+  year: '2012'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2012b
+  title: A review of nonvisual signatures of human walking with applications to person
+    tracking in augmented environments
+  authors: Visell, Y., Rajalingham, R., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Rajalingham, R.
+  - Cooperstock, J. R.
+  venue: 'Walking with the senses: Perceptual techniques for walking in virtual environments'
+  year: '2012'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Visell2013
+  title: Interacting with augmented floor surfaces
+  authors: Visell, Y., Cooperstock, J. R.
+  author_list:
+  - Visell, Y.
+  - Cooperstock, J. R.
+  venue: Human Walking in Virtual Environments
+  year: '2013'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Viswanathan2013
+  title: Testing the Two-Stream Hypothesis in an Immersive Virtual Environment
+  authors: Viswanathan, R.
+  author_list:
+  - Viswanathan, R.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2013'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vuibert2015
+  title: Evaluation of docking task performance using mid-air interaction techniques
+  authors: Vuibert, V., Stuerzlinger, W., Cooperstock, J. R.
+  author_list:
+  - Vuibert, V.
+  - Stuerzlinger, W.
+  - Cooperstock, J. R.
+  venue: Symposium on Spatial User Interaction
+  year: '2015'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vuibert2015a
+  title: Efficient and Accurate Performance with Unconstrained Mid-air Interaction
+  authors: Vuibert, V.
+  author_list:
+  - Vuibert, V.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2015'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vyas2020
+  title: 'HapToes: Vibrotactile Numeric Information Delivery via Tactile Toe Display'
+  authors: Vyas, P., Al-Taha, F., Blum, J. R., Cooperstock, J. R.
+  author_list:
+  - Vyas, P.
+  - Al-Taha, F.
+  - Blum, J. R.
+  - Cooperstock, J. R.
+  venue: Haptics Symposium
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vyas2020b
+  title: 'Ten Little Fingers, Ten Little Toes: Can Toes Match Fingers for Haptic Discrimination?'
+  authors: Vyas, P., Al-Taha, F., Blum, J. R., Weill-Duflos, A., Cooperstock, J. R.
+  author_list:
+  - Vyas, P.
+  - Al-Taha, F.
+  - Blum, J. R.
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: Transactions on Haptics
+  year: '2020'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Vyas2020d
+  title: Foot-based Haptic Interfaces for Numeric Information Delivery and Dance Learning
+  authors: Vyas, P.
+  author_list:
+  - Vyas, P.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2020'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Waite2021
+  title: 3D Printed Tactile Illusions and Demonstrations
+  authors: Waite, E., Fitz-Gerald, T., Sadaqa, A., Shi, Huaijin, Fortin, Pascal, Weill-Duflos,
+    A., Cooperstock, J. R.
+  author_list:
+  - Waite, E.
+  - Fitz-Gerald, T.
+  - Sadaqa, A.
+  - Shi, Huaijin
+  - Fortin, Pascal
+  - Weill-Duflos, A.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference, Work in Progress Paper
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wang2009
+  title: A Comparative Study of Monoscopic and Stereoscopic Display for a Probe-Positioning
+    Task
+  authors: Wang, G., Mercier, L., Collins, D. L., Cooperstock, J. R.
+  author_list:
+  - Wang, G.
+  - Mercier, L.
+  - Collins, D. L.
+  - Cooperstock, J. R.
+  venue: 'Medicine Meets Virtual Reality 17 - NextMed: Design for/the Well Being'
+  year: '2009'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wang2011
+  title: Pop-up Depth Views for Improving 3D Target Acquisition
+  authors: Wang, G., McGuffin, M., B&eacute;rard, F., Cooperstock, J. R.
+  author_list:
+  - Wang, G.
+  - McGuffin, M.
+  - B&eacute;rard, F.
+  - Cooperstock, J. R.
+  venue: Graphics Interface
+  year: '2011'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Weill2019
+  title: 'BarryWhaptics: Towards Countering Social Biases Using Real-Time Haptic Enhancement
+    of Voice'
+  authors: Weill-Duflos, A., Al-Taha, F., Fortin, P., Cooperstock, J. R.
+  author_list:
+  - Weill-Duflos, A.
+  - Al-Taha, F.
+  - Fortin, P.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Weill2020
+  title: Haptic Augmentation of Audio and its Effects on Speech Perception
+  authors: Weill-Duflos, A., Fortin, P., Al-Taha, F., Cooperstock, J. R.
+  author_list:
+  - Weill-Duflos, A.
+  - Fortin, P.
+  - Al-Taha, F.
+  - Cooperstock, J. R.
+  venue: International Workshop on Haptic and Audio Interaction Design
+  year: '2020'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Winer2001
+  title: 'The ``Intelligent Classroom'''': Changing teaching and learning with an
+    evolving technological environment'
+  authors: Winer, L.R., Cooperstock, J. R.
+  author_list:
+  - Winer, L.R.
+  - Cooperstock, J. R.
+  venue: Computers and Learning
+  year: '2001'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Winer2002
+  title: 'The "Intelligent Classroom": Changing teaching and learning with an evolving
+    technological environment'
+  authors: Winer, L. R., Cooperstock, J. R.
+  author_list:
+  - Winer, L. R.
+  - Cooperstock, J. R.
+  venue: Journal of Computers and Education
+  year: '2002'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Woszczyk2004
+  title: Environment for immersive multi-sensory communication of music using broadband
+    networks
+  authors: Woszczyk, W., Cooperstock, J. R., Roston, J., Martens, W.
+  author_list:
+  - Woszczyk, W.
+  - Cooperstock, J. R.
+  - Roston, J.
+  - Martens, W.
+  venue: 23rd Tonmeistertagung VDT International Audio Convention
+  year: '2004'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Woszczyk2005
+  title: 'Shake, Rattle and Roll: Getting Immersed in Multisensory, Interactive Music
+    via Broadband Networks'
+  authors: Woszczyk, W., Cooperstock, J. R., Roston, J., Martens, W.
+  author_list:
+  - Woszczyk, W.
+  - Cooperstock, J. R.
+  - Roston, J.
+  - Martens, W.
+  venue: Journal of the Audio Engineering Society
+  year: '2005'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2006
+  title: A Paradigm for Physical Interaction with Sound in 3-D Audio Space
+  authors: Wozniewski, M., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: International Computer Music Conference
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2006a
+  title: A Spatial Interface for Audio and Music Production
+  authors: Wozniewski, M., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: International Conference on Digital Audio Effects (DAFx)
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2006b
+  title: A framework for immersive spatial audio performance
+  authors: Wozniewski, M., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: New Interfaces for Musical Expression (NIME)
+  year: '2006'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2006c
+  title: A framework for interactive three-dimensional sound and spatial audio
+  authors: Wozniewski, M.
+  author_list:
+  - Wozniewski, M.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2006'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2007
+  title: 'AudioScape: A Pure Data library for management of virtual environments and
+    spatial audio'
+  authors: Wozniewski, M., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: PureData Convention
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2007a
+  title: User-specific audio rendering and steerable sound for distributed virtual
+    environments
+  authors: Wozniewski, M., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: International Conference on Auditory Display
+  year: '2007'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2008
+  title: Large-Scale Mobile Audio Environments for Collaborative Musical Interaction
+  authors: Wozniewski, M., Bouillot, N., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Bouillot, N.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: New Interfaces for Musical Expression (NIME)
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2008a
+  title: An Augmented Reality Framework for Wireless Mobile Performance
+  authors: Wozniewski, M., Bouillot, N., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Bouillot, N.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: 5th International Mobile Music Workshop
+  year: '2008'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Wozniewski2013
+  title: Sonic Interaction via Spatial Arrangement in Mixed Reality Environments
+  authors: Wozniewski, M., Settel, Z., Cooperstock, J. R.
+  author_list:
+  - Wozniewski, M.
+  - Settel, Z.
+  - Cooperstock, J. R.
+  venue: Sonic Interaction Design
+  year: '2013'
+  type: incollection
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Xie2014a
+  title: Time-of-Flight Camera Calibration for Improved 3D Reconstruction of Indoor
+    Scenes
+  authors: Xie, M., Cooperstock, J. R.
+  author_list:
+  - Xie, M.
+  - Cooperstock, J. R.
+  venue: Seventh International Symposium on Computational Intelligence and Design
+    (ISCID)
+  year: '2014'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Xie2014b
+  title: 'Heterogeneous Sensor Data Fusion: How Many Cameras Are Needed For An Accurate
+    3D Reconstruction of Large Scene?'
+  authors: Xie, M., Cooperstock, J. R.
+  author_list:
+  - Xie, M.
+  - Cooperstock, J. R.
+  venue: Seventh International Symposium on Computational Intelligence and Design
+    (ISCID)
+  year: '2014'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Xu2000
+  title: Real-Time Streaming of Multichannel Audio Data over Internet
+  authors: Xu, A., Woszczyk, W., Settel, Z., Pennycook, B., Rowe, R., Galanter, P.,
+    Bary, J., Martin, G., Corey, J., Cooperstock, J. R.
+  author_list:
+  - Xu, A.
+  - Woszczyk, W.
+  - Settel, Z.
+  - Pennycook, B.
+  - Rowe, R.
+  - Galanter, P.
+  - Bary, J.
+  - Martin, G.
+  - Corey, J.
+  - Cooperstock, J. R.
+  venue: Journal of the Audio Engineering Society
+  year: '2000'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Xu2000a
+  title: Real Time Streaming of Multi-Channel Audio Data over Internet
+  authors: Xu, A., Cooperstock, J. R.
+  author_list:
+  - Xu, A.
+  - Cooperstock, J. R.
+  venue: 108th Audio Engineering Society Convention
+  year: '2000'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Xu2000b
+  title: A High Performance Audiovisual Communication System
+  authors: Xu, A.
+  author_list:
+  - Xu, A.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2000'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yamaashi1996
+  title: Beating the Limitations of Camera-Monitor Mediated Telepresence with Extra
+    Eyes
+  authors: Yamaashi, K., Cooperstock, J. R., Narine, T., Buxton, W.
+  author_list:
+  - Yamaashi, K.
+  - Cooperstock, J. R.
+  - Narine, T.
+  - Buxton, W.
+  venue: ACM Conference on Human Factors in Computing Systems (CHI)
+  year: '1996'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yao2002
+  title: Arm Gesture Detection in a Classroom Environment
+  authors: Yao, J., Cooperstock, J. R.
+  author_list:
+  - Yao, J.
+  - Cooperstock, J. R.
+  venue: IEEE Workshop on Applications of Computer Vision (WACV)
+  year: '2002'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yin2004
+  title: Color Correction Methods with Applications to Digital Projection Environments
+  authors: Yin, J., Cooperstock, J. R.
+  author_list:
+  - Yin, J.
+  - Cooperstock, J. R.
+  venue: Journal of Winter School of Computer Graphics
+  year: '2004'
+  type: article
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yin2004a
+  title: Improving Depth Maps by Nonlinear Diffusion
+  authors: Yin, J., Cooperstock, J. R.
+  author_list:
+  - Yin, J.
+  - Cooperstock, J. R.
+  venue: 12th International Conference on Computer Graphics, Visualization and Computer
+    Vision
+  year: '2004'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yin2005
+  title: A New Photo Consistency Test for Voxel Coloring
+  authors: Yin, J., Cooperstock, J. R.
+  author_list:
+  - Yin, J.
+  - Cooperstock, J. R.
+  venue: Canadian Conference on Computer and Robot Vision
+  year: '2005'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yin2008
+  title: Toward an Alternative Approach to Multi-Camera Scene Reconstruction
+  authors: Yin, J.
+  author_list:
+  - Yin, J.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2008'
+  type: phdthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yin2019
+  title: Evaluating Multimodal Feedback for Accomplishing Assembly Tasks in a Virtual
+    Environment
+  authors: Yin, G., Otis, M., Fortin, P., Cooperstock, J. R.
+  author_list:
+  - Yin, G.
+  - Otis, M.
+  - Fortin, P.
+  - Cooperstock, J. R.
+  venue: Engineering Interactive Computing Systems
+  year: '2019'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Yoo2021
+  title: Identification and Information Transfer of Multidimensional Tactons Presented
+    by a Single Vibrotactile Actuator
+  authors: Yoo, Y., Regimbal, J., Cooperstock, J. R.
+  author_list:
+  - Yoo, Y.
+  - Regimbal, J.
+  - Cooperstock, J. R.
+  venue: World Haptics Conference
+  year: '2021'
+  type: inproceedings
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
+- key: Zhang2002
+  title: 'An efficient coding method for spatial data: the rotating, hierarchical,
+    overlapping representation'
+  authors: Zhang, Y.
+  author_list:
+  - Zhang, Y.
+  venue: McGill University, Department of Electrical and Computer Engineering
+  year: '2002'
+  type: mastersthesis
+  keywords: []
+  pdf: null
+  has_pdf: false
+  bibtex: /publications/auto/pubs-list.bib
