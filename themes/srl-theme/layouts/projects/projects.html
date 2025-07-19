@@ -133,7 +133,7 @@
         projectTags = [];
       }
 
-      const matches = selectedTags.every(tag => projectTags.includes(tag));
+      const matches = selectedTags.length === 0 || selectedTags.some(tag => projectTags.includes(tag)); // a disjunctive (“or”)
       project.style.display = selectedTags.length === 0 || matches ? 'block' : 'none';
     });
   }
