@@ -1,15 +1,18 @@
+
 {{ define "main" }}
 <section class="section section-white" id="publications">
   <h2>Publications</h2>
 
-  <label for="group-by">Group by:</label>
-  <select id="group-by">
-    <option value="year">Year</option>
-    <option value="author">Author</option>
-    <option value="type">Type</option>
-  </select>
+  <div class="pub-controls">
+    <label for="group-by">Group by:</label>
+    <select id="group-by">
+      <option value="year">Year</option>
+      <option value="author">Author</option>
+      <option value="type">Type</option>
+    </select>
 
-  <button id="toggle-all" style="margin-left: 1rem;">Expand All</button>
+    <button id="toggle-all">Expand All</button>
+  </div>
 
   <div id="pub-output"></div>
 
@@ -22,35 +25,16 @@
           "authors": {{ $entry.authors | jsonify }},
           "author_list": {{ $entry.author_list | jsonify }},
           "venue": {{ $entry.venue | jsonify }},
-          "year": {{ $entry.year | default "Unknown" | jsonify }},
+          "year": {{ if $entry.year }}{{ int $entry.year }}{{ else }}"Unknown"{{ end }},
           "type": {{ $entry.type | default "Unspecified" | jsonify }},
           "pdf": {{ $entry.pdf | default "" | jsonify }},
-          "link": {{ $entry.link | default "" | jsonify }},
+          "link": {{ $entry.url | default "" | jsonify }},
           "bibtex": {{ $entry.bibtex | default "" | jsonify }},
           "image": {{ $entry.image | default "" | jsonify }}
         }{{ if lt (add $i 1) $len }},{{ end }}
       {{- end -}}
     ]
   </script>
-
-  <style>
-    .collapsible-header {
-      cursor: pointer;
-      background-color: #f0f0f0;
-      padding: 0.5rem;
-      margin-top: 1rem;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .pub-list {
-      list-style-type: none;
-      margin: 0;
-      padding: 0 1rem;
-    }
-    .pub-list.hidden {
-      display: none;
-    }
-  </style>
 
   <script>
     const publications = JSON.parse(document.getElementById("pub-data").textContent);
@@ -61,31 +45,31 @@
     let currentlyExpanded = false;
 
     function normalizeAuthor(name) {
-      return name
-        .trim()
-        .replace(/\s+/g, " ")
-        .replace(/\bJeremy R\.?\b/i, "J. R.")
-        .replace(/\bJ\.?R?\.?\b/gi, "J. R.")
-        .replace(/\bCooperstock,.*$/i, "Cooperstock, J. R.")
-        .replace(/\s+\./g, ".")
-        .replace(/\.([^\s])/g, ". $1")
-        .trim();
+      if (!name) return "Unspecified";
+      name = name.replace(/\s+/g, " ").replace(/\.\s*\./g, ".").trim();
+      if (name.includes(",")) {
+        const [last, first] = name.split(",");
+        const initial = first.trim()[0]?.toUpperCase() || "";
+        return `${last.trim()}, ${initial}.`;
+      } else {
+        const parts = name.split(" ");
+        const initial = parts[0][0]?.toUpperCase() || "";
+        const last = parts[parts.length - 1];
+        return `${last}, ${initial}.`;
+      }
     }
 
     function groupBy(key) {
       const grouped = {};
-
       for (const pub of publications) {
         if (!pub.title) continue;
-
         let groupKeys;
         if (key === "author") {
           try {
             groupKeys = JSON.parse(pub.author_list).map(normalizeAuthor);
-            if (!Array.isArray(groupKeys)) throw new Error();
           } catch {
             groupKeys = typeof pub.authors === "string"
-              ? pub.authors.split(/,\s*|\s+and\s+/).map(name => normalizeAuthor(name)).filter(Boolean)
+              ? pub.authors.split(/,\s*|\s+and\s+/).map(normalizeAuthor).filter(Boolean)
               : ["Unspecified"];
           }
         } else {
@@ -93,9 +77,8 @@
         }
 
         for (const g of groupKeys) {
-          const label = g.trim();
+          const label = typeof g === "string" ? g.trim() : String(g);
           if (!grouped[label]) grouped[label] = [];
-
           const identifier = `${pub.title}__${pub.year}`;
           const alreadyAdded = grouped[label].some(p => `${p.title}__${p.year}` === identifier);
           if (!alreadyAdded) {
@@ -103,22 +86,28 @@
           }
         }
       }
-
       return grouped;
     }
 
     function render(groupKey) {
       const grouped = groupBy(groupKey);
       const sortedKeys = Object.keys(grouped).sort((a, b) => {
-        if (groupKey === "year") return parseInt(b) - parseInt(a);
-        if (groupKey === "author") return a.split(',')[0].localeCompare(b.split(',')[0]);
+        if (groupKey === "year") {
+          const toYear = val => {
+            const y = parseInt(val);
+            return isNaN(y) ? -Infinity : y;
+          };
+          return toYear(b) - toYear(a); // descending
+        }
+        if (groupKey === "author") {
+          return a.split(',')[0].localeCompare(b.split(',')[0]);
+        }
         return a.localeCompare(b);
       });
 
       output.innerHTML = "";
       for (const key of sortedKeys) {
         const group = grouped[key];
-
         const section = document.createElement("section");
 
         const heading = document.createElement("div");
