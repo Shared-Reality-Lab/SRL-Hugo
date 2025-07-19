@@ -1,4 +1,3 @@
-
 {{ define "main" }}
 <section class="section section-white" id="publications">
   <h2>Publications</h2>
@@ -11,7 +10,7 @@
       <option value="type">Type</option>
     </select>
 
-    <button id="toggle-all">Expand All</button>
+    <button id="toggle-all">Collapse All</button>
   </div>
 
   <div id="pub-output"></div>
@@ -42,7 +41,7 @@
     const groupBySelect = document.getElementById("group-by");
     const toggleAllButton = document.getElementById("toggle-all");
 
-    let currentlyExpanded = false;
+    let currentlyExpanded = true;
 
     function normalizeAuthor(name) {
       if (!name) return "Unspecified";
@@ -118,7 +117,7 @@
         });
 
         const ul = document.createElement("ul");
-        ul.className = "pub-list hidden";
+        ul.className = "pub-list"; // not hidden by default
 
         for (const pub of group) {
           const li = document.createElement("li");
@@ -152,8 +151,8 @@
         output.appendChild(section);
       }
 
-      currentlyExpanded = false;
-      toggleAllButton.textContent = "Expand All";
+      currentlyExpanded = true;
+      toggleAllButton.textContent = "Collapse All";
     }
 
     toggleAllButton.addEventListener("click", () => {
