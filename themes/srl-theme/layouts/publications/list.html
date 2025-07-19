@@ -10,7 +10,7 @@
       <option value="type">Type</option>
     </select>
 
-    <button id="toggle-all">Collapse All</button>
+    <button id="toggle-all">Expand All</button>
   </div>
 
   <div id="pub-output"></div>
@@ -41,7 +41,7 @@
     const groupBySelect = document.getElementById("group-by");
     const toggleAllButton = document.getElementById("toggle-all");
 
-    let currentlyExpanded = true;
+    let currentlyExpanded = false;
 
     function normalizeAuthor(name) {
       if (!name) return "Unspecified";
@@ -56,6 +56,27 @@
         const last = parts[parts.length - 1];
         return `${last}, ${initial}.`;
       }
+    }
+
+    function formatTypeLabel(raw) {
+      raw = (raw || "").toLowerCase().replace(/^"+|"+$/g, ""); // remove outer quotes
+      const map = {
+        article: "Article",
+        incollection: "In Collection",
+        inproceedings: "In Proceedings",
+        phdthesis: "Ph.D. Thesis",
+        mastersthesis: "Master's Thesis",
+        masterthesis: "Master's Thesis",
+        thesis: "Thesis",
+        unspecified: "Unspecified",
+      };
+      if (map[raw]) return map[raw];
+
+      // capitalize each word for unknown types
+      return raw
+        .split(/[\s_-]+/)
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" ");
     }
 
     function groupBy(key) {
@@ -76,7 +97,8 @@
         }
 
         for (const g of groupKeys) {
-          const label = typeof g === "string" ? g.trim() : String(g);
+          let label = typeof g === "string" ? g.trim() : String(g);
+          if (key === "type") label = formatTypeLabel(label);
           if (!grouped[label]) grouped[label] = [];
           const identifier = `${pub.title}__${pub.year}`;
           const alreadyAdded = grouped[label].some(p => `${p.title}__${p.year}` === identifier);
@@ -111,7 +133,7 @@
 
         const heading = document.createElement("div");
         heading.className = "collapsible-header";
-        heading.textContent = `${key} (${group.length})`;
+        heading.textContent = `${groupKey === "type" ? formatTypeLabel(key) : key} (${group.length})`;
         heading.addEventListener("click", () => {
           ul.classList.toggle("hidden");
         });
